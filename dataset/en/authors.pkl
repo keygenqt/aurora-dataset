@@ -1,4 +1,4 @@
-import "templates/AuthorTemplate.pkl"
+import "../templates/AuthorTemplate.pkl"
 
 /*
   Open Mobile Platform
@@ -6,7 +6,6 @@ import "templates/AuthorTemplate.pkl"
 keygenqt = new AuthorTemplate {
     fname = "Vitaliy"
     lname = "Zarubin"
-    email = "keygenqt@gmail.com"
 }
 
 /*

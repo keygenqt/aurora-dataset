@@ -1,5 +1,5 @@
-import "en.pkl" as dataEn
-import "ru.pkl" as dataRu
+import "en/data.pkl" as dataEn
+import "ru/data.pkl" as dataRu
 
 union {
     en = dataEn.en

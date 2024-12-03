@@ -17,13 +17,13 @@ chmod +x pkl
 ### Pkl convert to JSON
 
 ```
-./pkl eval --format json dataset/bird.pkl > bird.json
+./pkl eval --format json dataset/union.pkl > data.json
 ```
 
 ### Pkl convert to YAML
 
 ```
-./pkl eval --format yaml dataset/bird.pkl > bird.yaml
+./pkl eval --format yaml dataset/union.pkl > data.yaml
 ```
 
 ### Pkl VS Code

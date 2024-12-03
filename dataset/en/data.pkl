@@ -1,9 +1,6 @@
-import "templates/CaseTemplate.pkl"
+import "../templates/CaseTemplate.pkl"
 import "authors.pkl"
 
-/*
-  Data in English must correspond to Russian
-*/
 en = new Listing<CaseTemplate> {
     new {
         q = "What is Flutter CLI?"

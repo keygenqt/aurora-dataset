@@ -2,4 +2,3 @@ module com.keygenqt.AuthorTemplate
 
 fname: String
 lname: String
-email: String?
