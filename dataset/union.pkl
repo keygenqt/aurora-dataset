@@ -1,0 +1,7 @@
+import "en.pkl" as dataEn
+import "ru.pkl" as dataRu
+
+union {
+    en = dataEn.en
+    ru = dataRu.ru
+}

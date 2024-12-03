@@ -1,0 +1,22 @@
+import "templates/CaseTemplate.pkl"
+import "authors.pkl"
+
+/*
+  Data in Russian must match English
+*/
+ru = new Listing<CaseTemplate> {
+    new {
+        q = "Что такое Flutter CLI?"
+        a = """
+        Это интерфейс командной строки Flutter, который обеспечивает основную работу с фреймворком.
+        """
+        u = authors.keygenqt
+    }
+    new {
+        q = "Что такое psdk?"
+        a = """
+        Aurora PSDK — это набор инструментов для разработки, отладки и тестирования компонентов ОС Aurora.
+        """
+        u = authors.dieTime
+    }
+}

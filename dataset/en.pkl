@@ -1,0 +1,22 @@
+import "templates/CaseTemplate.pkl"
+import "authors.pkl"
+
+/*
+  Data in English must correspond to Russian
+*/
+en = new Listing<CaseTemplate> {
+    new {
+        q = "What is Flutter CLI?"
+        a = """
+        This is the Flutter command line interface that provides basic functionality for the framework.
+        """
+        u = authors.keygenqt
+    }
+    new {
+        q = "What is psdk?"
+        a = """
+        Aurora PSDK is a set of tools for developing, debugging and testing Aurora OS components.
+        """
+        u = authors.dieTime
+    }
+}

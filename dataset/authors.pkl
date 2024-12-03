@@ -1,0 +1,18 @@
+import "templates/AuthorTemplate.pkl"
+
+/*
+  Open Mobile Platform
+*/
+keygenqt = new AuthorTemplate {
+    fname = "Vitaliy"
+    lname = "Zarubin"
+    email = "keygenqt@gmail.com"
+}
+
+/*
+  Open Mobile Platform
+*/
+dieTime = new AuthorTemplate {
+    fname = "Denis"
+    lname = "Glazkov"
+}
