@@ -1,6 +1,6 @@
 # Data Set for Aurora OS
 
-![picture](https://github.com/keygenqt/aurora-dataset/blob/main/data/preview.png?raw=true)
+![picture](https://github.com/keygenqt/aurora-dataset/blob/main/data/preview.png?raw=true&v=1)
 
 Knowledge base for Aurora OS. You can train your models, search and find an answer to your question.
 I chose [Pkl](https://pkl-lang.org/index.html) as the format for saving the database.
