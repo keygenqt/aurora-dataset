@@ -1,0 +1,12 @@
+import "../../../templates/FaqTemplate.pkl"
+import "../../../authors/en.pkl" as authors
+
+psdk = new Listing<FaqTemplate> {
+    new {
+        t = "What is psdk?"
+        b = """
+        Aurora PSDK is a set of tools for developing, debugging and testing Aurora OS components.
+        """
+        a = authors.dieTime
+    }
+}

@@ -1,0 +1,23 @@
+module com.keygenqt.FaqTemplate
+
+import "AuthorTemplate.pkl"
+
+/*
+  Title - question
+*/
+t: String
+
+/*
+  Body - answer
+*/
+b: String
+
+/*
+  Author
+*/
+a: AuthorTemplate
+
+/*
+  Date timestamp (optional)
+*/
+ts: Int?

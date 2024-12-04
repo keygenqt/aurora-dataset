@@ -1,0 +1,12 @@
+import "../../../templates/FaqTemplate.pkl"
+import "../../../authors/ru.pkl" as authors
+
+flutter = new Listing<FaqTemplate> {
+    new {
+        t = "Что такое Flutter CLI?"
+        b = """
+        Это интерфейс командной строки Flutter, который обеспечивает основную работу с фреймворком.
+        """
+        a = authors.keygenqt
+    }
+}

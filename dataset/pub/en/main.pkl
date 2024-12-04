@@ -1,0 +1,5 @@
+import "data/Getting to Know Aurora OS.pkl" as pub1
+
+main = new Listing {
+    pub1.publication
+}

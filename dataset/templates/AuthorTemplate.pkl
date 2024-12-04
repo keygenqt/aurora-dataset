@@ -1,4 +1,11 @@
 module com.keygenqt.AuthorTemplate
 
+/*
+  First name author
+*/
 fname: String
+
+/*
+  Last name author (optional)
+*/
 lname: String?

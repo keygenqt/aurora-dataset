@@ -1,0 +1,23 @@
+module com.keygenqt.PublicationTemplate
+
+import "AuthorTemplate.pkl"
+
+/*
+  Title
+*/
+t: String
+
+/*
+  Body - content publication
+*/
+b: String
+
+/*
+  Author
+*/
+a: AuthorTemplate
+
+/*
+  Date timestamp (optional)
+*/
+ts: Int?

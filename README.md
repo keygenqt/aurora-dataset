@@ -26,6 +26,12 @@ chmod +x pkl
 ./pkl eval --format yaml dataset/union.pkl > data.yaml
 ```
 
+### Pkl convert to XML
+
+```
+./pkl eval --format plist dataset/union.pkl > data.plist
+```
+
 ### Pkl VS Code
 
 Download https://github.com/apple/pkl-vscode/releases and install:

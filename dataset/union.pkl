@@ -1,7 +1,7 @@
-import "en/data.pkl" as dataEn
-import "ru/data.pkl" as dataRu
+import "faq/union.pkl" as faq_union
+import "pub/union.pkl" as pub_union
 
 union {
-    en = dataEn.en
-    ru = dataRu.ru
+    faq = faq_union.union
+    pub = pub_union.union
 }

@@ -1,7 +1,0 @@
-module com.keygenqt.CaseTemplate
-
-import "AuthorTemplate.pkl"
-
-q: String
-a: String
-u: AuthorTemplate
