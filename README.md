@@ -33,13 +33,11 @@ chmod +x pkl
 
 > More information about available formats can be found in the [documentation](https://pkl-lang.org/main/current/pkl-cli/index.html#options).
 
-```
-
 ### Pkl VS Code
 
 Download https://github.com/apple/pkl-vscode/releases and install:
 
-```
+```shell
 code --install-extension pkl-vscode-{version}.vsix
 ```
 
