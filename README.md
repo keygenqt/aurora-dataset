@@ -41,6 +41,11 @@ Download https://github.com/apple/pkl-vscode/releases and install:
 code --install-extension pkl-vscode-{version}.vsix
 ```
 
+### Text Format
+
+The Markdown format is used, in abbreviated form: [MarkdownV2](https://core.telegram.org/bots/api#markdownv2-style).
+Suitable for telegram bots and all other parsers.
+
 ### License
 
 ```

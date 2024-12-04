@@ -6,6 +6,198 @@ flutter = new Listing<FaqTemplate> {
         t = "Что такое Flutter CLI?"
         b = """
         Это интерфейс командной строки Flutter, который обеспечивает основную работу с фреймворком.
+        Устанавливается вместе с Flutter Framework.
+        Справку можно вызвать:
+        ```shell
+        flutter --help
+        ```
+        С поддержкой ОС Аврора:
+        ```shell
+        flutter-aurora --help
+        ```
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Как установить Flutter с поддержкой ОС Аврора?"
+        b = """
+        Есть несколько способов установки Flutter:
+        1. [Официальная документация](https://omprussia.gitlab.io/flutter/flutter/install/linux).
+        2. [Aurora CLI](https://keygenqt.github.io/aurora-cli).
+        3. [Aurora Toolbox](https://keygenqt.github.io/aurora-toolbox).
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Как написать Flutter плагин для ОС Аврора?"
+        b = """
+        Есть несколько способов:
+        1. Плагин [Platform Channels](https://docs.flutter.dev/platform-integration/platform-channels).
+        2. Плагин с использованием [FFI](https://docs.flutter.dev/platform-integration/android/c-interop).
+        3. Плагин с использованием [D-Bus](https://pub.dev/packages/dbus).
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Что такое Flutter Engine?"
+        b = """
+        Flutter Engine — это переносимая среда выполнения для хостинга приложений Flutter.
+        Она реализует основные библиотеки Flutter, включая анимацию и графику, файловый и сетевой ввод-вывод.
+        Поддержку доступности, архитектуру плагинов, среду выполнения Dart и цепочку инструментов компиляции.
+        Большинство разработчиков будут взаимодействовать с Flutter через Flutter Framework.
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Что такое Flutter Embedder?"
+        b = """
+        Разработка компании Открытая мобильная платформа обеспечивающая работу Flutter на ОС Аврора.
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Что такое SDK?"
+        b = """
+        SDK (Software Development Kit) - набор инструментов для разработки программного обеспечения объединённый в одном пакете.
+        Flutter - SDK по сути, framework он содержит в SDK.
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Сколько плагинов Flutter доступно на ОС Аврора?"
+        b = """
+        Вы всегда можете получить актуальную информацию о плагинах с поддержкой ОС Аврора в документации проекта:
+        https://omprussia.gitlab.io/flutter/flutter/support
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Как помочь проекту Flutter для ОС Аврора?"
+        b = """
+        Проект Flutter для ОС Аврора open-source, любой желающий может сделать мерж-реквест и предложить свой код:
+        https://gitlab.com/omprussia/flutter
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Где найти информацию о проекте Flutter для ОС Аврора?"
+        b = """
+        Подробная документация находится по адресу:
+        https://omprussia.gitlab.io/flutter/flutter
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Можно ли написать плагин не используя С++?"
+        b = """
+        Да, бывают плагины не использующие С++ код.
+        Такой плагин можно написать с использованием другого плагина - https://pub.dev/packages/dbus.
+        На выходе вы получите пакет, который использует плагин в зависимостях.
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Я нашел баг, проблему, во Flutter как ее можно решить?"
+        b = """
+        Есть несколько способов решить проблему:
+        1. Завести [issue](https://gitlab.com/groups/omprussia/flutter/-/issues) и подождать ответа разработчиков.
+        2. Обратиться за помощью в телеграм канал @aurora_devs в раздел Flutter.
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Как поставить Flutter для ОС Аврора на macOS?"
+        b = """
+        На данный момент поддержки ОС Аврора в целом нет.
+        Но работы в этом направлении ведутся.
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Как поставить Flutter для ОС Аврора на Windows?"
+        b = """
+        На данный момент Flutter для ОС Аврора поддерживает только Linux (рекомендована Ubuntu).
+        WSL2 на Windows работает лишь частично, полного функционала Flutter CLI нет.
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Как собрать приложение Flutter на ОС Аврора?"
+        b = """
+        Выполнить можно это использую Flutter CLI.
+        Для этого перейдите в проект и обновите зависимости:
+        ```shell
+        flutter-aurora pub get
+        ```
+        Собрать приложение можно следующей командой:
+        ```shell
+        flutter-aurora build aurora --release
+        ```
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Не удается сгенерировать привязки для FFI."
+        b = """
+        Проверьте установлен у вас clang:
+        ```shell
+        sudo apt-get install clang
+        ```
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Как указать архитектуру приложения при сборке проекта Flutter?"
+        b = """
+        Flutter для ОС Аврора поддерживает 3 архитектуры:
+        1. armv7hl
+        2. aarch64
+        3. x86_64
+        Flutter CLI имеет аргумент `--target-platform` c помощью которого можно указать нужную:
+        1. aurora-arm (соответствует armv7hl)
+        2. aurora-arm64 (соответствует aarch64)
+        3. aurora-x64 (соответствует x86_64)
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Как добавить поддержку ОС Аврора в существующий проект Flutter?"
+        b = """
+        Для этого нужно перейти в проект и выполнить команду:
+        ```shell
+        flutter-aurora create --platforms=aurora --org=<orgname> .
+        ```
+        `orgname` - название пакета, например `com.keygneqt`.
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Есть ли образ Docker c Flutter для ОС Аврора?"
+        b = """
+        Официально такого образа нет.
+        Есть пет проект который работает на Linux, с флагом `--privileged`:
+        https://github.com/keygenqt/flutter-aurora-docker
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Как установить Flutter dbus?"
+        b = """
+        Это можно сделать командой:
+        ```shell
+        dart pub global activate dbus
+        ```
+        А далее можно использовать CLI `dart-dbus`.
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Как посмотреть логи запущенного приложения Flutter?"
+        b = """
+        Для этого нужно перейти по ssh на устройство или эмулятор и воспользоваться командой:
+        ```shell
+        journalctl -f
+        ```
         """
         a = authors.keygenqt
     }
