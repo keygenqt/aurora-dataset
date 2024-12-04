@@ -16,13 +16,15 @@ chmod +x pkl
 
 ### Pkl convert
 
-```
+```shell
 # All
 ./pkl eval --format json dataset/dataset.pkl > dataset.json
+
 # FAQ
 ./pkl eval --format json dataset/faq/dataset.pkl > faq.json
 ./pkl eval --format json dataset/faq/en/dataset.pkl > faq_en.json
 ./pkl eval --format json dataset/faq/ru/dataset.pkl > faq_ru.json
+
 # Publications
 ./pkl eval --format json dataset/publications/dataset.pkl > publications.json
 ./pkl eval --format json dataset/publications/en/dataset.pkl > publications_en.json
