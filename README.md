@@ -23,7 +23,7 @@ chmod +x pkl
 # FAQ
 ./pkl eval --format json faq/dataset.pkl > faq.json
 ./pkl eval --format json faq/en/dataset.pkl > faq_en.json
-./pkl eval --format json dataset/faq/ru/dataset.pkl > faq_ru.json
+./pkl eval --format json faq/ru/dataset.pkl > faq_ru.json
 
 # Publications
 ./pkl eval --format json publications/dataset.pkl > publications.json
