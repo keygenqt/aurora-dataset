@@ -139,7 +139,7 @@ flutter = new Listing<FaqTemplate> {
     new {
         t = "Не удается сгенерировать привязки для FFI."
         b = """
-        Проверьте установлен у вас clang:
+        Проверьте установлен ли у вас clang:
         ```shell
         sudo apt-get install clang
         ```
