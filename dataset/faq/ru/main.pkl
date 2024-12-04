@@ -1,5 +1,5 @@
-import "data/flutter.pkl"
-import "data/psdk.pkl"
+import "groups/flutter.pkl"
+import "groups/psdk.pkl"
 
 main = new Listing {
     flutter

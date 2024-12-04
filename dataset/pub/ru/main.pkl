@@ -1,5 +1,5 @@
-import "data/Знакомство с Aurora OS.pkl" as pub1
+import "publications/Знакомство с Aurora OS.pkl" as item1
 
 main = new Listing {
-    pub1.publication
+    item1.publication
 }
