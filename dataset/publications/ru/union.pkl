@@ -1,0 +1,5 @@
+import "data/Знакомство с Aurora OS.pkl" as item1
+
+union = new Listing {
+    item1.publication
+}

@@ -1,5 +1,0 @@
-import "publications/Getting to Know Aurora OS.pkl" as item1
-
-main = new Listing {
-    item1.publication
-}

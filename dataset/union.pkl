@@ -1,7 +1,7 @@
 import "faq/union.pkl" as faq_union
-import "pub/union.pkl" as pub_union
+import "publications/union.pkl" as pub_union
 
 union {
     faq = faq_union.union
-    pub = pub_union.union
+    publications = pub_union.union
 }

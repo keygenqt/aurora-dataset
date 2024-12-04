@@ -1,7 +1,7 @@
 import "groups/flutter.pkl"
 import "groups/psdk.pkl"
 
-main = new Listing {
+union = new Listing {
     flutter
     psdk
 }
