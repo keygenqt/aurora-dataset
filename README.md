@@ -1,6 +1,6 @@
 # Data Set for Aurora OS
 
-![picture](https://github.com/keygenqt/aurora-dataset/blob/main/data/preview1.png?raw=true)
+![picture](https://github.com/keygenqt/aurora-dataset/blob/main/files/preview.png?raw=true)
 
 Knowledge base for Aurora OS. You can train your models, search and find an answer to your question.
 I chose [Pkl](https://pkl-lang.org/index.html) as the format for saving the database.
@@ -14,22 +14,23 @@ chmod +x pkl
 ./pkl --version
 ```
 
-### Pkl convert to JSON
+### Pkl convert
 
 ```
-./pkl eval --format json dataset/union.pkl > data.json
+# All
+./pkl eval --format json dataset/dataset.pkl > dataset.json
+# FAQ
+./pkl eval --format json dataset/faq/dataset.pkl > faq.json
+./pkl eval --format json dataset/faq/en/dataset.pkl > faq_en.json
+./pkl eval --format json dataset/faq/ru/dataset.pkl > faq_ru.json
+# Publications
+./pkl eval --format json dataset/publications/dataset.pkl > publications.json
+./pkl eval --format json dataset/publications/en/dataset.pkl > publications_en.json
+./pkl eval --format json dataset/publications/ru/dataset.pkl > publications_ru.json
 ```
 
-### Pkl convert to YAML
+> More information about available formats can be found in the [documentation](https://pkl-lang.org/main/current/pkl-cli/index.html#options).
 
-```
-./pkl eval --format yaml dataset/union.pkl > data.yaml
-```
-
-### Pkl convert to XML
-
-```
-./pkl eval --format plist dataset/union.pkl > data.plist
 ```
 
 ### Pkl VS Code

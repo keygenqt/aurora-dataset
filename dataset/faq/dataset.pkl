@@ -1,0 +1,7 @@
+import "en/dataset.pkl" as en_dataset
+import "ru/dataset.pkl" as ru_dataset
+
+dataset {
+    en = en_dataset.dataset
+    ru = ru_dataset.dataset
+}

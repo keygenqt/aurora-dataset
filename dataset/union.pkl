@@ -1,7 +1,0 @@
-import "faq/union.pkl" as faq_union
-import "publications/union.pkl" as pub_union
-
-union {
-    faq = faq_union.union
-    publications = pub_union.union
-}

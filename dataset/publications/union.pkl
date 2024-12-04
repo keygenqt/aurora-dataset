@@ -1,7 +1,0 @@
-import "en/union.pkl" as en_union
-import "ru/union.pkl" as ru_union
-
-union {
-    en = en_union.union
-    ru = ru_union.union
-}
