@@ -18,17 +18,17 @@ chmod +x pkl
 
 ```shell
 # All
-./pkl eval --format json dataset/dataset.pkl > dataset.json
+./pkl eval --format json dataset.pkl > dataset.json
 
 # FAQ
-./pkl eval --format json dataset/faq/dataset.pkl > faq.json
-./pkl eval --format json dataset/faq/en/dataset.pkl > faq_en.json
+./pkl eval --format json faq/dataset.pkl > faq.json
+./pkl eval --format json faq/en/dataset.pkl > faq_en.json
 ./pkl eval --format json dataset/faq/ru/dataset.pkl > faq_ru.json
 
 # Publications
-./pkl eval --format json dataset/publications/dataset.pkl > publications.json
-./pkl eval --format json dataset/publications/en/dataset.pkl > publications_en.json
-./pkl eval --format json dataset/publications/ru/dataset.pkl > publications_ru.json
+./pkl eval --format json publications/dataset.pkl > publications.json
+./pkl eval --format json publications/en/dataset.pkl > publications_en.json
+./pkl eval --format json publications/ru/dataset.pkl > publications_ru.json
 ```
 
 > More information about available formats can be found in the [documentation](https://pkl-lang.org/main/current/pkl-cli/index.html#options).
