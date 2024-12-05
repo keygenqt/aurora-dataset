@@ -104,12 +104,6 @@ if __name__ == '__main__':
         action='store_true',
         help="Show this help message and exit.",
     )
-    parser.add_argument(
-        '--version',
-        action='version',
-        version='%(prog)s 1.0.0',
-        help="Show program's version number and exit.",
-    )
 
     # show help is empty
     args = parser.parse_args()
