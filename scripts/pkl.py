@@ -46,12 +46,11 @@ def pkl_install_force(quiet: bool = False) -> bool:
 
 
 def dump_dataset(dump_type: DumpTypes, quiet: bool = False) -> str:
+    if not pkl_is_install():
+        pkl_install_force()
     if not quiet:
         print('Create dump type {}...'.format(dump_type.name))
     path = get_path_project() / 'dataset-dump{}'.format(dump_type.value)
-    if not pkl_is_install():
-        print('Pkl not installed!')
-        exit(1)
     result = subprocess.run(
         ['pkl', 'eval', '--format', dump_type.name, 'collection/dataset.pkl'],
         stdout=subprocess.PIPE,
