@@ -1,7 +1,0 @@
-import "faq/dataset.pkl" as faq_dataset
-import "publications/dataset.pkl" as pub_dataset
-
-dataset {
-    faq = faq_dataset.dataset
-    publications = pub_dataset.dataset
-}

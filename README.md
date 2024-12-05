@@ -6,45 +6,31 @@ Knowledge base for Aurora OS. You can train your models, search and find an answ
 I chose [Pkl](https://pkl-lang.org/index.html) as the format for saving the database.
 I think it will be convenient for such a task. Well, and finally, we will find a use for it.
 
-### Pkl CLI
+### Scripts
 
-```
-curl -L -o pkl 'https://github.com/apple/pkl/releases/download/0.27.0/pkl-linux-amd64'
-chmod +x pkl
-./pkl --version
-```
+The scripts directory contains `scripts` that simplify working with dataset.
+Their functionality will be improved over time.
 
-### Pkl convert
+- `pkl.py` - installing and updating pkl, generating dump of the required format.
+- `stats.py` - outputting statistics about dataset.
+- `validate.py` - validating pkl data.
 
-```shell
-# All
-./pkl eval --format json dataset.pkl > dataset.json
-
-# FAQ
-./pkl eval --format json faq/dataset.pkl > faq.json
-./pkl eval --format json faq/en/dataset.pkl > faq_en.json
-./pkl eval --format json faq/ru/dataset.pkl > faq_ru.json
-
-# Publications
-./pkl eval --format json publications/dataset.pkl > publications.json
-./pkl eval --format json publications/en/dataset.pkl > publications_en.json
-./pkl eval --format json publications/ru/dataset.pkl > publications_ru.json
-```
-
-> More information about available formats can be found in the [documentation](https://pkl-lang.org/main/current/pkl-cli/index.html#options).
-
-### Pkl VS Code
-
-Download https://github.com/apple/pkl-vscode/releases and install:
+Any script can be called from the root of the project.
+For example, this is how you can create dump in json format:
 
 ```shell
-code --install-extension pkl-vscode-{version}.vsix
+scripts/pkl.py --dump json
 ```
 
 ### Text Format
 
 The Markdown format is used, in abbreviated form: [MarkdownV2](https://core.telegram.org/bots/api#markdownv2-style).
 Suitable for telegram bots and all other parsers.
+
+### Pkl IDEs
+
+- [VS Code Extension](https://pkl-lang.org/vscode/current/index.html)
+- [IntelliJ Plugin](https://pkl-lang.org/intellij/current/installation.html)
 
 ### License
 

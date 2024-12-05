@@ -1,5 +1,0 @@
-import "data/Знакомство с Aurora OS.pkl" as item1
-
-dataset = new Listing {
-    item1.publication
-}

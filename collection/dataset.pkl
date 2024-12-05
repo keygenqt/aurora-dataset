@@ -1,0 +1,7 @@
+import "faq/dataset.pkl" as faq_dataset
+import "pub/dataset.pkl" as pub_dataset
+
+dataset {
+    faq = faq_dataset.dataset
+    pub = pub_dataset.dataset
+}

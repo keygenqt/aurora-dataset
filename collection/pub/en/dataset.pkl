@@ -1,0 +1,6 @@
+import "../../templates/PublicationTemplate.pkl"
+import "../../authors/en.pkl" as authors
+
+dataset = new Listing<PublicationTemplate> {
+
+}

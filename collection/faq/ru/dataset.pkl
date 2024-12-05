@@ -1,7 +1,14 @@
-import "../../../templates/FaqTemplate.pkl"
-import "../../../authors/ru.pkl" as authors
+import "../../templates/FaqTemplate.pkl"
+import "../../authors/en.pkl" as authors
 
-flutter = new Listing<FaqTemplate> {
+dataset = new Listing<FaqTemplate> {
+    new {
+        t = "Что такое psdk?"
+        b = """
+        Aurora PSDK — это набор инструментов для разработки, отладки и тестирования компонентов ОС Aurora.
+        """
+        a = authors.keygenqt
+    }
     new {
         t = "Что такое Flutter CLI?"
         b = """
@@ -167,7 +174,7 @@ flutter = new Listing<FaqTemplate> {
         ```shell
         flutter-aurora create --platforms=aurora --org=<orgname> .
         ```
-        `orgname` - название пакета, например `com.keygneqt`.
+        `orgname` - название пакета, например `com.keygenqt`.
         """
         a = authors.keygenqt
     }
@@ -198,6 +205,15 @@ flutter = new Listing<FaqTemplate> {
         ```shell
         journalctl -f
         ```
+        """
+        a = authors.keygenqt
+    }
+    new {
+        t = "Не работает DevTools при запуске с иконки."
+        b = """
+        Есть разница при запуске приложения из IDE VS Code и запуском приложения через иконку.
+        Если IDE запускает из под пользователя, то запуск через иконку происходит в изолированном окружении.
+        В изоляции (в песочнице) Dart debug работать не будет - окружение не дает запустить сервер DevTools.
         """
         a = authors.keygenqt
     }

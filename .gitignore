@@ -1,4 +1,19 @@
+## IDEs
+.vscode
+.idea
+
+## Pkl
 /pkl
+
+## Python
+__pycache__
+
+## Gen formats
 /*.json
-/*.yaml
+/*.jsonnet
 /*.plist
+/*.pcf
+/*.properties
+/*.textproto
+/*.xml
+/*.yaml
