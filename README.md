@@ -8,7 +8,7 @@ I think it will be convenient for such a task. Well, and finally, we will find a
 
 ### Scripts
 
-The scripts directory contains `scripts` that simplify working with dataset.
+The `scripts` directory contains python scripts that simplify working with dataset.
 Their functionality will be improved over time.
 
 - `pkl.py` - installing and updating pkl, generating dump of the required format.
