@@ -13,6 +13,7 @@ Their functionality will be improved over time.
 
 - `pkl.py` - installing and updating pkl, generating dump of the required format.
 - `stats.py` - outputting statistics about dataset.
+- `uts.py` - working with unix timestamp.
 - `validate.py` - validating pkl data.
 
 Any script can be called from the root of the project.
