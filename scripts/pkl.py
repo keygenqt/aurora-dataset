@@ -82,7 +82,7 @@ if __name__ == '__main__':
         add_help=False,
         description='Makes working with pkl easier.',
     )
-    # set methods
+    # set arguments
     parser.add_argument(
         '--install',
         action='store_true',

@@ -18,6 +18,6 @@ b: String
 a: AuthorTemplate
 
 /*
-  Date timestamp (optional)
+  Date timestamp
 */
-ts: Int?
+ts: Int
