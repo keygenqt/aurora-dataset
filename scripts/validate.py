@@ -10,13 +10,14 @@ from pkl import (
 
 
 def validate_duplicate_title(items) -> bool:
-    result = True
     keys = [item['t'] for item in items]
+    duplicates = []
     for key in keys:
         if len([item for item in items if key == item['t']]) > 1:
-            print('> Duplicate title found: "{}"'.format(key if key else 'empty'))
-            result = False
-    return result
+            if key and key not in duplicates:
+                print('> Duplicate title found: "{}"'.format(key if key else 'empty'))
+                duplicates.append(key)
+    return len(duplicates) == 0
 
 
 if __name__ == '__main__':

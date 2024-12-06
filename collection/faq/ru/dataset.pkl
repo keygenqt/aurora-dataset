@@ -239,4 +239,355 @@ dataset = new Listing<FaqTemplate> {
         a = authors.keygenqt
         ts = 1733423881
     }
+    new {
+        t = "IDE VS Code не видит устройство."
+        b = """
+            В первую очередь необходимо проверить все ли необходимое установлено в системе:
+            ```shell
+            flutter-aurora doctor
+            ```
+            Убедиться что включены необходимые параметры во Flutter CLI:
+            ```shell
+            flutter-aurora config --enable-aurora
+            flutter-aurora config --enable-aurora-devices
+            ```
+            Добавить устройство можно через команду Flutter CLI:
+            ```shell
+            flutter aurora-devices add
+            ```
+            Устройств должно быть подключено по ssh ключу, а ключ должен быть зарегистрирован на устройстве.
+            Сделать это можно командой:
+            ```shell
+            ssh-copy-id defaultuser@<remote_host (default - 192.168.2.15)>
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Где найти конфигурацию Flutter CLI?"
+        b = """
+            Вы можете конфигурировать Flutter без необходимости использовать `flutter-aurora config`.
+            Файлы конфигурации храняться в формате json, главное знать что менять.
+            Их можно найти в директории: `~/.config/flutter`.
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как проверить что Flutter установлен правильно?"
+        b = """
+            Для этого можно выполнить следующую команду:
+            ```shell
+            flutter-aurora doctor
+            ```
+            Она найдет некоторые возможные ошибки, но основательно можно это проверить - собрать демо проект
+            [Fluttery ToDo](https://gitlab.com/omprussia/flutter/fluttery-todo).
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "На каких операционных системах (Windows, macOS, Linux) доступен Flutter для ОС Аврора?"
+        b = """
+            Изначально Flutter для ОС Аврора поддерживал только Linux (рекомендовано Ubuntu).
+            Более детально уточнить этот вопрос можно в документации проекта:
+            https://omprussia.gitlab.io/flutter/flutter
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как отформатировать проект без установки Dart?"
+        b = """
+            Для форматирования проектов необходим Dart.
+            Flutter SDK содержит его копию и мы можем без установки отдельной версии Dart форматировать проекты.
+            Для этого можно добавить алиас, Dart можно найти `<flutter_dir>/bin/dart`.
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как создать свой первый проект Flutter?"
+        b = """
+            Flutter CLI раздел `create` с шаблонами проектов.
+            Стартовое приложение можно создать командой:
+            ```shell
+            flutter-aurora create --platforms=aurora --template=app --org=com.keygenqt my_app
+            ```
+            Пакет можно создать следующей командой
+            ```shell
+            flutter-aurora create --platforms=aurora --template=package --org=com.keygenqt my_package
+            ```
+            Плагин Platform Channel можно создать выполнив:
+            ```shell
+            flutter-aurora create --platforms=aurora --template=plugin --org=com.keygenqt my_plugin
+            ```
+            Плагин FFI можно создать выполнив:
+            ```shell
+            flutter-aurora create --platforms=aurora --template=plugin_ffi --org=com.keygenqt my_plugin_ffi
+            ```
+            Полную справку можно вызвать командой:
+            ```shell
+            flutter-aurora create --help
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Не стартует приложение с иконки, хотя с IDE VS Code работает."
+        b = """
+            Возможно причина в том что приложение с иконке запускается в песочнице, замещенном окружении.
+            Необходимо проверить разрешения (permission) приложения, это часто является причиной такого поведения.
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как сделать скриншот с эмулятора или устройства?"
+        b = """
+            Вы можете сделать скриншот средствами Flutter CLI.
+            Для этого необходимо выполнить команду:
+            ```shell
+            flutter-aurora screenshot -d aurora
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как запустить интеграционные тесты Flutter?"
+        b = """
+            Вы можете выполнить это средствами IDE (VS Code).
+            Или выполнив команду в терминале указав пусть к файлу с тестами:
+            ```shell
+            flutter-aurora test integration_test/example_test.dart
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как обновить Flutter?"
+        b = """
+            Flutter CLI имеет 2 команды на обновление и откат обновления, можно воспользоваться ими:
+            1. `upgrade` - обновление.
+            2. `downgrade` - откат обновления.
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как обновить кеш Flutter?"
+        b = """
+            Вы можете это сделать через Flutter CLI командой:
+            ```shell
+            flutter-aurora precache --aurora --force
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как получить список доступных Flutter CLI эмуляторов?"
+        b = """
+            Вы можете это сделать через Flutter CLI командой:
+            ```shell
+            flutter-aurora emulators
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как получить список доступных Flutter CLI устройств?"
+        b = """
+            Вы можете это сделать через Flutter CLI командой:
+            ```shell
+            flutter-aurora devices
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как очистить кеш проекта Flutter?"
+        b = """
+            Это можно сделать командой:
+            ```shell
+            flutter-aurora clean
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Приложение Flutter не устанавливается."
+        b = """
+            Пакет должен быть подписан.
+            ОС Аврора имеет валидацию пакетов при их установке.
+            Необходимо провалидировать пакет с помощью aurora-cli или psdk.
+            Если с этим порядок более детальную информацию можно получить подключившись по ssh к девайсу или эмулятору.
+            Выполнить команду перед установкой и посмотреть логи:
+            ```shell
+            journalctl -u apm -f
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Есть ли поддержка Flutter для ОС Аврора в IntelliJ IDEA?"
+        b = """
+            Нет, IDEA не поддерживается.
+            Но VS Code работает отлично, а так как предстоит, возможно, работа с С++ это IDE отлично подойдет.
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как подключить сигналы и слоты Qt во Flutter плагине для ОС Аврора?"
+        b = """
+            Qt без сигналов и слотов работает без дополнительных манипуляций.
+            Если нужны именно сигналы Qt необходимо активировать их работу.
+            Для этого в `main.cpp` приложения нужно добавить:
+            ```cpp
+            #include <flutter/flutter_aurora.h>
+            #include <flutter/flutter_compatibility_qt.h> // <- Add for Qt
+            #include "generated_plugin_registrant.h"
+
+            int main(int argc, char *argv[]) {
+                aurora::Initialize(argc, argv);
+                aurora::EnableQtCompatibility(); // <- Enable Qt
+                aurora::RegisterPlugins();
+                aurora::Launch();
+                return 0;
+            }
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как подписать RPM пакет?"
+        b = """
+            Flutter CLI подписывает пакет публичными ключами, доступными для разработки.
+            Platform SDK имеет утилиту `rpmsign-external` c помощью которой можно подписать пакет.
+            https://developer.auroraos.ru/doc/sdk/tools/rpmsign_external
+            Aurora CLI умеет тоже подписывать пакеты:
+            https://keygenqt.github.io/aurora-cli/cli/psdk/package/sign
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Что такое песочница?"
+        b = """
+            Это окружение в котором запускается приложение, ограниченное в доступе к системе.
+            Из терминала запустить приложение в этом окружении можно командой:
+            ```shell
+            invoker --type=qt5 <com.keygenqt.package_name>
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как установить RPM пакет на устройство или эмулятор?"
+        b = """
+            Это можно сделать:
+            1. Воспользоваться приложением Aurora CLI.
+            2. Воспользоваться приложением Aurora Toolbox.
+            3. Залив приложение по ssh (scp) и выполнив команду:
+            ```shell
+            gdbus call --system --dest ru.omp.APM --object-path /ru/omp/APM --method ru.omp.APM.Install /path/to/file.rpm {}
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Что такое Aurora CLI (aurora-cli)?"
+        b = """
+            Приложение разработанное как open-source проект Виталием Зарубиным.
+            Aurora CLI — упрощает жизнь разработчикам на ОС Aurora, этим все сказано.
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Что такое Aurora Toolbox?"
+        b = """
+            Приложение разработанное как open-source проект Виталием Зарубиным.
+            Это GUI интерфейс к приложению Aurora CLI.
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как пронять зависимость плагин это или пакет Flutter?"
+        b = """
+            Для этого нужно посмотреть на `pubspec.yaml`.
+            Если в спеке нет раздела `plugin` и нет зависимостей от плагинов - это пакет.
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Что такое Client Wrapper (client-wrapper)?"
+        b = """
+            Client Wrapper предназначен для встраивания в плагины и приложения, чтобы обеспечить более высокие уровни абстракций C++ для взаимодействия с библиотекой Flutter.
+
+            Со временем цель состоит в том, чтобы переместить большую часть этого кода в библиотеку таким образом, чтобы предоставить пригодный для использования ABI (например, не использовать стандартную библиотеку в интерфейсах).
+
+            https://github.com/flutter/engine/blob/main/shell/platform/common/client_wrapper/README
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Какая доступна последняя версия Flutter для ОС Аврора?"
+        b = """
+            Вы всегда можете узнать последнюю доступную версию Flutter в тегах репозитория:
+            https://gitlab.com/omprussia/flutter/flutter/-/tags
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Есть ли демо (demo) приложение Flutter для ОС Аврора?"
+        b = """
+            Да приложение демонстрирующее работу можно найти по ссылке:
+            https://gitlab.com/omprussia/flutter/fluttery-todo
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Как локально собрать документацию Flutter для ОС Аврора?"
+        b = """
+            Проект Flutter для ОС Аврора - открытый проект.
+            Вы можете помощь при разработке как проекта так и его документации.
+            Документация проекта использует mkdocs & mkdocs-material, это Python пакеты.
+            Установить их можно командой:
+            ```shell
+            python3 -m pip install mkdocs mkdocs-material --break-system-packages
+            ```
+            Перейти в корень проекта Flutter для ОС Аврора и выполнить:
+            ```shell
+            mkdocs serve
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
+    new {
+        t = "Куда сообщить об ошибку, о баге?"
+        b = """
+            Если проект open-source, то лучшее место это issue проекта.
+            """
+        a = authors.keygenqt
+        ts = 1733423881
+    }
 }
