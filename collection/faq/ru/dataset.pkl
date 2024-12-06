@@ -597,7 +597,7 @@ dataset = new Listing<FaqTemplate> {
         b = """
             В Аврора 5 стала обязательной дополнительная подпись на RPM пакете - подпись источника.
             Подпись источника криптографически заверяет того, кем был предоставлен тот или иной RPM пакет.
-            Зачастую подпись источника добавляется оффициальными маркетами, например Rustore, когда вы загружаете свое приложение через админ панель.
+            Зачастую подпись источника добавляется официальными маркетами, например RuStore, когда вы загружаете свое приложение через админ панель.
             Для целей разработки вы можете отключить обязательное требование подписи источника пакетов через настройки.
             """
         a = authors.dieTime
@@ -607,7 +607,9 @@ dataset = new Listing<FaqTemplate> {
         t = "Как проверить, что RPM пакет подписан?"
         b = """
             Для этого достаточно выполнить следующую команду из-под PSDK:
+            ```shell
             rpmsign-external dump <your-rpm-package>
+            ```
             """
         a = authors.dieTime
         ts = 1733512746
@@ -616,9 +618,57 @@ dataset = new Listing<FaqTemplate> {
         t = "Как проверить подпись RPM пакета?"
         b = """
             Для этого достаточно выполнить следующую команду из-под PSDK:
+            ```shell
             rpmsign-external verify <your-rpm-package>
+            ```
             """
         a = authors.dieTime
         ts = 1733512746
+    }
+    new {
+        t = "Какой стандартный формат лицензии ОМП для dart?"
+        b = """
+            ```shell
+            // SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC <community@omp.ru>
+            // SPDX-License-Identifier: BSD-3-Clause
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733516308
+    }
+    new {
+        t = "Какой стандартный формат лицензии ОМП для cmake, yaml, shell, pro?"
+        b = """
+            ```shell
+            # SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC <community@omp.ru>
+            # SPDX-License-Identifier: BSD-3-Clause
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733516308
+    }
+    new {
+        t = "Какой стандартный формат лицензии ОМП для c++, java, kotlin, js, php, qml?"
+        b = """
+            ```shell
+            /**
+            * SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC <community@omp.ru>
+            * SPDX-License-Identifier: BSD-3-Clause
+            */
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733516308
+    }
+    new {
+        t = "Как посмотреть записи динамической таблицы символов?"
+        b = """
+            Это можно сделать через утилиту `objdump`:
+            ```shell
+            objdump -CT /path/to/libdynamic.so
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733516308
     }
 }
