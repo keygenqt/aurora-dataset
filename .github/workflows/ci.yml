@@ -9,6 +9,14 @@ jobs:
   dump:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - run: python ./scripts/pkl.py --update
-      - run: python ./scripts/pkl.py --dump json
+      - uses: actions/checkout@v4
+      - name: Dump
+        run: |
+          python ./scripts/pkl.py --update
+          python ./scripts/pkl.py --dump json
+      - uses: actions/checkout@v4
+      - name: Save
+        run: |
+          git checkout dump
+          git commit -m 'Update dump.'
+          git push origin dump --force
