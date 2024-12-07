@@ -9,9 +9,7 @@ jobs:
   dump:
     runs-on: ubuntu-latest
     steps:
-      - name: pwd
-        run: pwd
-      - name: Install Pkl
-        run: ./scripts/pkl.py --update
-      - name: Dump json
-        run: ./scripts/pkl.py --dump json
+      - uses: actions/checkout@v3
+      - run: python
+      - run: python ./scripts/pkl.py --update
+      - run: python ./scripts/pkl.py --dump json
