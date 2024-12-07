@@ -15,7 +15,7 @@ jobs:
           python ./scripts/pkl.py --update
           python ./scripts/pkl.py --dump json
       - name: Clear
-        run: find . ! -name 'dataset-dump.*' -o ! -name '.git' -type f -exec rm -f {} +
+        run: ls -a | grep -xvF dataset-dump.* | grep -xvF .git | xargs rm -f --
       - name: Save
         run: |
           ls
