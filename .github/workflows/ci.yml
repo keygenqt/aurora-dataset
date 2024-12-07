@@ -19,6 +19,6 @@ jobs:
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git checkout dump
+          git checkout dump || git checkout -b dump
           git commit -m 'Update dump.'
           git push origin dump --force
