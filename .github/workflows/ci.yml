@@ -1,0 +1,15 @@
+name: ci
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Pkl
+        run: ./scripts/pkl.py --update
+      - name: Dump json
+        run: ./scripts/pkl.py --dump json
