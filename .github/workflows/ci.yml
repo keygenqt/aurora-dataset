@@ -20,11 +20,8 @@ jobs:
           python ./scripts/opensearch.py --bulk
       - name: Clear
         run: |
-          mkdir _temp
-          mv dataset-dump.* _temp
-          find . ! -name '_temp' -type f -exec rm -f {} +
-          mv _temp/* ./
-          rm -rf _temp
+          find . -maxdepth 1 -type d ! -name ".git" -exec rm -rf {} +
+          find . -type f ! -name "dataset-dump.*" -exec rm -f {} +
       - name: Readme
         run: echo "Auto builds the latest version of dataset in available formats. Also added bulk build for convenient indexing OpenSearch or Elasticsearch." > README.md
       - name: Save
