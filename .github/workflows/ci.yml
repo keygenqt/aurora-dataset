@@ -19,6 +19,6 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git checkout -b dump
-          git add $PWD/dataset-dump.json
+          git add $PWD/dataset-dump.json --force
           git commit -m 'Update dump.'
           git push origin dump --force
