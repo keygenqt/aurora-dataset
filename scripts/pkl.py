@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import argparse
+import os
 import subprocess
 import urllib.request
 from enum import Enum
@@ -8,7 +9,7 @@ from pathlib import Path
 
 import requests
 
-pkl = Path.home() / '.local/bin/pkl'
+pkl = Path.cwd() / 'pkl' if 'GITHUB_WORKFLOW' in os.environ else Path.home() / '.local/bin/pkl'
 
 
 class DumpTypes(Enum):
