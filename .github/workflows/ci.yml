@@ -15,7 +15,7 @@ jobs:
           python ./scripts/pkl.py --update
           python ./scripts/pkl.py --dump json
       - name: Clear
-        run: ls -a | grep -xvF dataset-dump.* | grep -xvF .git | xargs rm -rf --
+        run: ls -a | grep -xvF dataset-dump.* | grep -xvF .git | xargs rm -rf -- 2> /dev/null
       - name: Save
         run: |
           ls
