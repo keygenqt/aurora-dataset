@@ -14,9 +14,11 @@ jobs:
         run: |
           python ./scripts/pkl.py --update
           python ./scripts/pkl.py --dump json
+      - name: Save
+        run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git checkout -b dump
-          git add .
+          git add $PWD/dataset-dump.json
           git commit -m 'Update dump.'
           git push origin dump --force
