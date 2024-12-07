@@ -14,8 +14,18 @@ jobs:
         run: |
           python ./scripts/pkl.py --update
           python ./scripts/pkl.py --dump json
+          python ./scripts/pkl.py --dump jsonnet
+          python ./scripts/pkl.py --dump pcf
+          python ./scripts/pkl.py --dump plist
+          python ./scripts/pkl.py --dump properties
+          python ./scripts/pkl.py --dump textproto
+          python ./scripts/pkl.py --dump xml
+          python ./scripts/pkl.py --dump yaml
+          python ./scripts/opensearch.py --bulk
       - name: Clear
         run: ls -A | grep -xvF dataset-dump.* | grep -xvF .git | xargs rm -rf --
+      - name: Readme
+        run: echo "Auto builds the latest version of dataset in all available formats. Also added bulk build for convenient indexing OpenSearch or Elasticsearch." > README.md
       - name: Save
         run: |
           ls

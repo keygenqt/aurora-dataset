@@ -31,7 +31,7 @@ def gen_bulk():
     bulk_data += '\n{ "index": {} }\n'.join([json.dumps(item, ensure_ascii=False) for item in pub['en']])
     bulk_data += '\n{ "index": {} }\n'.join([json.dumps(item, ensure_ascii=False) for item in pub['ru']])
 
-    path = get_path_project() / '_bulk.opensearch'
+    path = get_path_project() / 'dataset-dump.bulk'
 
     with open(path, 'w') as file:
         # noinspection PyTypeChecker
