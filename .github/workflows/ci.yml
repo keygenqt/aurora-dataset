@@ -10,6 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: echo $GITHUB_WORKFLOW
       - run: python ./scripts/pkl.py --update
       - run: python ./scripts/pkl.py --dump json

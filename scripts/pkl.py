@@ -40,7 +40,7 @@ def pkl_install_force(quiet: bool = False) -> bool:
         return False
     data = response.json()
     url = [asset for asset in data['assets'] if asset['name'] == 'pkl-linux-amd64'][0]['browser_download_url']
-    urllib.request.urlretrieve(url, pkl)
+    print(urllib.request.urlretrieve(url, pkl))
     subprocess.run(['chmod', '+x', pkl])
     if not quiet:
         subprocess.run(['pkl', '--version'])
