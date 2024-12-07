@@ -1,6 +1,0 @@
-import "../../templates/FaqTemplate.pkl"
-import "../../authors/en.pkl" as authors
-
-dataset = new Listing<FaqTemplate> {
-
-}
