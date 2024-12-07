@@ -14,9 +14,6 @@ jobs:
         run: |
           python ./scripts/pkl.py --update
           python ./scripts/pkl.py --dump json
-      - uses: actions/checkout@v4
-      - name: Save
-        run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git checkout -b dump
