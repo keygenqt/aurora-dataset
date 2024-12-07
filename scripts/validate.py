@@ -47,5 +47,7 @@ if __name__ == '__main__':
 
     if len([item for item in results if not item]) > 0:
         print('Result: validation errors found.')
+        exit(1)
     else:
         print('Result: validation was successful.')
+        exit(0)
