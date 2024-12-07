@@ -9,6 +9,8 @@ jobs:
   dump:
     runs-on: ubuntu-latest
     steps:
+      - name: pwd
+        run: pwd
       - name: Install Pkl
         run: ./scripts/pkl.py --update
       - name: Dump json
