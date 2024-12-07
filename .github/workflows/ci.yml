@@ -19,7 +19,12 @@ jobs:
           python ./scripts/pkl.py --dump yaml
           python ./scripts/opensearch.py --bulk
       - name: Clear
-        run: ls -A | grep -xvF dataset-dump.* | grep -xvF .git | xargs rm -rf --
+        run: |
+          mkdir _temp
+          mv dataset-dump.* _temp
+          find . ! -name '_temp' -type f -exec rm -f {} +
+          mv _temp/* ./
+          rm -rf _temp
       - name: Readme
         run: echo "Auto builds the latest version of dataset in available formats. Also added bulk build for convenient indexing OpenSearch or Elasticsearch." > README.md
       - name: Save

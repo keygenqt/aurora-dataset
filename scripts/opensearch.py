@@ -20,6 +20,8 @@ def gen_bulk():
     if not result:
         exit(1)
 
+    print('Create dump type bulk...')
+
     data = json.loads(result)
     dataset = data['dataset']
     faq = dataset['faq']
