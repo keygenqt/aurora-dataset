@@ -40,10 +40,10 @@ def pkl_install_force(quiet: bool = False) -> bool:
         return False
     data = response.json()
     url = [asset for asset in data['assets'] if asset['name'] == 'pkl-linux-amd64'][0]['browser_download_url']
-    print(urllib.request.urlretrieve(url, pkl))
+    urllib.request.urlretrieve(url, pkl)
     subprocess.run(['chmod', '+x', pkl])
     if not quiet:
-        subprocess.run(['pkl', '--version'])
+        subprocess.run([pkl, '--version'])
 
 
 def dump_dataset(dump_type: DumpTypes, quiet: bool = False) -> str:
@@ -53,7 +53,7 @@ def dump_dataset(dump_type: DumpTypes, quiet: bool = False) -> str:
         print('Create dump type {}...'.format(dump_type.name))
     path = get_path_project() / 'dataset-dump{}'.format(dump_type.value)
     result = subprocess.run(
-        ['pkl', 'eval', '--format', dump_type.name, 'collection/dataset.pkl'],
+        [pkl, 'eval', '--format', dump_type.name, 'collection/dataset.pkl'],
         stdout=subprocess.PIPE,
         cwd=get_path_project(),
         encoding='utf-8'
@@ -70,7 +70,7 @@ def dump_dataset(dump_type: DumpTypes, quiet: bool = False) -> str:
 def _pkl_install():
     if pkl_is_install():
         print('Already installed...')
-        subprocess.run(['pkl', '--version'])
+        subprocess.run([pkl, '--version'])
         exit(1)
     else:
         pkl_install_force()
