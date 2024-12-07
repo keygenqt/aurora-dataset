@@ -671,4 +671,20 @@ dataset = new Listing<FaqTemplate> {
         a = authors.keygenqt
         ts = 1733516308
     }
+    new {
+        t = "Как откатить все изменения в проекте?"
+        b = """
+            Это можно сделать c помощью `git`.
+            Так вы откатите все изменения:
+            ```shell
+            git reset --hard HEAD
+            ```
+            Так откатите все, *включая не фиксированные файлы*:
+            ```shell
+            git clean -fdx
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733555480
+    }
 }
