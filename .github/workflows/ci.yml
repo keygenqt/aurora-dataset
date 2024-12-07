@@ -15,7 +15,7 @@ jobs:
           python ./scripts/pkl.py --update
           python ./scripts/pkl.py --dump json
       - name: Clear
-        run: find . ! -name 'dataset-dump.*' ! -name '.git' -type f -exec rm -f {} +
+        run: find . ! -name 'dataset-dump.*' -o ! -name '.git' -type f -exec rm -f {} +
       - name: Save
         run: |
           git config --global user.name 'GitHub Action'
