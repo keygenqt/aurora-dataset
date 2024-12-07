@@ -20,8 +20,7 @@ jobs:
           python ./scripts/opensearch.py --bulk
       - name: Clear
         run: |
-          find . -maxdepth 1 -prune -type d ! -name ".git" -exec rm -rf {} +
-          find . -prune -type f ! -name "dataset-dump.*" -exec rm -f {} +
+          find . -maxdepth 1 -regextype egrep -not -regex '.|..|\./(.git|dataset-dump.+)' -exec rm -rf {} +
       - name: Readme
         run: echo "Auto builds the latest version of dataset in available formats. Also added bulk build for convenient indexing OpenSearch or Elasticsearch." > README.md
       - name: Save
