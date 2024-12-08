@@ -510,8 +510,8 @@ dataset = new Listing<FaqTemplate> {
     new {
         t = "Что такое Aurora CLI (aurora-cli)?"
         b = """
-            Приложение разработанное как open-source проект Виталием Зарубиным.
-            Aurora CLI — упрощает жизнь разработчикам на ОС Aurora, этим все сказано.
+            Open-source приложение обеспечивающее легкий старт в экосистеме ОС Aurora. Работа с Aurora SDK,
+            Aurora Platform SDK, Flutter SDK, взаимодействие с устройствами и эмулятором, а также многое другое.
             """
         a = authors.keygenqt
         ts = 1733423881
@@ -519,7 +519,6 @@ dataset = new Listing<FaqTemplate> {
     new {
         t = "Что такое Aurora Toolbox?"
         b = """
-            Приложение разработанное как open-source проект Виталием Зарубиным.
             Это GUI интерфейс к приложению Aurora CLI.
             """
         a = authors.keygenqt
@@ -683,6 +682,36 @@ dataset = new Listing<FaqTemplate> {
             ```shell
             git clean -fdx
             ```
+            """
+        a = authors.keygenqt
+        ts = 1733555480
+    }
+    new {
+        t = "Как установить Aurora CLI?"
+        b = """
+            Приложение Aurora CLI - python пакет.
+            Его можно установить через пакетный менеджер pip.
+            Установить pip можно так:
+            ```shell
+            sudo apt update
+            sudo apt install python3-pip
+            python3 -m pip install --upgrade setuptools --break-system-packages
+            ```
+            Установить Aurora CLI можно так:
+            ```shell
+            python3 -m pip install aurora-cli --break-system-packages
+            ```
+            """
+        a = authors.keygenqt
+        ts = 1733555480
+    }
+    new {
+        t = "Как установить Aurora Toolbox?"
+        b = """
+            Aurora Toolbox это GTK приложение, доступно в deb & rpm пакете.
+            Скачать последнюю версию пакета можно по ссылке:
+            https://github.com/keygenqt/aurora-toolbox/releases
+            Установка отличается на дистрибутивах Linux, посмотрите документацию вашего пакетного менеджера.
             """
         a = authors.keygenqt
         ts = 1733555480
