@@ -4,14 +4,14 @@ import "../templates/AuthorTemplate.pkl"
   Open Mobile Platform
 */
 keygenqt = new AuthorTemplate {
-    fname = "Виталий"
-    lname = "Зарубин"
+  fname = "Виталий"
+  lname = "Зарубин"
 }
 
 /*
   Open Mobile Platform
 */
 dieTime = new AuthorTemplate {
-    fname = "Денис"
-    lname = "Глазков"
+  fname = "Денис"
+  lname = "Глазков"
 }

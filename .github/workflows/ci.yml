@@ -18,9 +18,12 @@ jobs:
           python ./scripts/pkl.py --update
           python ./scripts/pkl.py --dump json
           python ./scripts/pkl.py --dump jsonnet
+          python ./scripts/pkl.py --dump pcf
+          python ./scripts/pkl.py --dump plist
+          python ./scripts/pkl.py --dump properties
+          python ./scripts/pkl.py --dump textproto
           python ./scripts/pkl.py --dump xml
           python ./scripts/pkl.py --dump yaml
-          python ./scripts/opensearch.py --bulk
       - name: Clear
         run: |
           find . -maxdepth 1 -regextype egrep -not -regex '.|..|\./(.git|dataset-dump.+)' -exec rm -rf {} +
