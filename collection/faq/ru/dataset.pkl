@@ -701,9 +701,11 @@ dataset = new Listing<FaqTemplate> {
             ```shell
             python3 -m pip install aurora-cli --break-system-packages
             ```
+            Более подробно написано на странице документации приложения:
+            https://keygenqt.github.io/aurora-cli/install
             """
         a = authors.keygenqt
-        ts = 1733555480
+        ts = 1733651831
     }
     new {
         t = "Как установить Aurora Toolbox?"
@@ -712,8 +714,10 @@ dataset = new Listing<FaqTemplate> {
             Скачать последнюю версию пакета можно по ссылке:
             https://github.com/keygenqt/aurora-toolbox/releases
             Установка отличается на дистрибутивах Linux, посмотрите документацию вашего пакетного менеджера.
+            Более подробно написано на странице документации приложения:
+            https://keygenqt.github.io/aurora-toolbox/install
             """
         a = authors.keygenqt
-        ts = 1733555480
+        ts = 1733651831
     }
 }
