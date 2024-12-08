@@ -58,6 +58,8 @@ def dump_dataset(dump_type: DumpTypes, quiet: bool = False) -> str:
         cwd=get_path_project(),
         encoding='utf-8'
     )
+    if not result.stdout:
+        exit(1)
     if not quiet:
         with open(path, 'w') as file:
             # noinspection PyTypeChecker
