@@ -17,8 +17,6 @@ class DumpTypes(Enum):
     jsonnet = '.jsonnet'
     pcf = '.pcf'
     plist = '.plist'
-    properties = '.properties'
-    textproto = '.textproto'
     xml = '.xml'
     yaml = '.yaml'
 
