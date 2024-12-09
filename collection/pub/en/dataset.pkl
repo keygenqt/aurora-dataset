@@ -6,9 +6,7 @@ dataset = new Listing<PublicationTemplate> {
     t = "Have you heard of such abbreviations: CLI, API, ABI?"
     b = """
       *CLI* (command-line interface) - an interface for interacting with a computer program by entering lines of text, called command lines.
-
       *API* (application programming interface) - an application programming interface, a type of software interface that offers services to other programs.
-
       *ABI* (application binary interface) - an application binary interface, an interface between two binary program modules.
       Often, one of these modules is a library or an operating system tool, and the other is a program launched by the user.
       """
