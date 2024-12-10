@@ -20,6 +20,15 @@ def validate_duplicate_title(items) -> bool:
     return len(duplicates) == 0
 
 
+def validate_body_size(items) -> bool:
+    is_error = False
+    for item in items:
+        if len(item['b']) >= 4096:
+            print('> Max size 4096 characters! "{}"'.format(item['t'] if item['t'] else 'empty'))
+            is_error = True
+    return is_error
+
+
 if __name__ == '__main__':
     # install pkl if not exist
     if not pkl_is_install():
@@ -44,6 +53,14 @@ if __name__ == '__main__':
     print('Validate duplicate title Publication...')
     results.append(validate_duplicate_title(pub['en']))
     results.append(validate_duplicate_title(pub['ru']))
+
+    print('Validate size body FAQ...')
+    results.append(validate_body_size(faq['en']))
+    results.append(validate_body_size(faq['ru']))
+
+    print('Validate size body Publication...')
+    results.append(validate_body_size(pub['en']))
+    results.append(validate_body_size(pub['ru']))
 
     if len([item for item in results if not item]) > 0:
         print('Result: validation errors found.')

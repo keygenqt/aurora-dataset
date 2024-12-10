@@ -1,39 +1,66 @@
-import "../../authors/en.pkl" as authors
+import "../../authors/ru.pkl" as authors
 import "../../templates/FaqTemplate.pkl"
 
 dataset = new Listing<FaqTemplate> {
   new {
-    t = "Демонстрационный_ответ_с_набором_всех_элементов."
+    t = "Демонстрационное_сообщение_с_набором_доступных_элементов."
     b = """
-      Это демонстрация возможного ответа.
-      Для проверки работоспособности бота его понимать.
-      Для демонстрации всех возможностей MarkdownV2 который доступен по ссылке:
-      https://core.telegram.org/bots/api#markdownv2-style
-      или такой ссылке: [MarkdownV2](https://core.telegram.org/bots/api#markdownv2-style)
+      Это демонстрация возможного ответа. Для проверки работоспособности бота и описания формата dataset-а.
 
-      1. Мы можем так: *bold text*
-      2. Мы можем так: _italic text_
-      3. Мы можем так: __underline__
-      4. Мы можем так: ~strikethrough~
-      5. Мы можем так: `inline fixed-width code`
+      Ознакомится подробно с "HTML style" можно по ссылке:
+      1. https://core.telegram.org/bots/api#html-style
+      2. <a href="https://core.telegram.org/bots/api#html-style">HTML style</a>
 
-      Мы можем добавлять код:
-      ```cpp
-      #include <flutter/flutter_aurora.h>
-      #include <flutter/flutter_compatibility_qt.h> // <- Add for Qt
-      #include "generated_plugin_registrant.h"
+      Мы не используем все подряд, смотрим какие теги доступны ниже - это стандартизирует dataset и исключит кастомные теги Telegram для возможного использования вне Telegram.⌫
+      Каждый пробел и отступ важен, от этого будет зависеть как будет выглядеть ваш ответ в Aurora Bot. Следуйте примеру изложенному в этой демонстрации.
 
+      1. Жирный: <b>bold</b>
+      2. Курсив: <i>italic</i>
+      3. Подчеркнутый: <u>underline</u>
+      4. Зачеркнутый: <s>strikethrough</s>
+      5. Cпойлер: <span class="tg-spoiler">spoiler</span>
+
+      В Html Telegram мы можем добавлять цитаты.
+      1. Вот так выглядит обычная цитата:
+      <blockquote>⌫
+      Важно! Новые строки фиксируются, если вы хотите расположить текст в одну строку, нужно это делать без переноса.
+      </blockquote>
+      ⌫
+      2. Так выглядит цитата с расширением:
+      <blockquote expandable>⌫
+      Здесь может быть любой текст, который будет свернут если окажется слишком длинным. Еще раз, обращайте внимание на переносы, они будут фиксироваться. Это не очень удобно для чтения в dataset, но контролировать это не так сложно, и минимум для всех работы. В таких длинных текстах используйте символ переноса (U+232B) о котором написано ниже.
+      </blockquote>
+
+      Мы можем добавлять в сообщения код:
+      <pre><code class="language-cpp">⌫
+      // Будьте аккуратны добавляя символы, html может вас не понять.
+      // Символы должны быть экранированы!
+      // https://mateam.net/html-escape-characters
       int main(int argc, char *argv[]) {
-      aurora::Initialize(argc, argv);
-      aurora::EnableQtCompatibility(); // <- Enable Qt
-      aurora::RegisterPlugins();
-      aurora::Launch();
-      return 0;
+        aurora::Initialize(argc, argv);
+        aurora::EnableQtCompatibility(); // &lt;Enable Qt&gt;
+        aurora::RegisterPlugins();
+        aurora::Launch();
+        return 0;
       }
-      ```
+      </code></pre>
+
+      Или быть попроще и добавлять кодовые вставки: <code>inline fixed-width code</code>.
+
+      <b>И немного кастома, символ U+232B.</b>
+      Все новые строки фиксируются как перенос в HTML Telegram.⌫
+      Но что бы тексты не превращались в длиииииную строку введен символ U+232B (backspace).⌫
+      Им можно пользоваться для текстов в несколько линий, исключая перенос.⌫
+      При желании легко можно получить каноничный HTML c <code>&lt;br/&gt;</code>, который не понимает Telegram.⌫
+      Как будет происходить замена:
+      1. Если символ <code>U+232B</code> будет стоять за <code>&gt;</code>, будет удалена новая строка следом идущая.
+      2. Если символ будет в тексте, то удалит новую строку и поставит пробел.
+      3. Если символ будет один в строке - строка будет удалена.
+
+      На этом все, спасибо за внимание!
       """
     a = authors.keygenqt
-    ts = 1733806697
+    ts = 1733853509
   }
   new {
     t = "Что такое psdk?"
@@ -46,15 +73,18 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое Flutter CLI?"
     b = """
-      Это интерфейс командной строки Flutter, который обеспечивает основную работу с фреймворком. Устанавливается вместе с Flutter Framework.
+      Это интерфейс командной строки Flutter, который обеспечивает основную работу с фреймворком.⌫
+      Устанавливается вместе с Flutter Framework.
       Справку можно вызвать:
-      ```shell
+      ⌫
+      <pre><code class="language-shell">⌫
       flutter --help
-      ```
+      </code></pre>
+      ⌫
       С поддержкой ОС Аврора:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora --help
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -63,9 +93,9 @@ dataset = new Listing<FaqTemplate> {
     t = "Как установить Flutter с поддержкой ОС Аврора?"
     b = """
       Есть несколько способов установки Flutter:
-      1. [Официальная документация](https://omprussia.gitlab.io/flutter/flutter/install/linux).
-      2. [Aurora CLI](https://keygenqt.github.io/aurora-cli).
-      3. [Aurora Toolbox](https://keygenqt.github.io/aurora-toolbox).
+      1. <a href="https://omprussia.gitlab.io/flutter/flutter/install/linux">Официальная документация</a>
+      2. <a href="https://keygenqt.github.io/aurora-cli">Aurora CLI</a>
+      3. <a href="https://keygenqt.github.io/aurora-toolbox">Aurora Toolbox</a>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -74,9 +104,9 @@ dataset = new Listing<FaqTemplate> {
     t = "Как написать Flutter плагин для ОС Аврора?"
     b = """
       Есть несколько способов:
-      1. Плагин [Platform Channels](https://docs.flutter.dev/platform-integration/platform-channels).
-      2. Плагин с использованием [FFI](https://docs.flutter.dev/platform-integration/android/c-interop).
-      3. Плагин с использованием [D-Bus](https://pub.dev/packages/dbus).
+      1. <a href="https://docs.flutter.dev/platform-integration/platform-channels">Platform Channels</a>
+      2. <a href="https://pub.dev/packages/dbus">D-Bus</a>
+      3. <a href="https://docs.flutter.dev/platform-integration/android/c-interop">FFI</a>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -84,7 +114,10 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое Flutter Engine?"
     b = """
-      Flutter Engine — это переносимая среда выполнения для хостинга приложений Flutter. Она реализует основные библиотеки Flutter, включая анимацию и графику, файловый и сетевой ввод-вывод. Поддержку доступности, архитектуру плагинов, среду выполнения Dart и цепочку инструментов компиляции. Большинство разработчиков будут взаимодействовать с Flutter через Flutter Framework.
+      Flutter Engine — это переносимая среда выполнения для хостинга приложений Flutter.⌫
+      Она реализует основные библиотеки Flutter, включая анимацию и графику, файловый и сетевой ввод-вывод.⌫
+      Поддержку доступности, архитектуру плагинов, среду выполнения Dart и цепочку инструментов компиляции.⌫
+      Большинство разработчиков будут взаимодействовать с Flutter через Flutter Framework.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -100,7 +133,8 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое SDK?"
     b = """
-      SDK (Software Development Kit) - набор инструментов для разработки программного обеспечения объединённый в одном пакете. Flutter - SDK по сути, framework он содержит в SDK.
+      SDK (Software Development Kit) - набор инструментов для разработки программного обеспечения объединённый в одном пакете.⌫
+      Flutter - SDK по сути, framework он содержит в SDK.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -109,7 +143,7 @@ dataset = new Listing<FaqTemplate> {
     t = "Сколько плагинов Flutter доступно на ОС Аврора?"
     b = """
       Вы всегда можете получить актуальную информацию о плагинах с поддержкой ОС Аврора в документации проекта:
-      [https://omprussia.gitlab.io/flutter/flutter/support](https://omprussia.gitlab.io/flutter/flutter/support)
+      https://omprussia.gitlab.io/flutter/flutter/support
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -118,7 +152,7 @@ dataset = new Listing<FaqTemplate> {
     t = "Как помочь проекту Flutter для ОС Аврора?"
     b = """
       Проект Flutter для ОС Аврора open-source, любой желающий может сделать мерж-реквест и предложить свой код:
-      [https://gitlab.com/omprussia/flutter](https://gitlab.com/omprussia/flutter)
+      https://gitlab.com/omprussia/flutter
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -126,8 +160,8 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Где найти информацию о проекте Flutter для ОС Аврора?"
     b = """
-      Подробная документация находится по адресу:
-      [https://omprussia.gitlab.io/flutter/flutter](https://omprussia.gitlab.io/flutter/flutter)
+      Подробная документация находится по адресу:⌫
+      https://omprussia.gitlab.io/flutter/flutter
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -135,7 +169,9 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Можно ли написать плагин не используя С++?"
     b = """
-      Да, бывают плагины не использующие С++ код. Такой плагин можно написать с использованием другого плагина - [https://pub.dev/packages/dbus](https://pub.dev/packages/dbus). На выходе вы получите пакет, который использует плагин в зависимостях.
+      Да, бывают плагины не использующие С++ код.⌫
+      Такой плагин можно написать с использованием другого плагина - https://pub.dev/packages/dbus.⌫
+      На выходе вы получите пакет, который использует плагин в зависимостях.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -144,7 +180,7 @@ dataset = new Listing<FaqTemplate> {
     t = "Я нашел баг, проблему, во Flutter как ее можно решить?"
     b = """
       Есть несколько способов решить проблему:
-      1. Завести [issue](https://gitlab.com/groups/omprussia/flutter/-/issues) и подождать ответа разработчиков.
+      1. Завести <a href="https://gitlab.com/groups/omprussia/flutter/-/issues">issue</a> и подождать ответа разработчиков.
       2. Обратиться за помощью в телеграм канал @aurora_devs в раздел Flutter.
       """
     a = authors.keygenqt
@@ -153,7 +189,8 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Как поставить Flutter для ОС Аврора на macOS?"
     b = """
-      На данный момент поддержки ОС Аврора в целом нет. Но работы в этом направлении ведутся.
+      На данный момент поддержки ОС Аврора в целом нет.⌫
+      Но работы в этом направлении ведутся.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -161,7 +198,8 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Как поставить Flutter для ОС Аврора на Windows?"
     b = """
-      На данный момент Flutter для ОС Аврора поддерживает только Linux (рекомендована Ubuntu). WSL2 на Windows работает лишь частично, полного функционала Flutter CLI нет.
+      На данный момент Flutter для ОС Аврора поддерживает только Linux (рекомендована Ubuntu).⌫
+      WSL2 на Windows работает лишь частично, полного функционала Flutter CLI нет.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -169,14 +207,16 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Как собрать приложение Flutter на ОС Аврора?"
     b = """
-      Выполнить можно это использую Flutter CLI. Для этого перейдите в проект и обновите зависимости:
-      ```shell
+      Выполнить можно это использую Flutter CLI.⌫
+      Для этого перейдите в проект и обновите зависимости:
+      <pre><code class="language-shell">⌫
       flutter-aurora pub get
-      ```
+      </code></pre>
+      ⌫
       Собрать приложение можно следующей командой:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora build aurora --release
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -185,9 +225,9 @@ dataset = new Listing<FaqTemplate> {
     t = "Не удается сгенерировать привязки для FFI."
     b = """
       Проверьте, установлен ли у вас clang:
-      ```shell
+      <pre><code class="language-shell">⌫
       sudo apt-get install clang
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -199,7 +239,7 @@ dataset = new Listing<FaqTemplate> {
       1. armv7hl
       2. aarch64
       3. x86_64
-      Flutter CLI имеет аргумент `--target-platform` c помощью которого можно указать нужную:
+      Flutter CLI имеет аргумент <code>--target-platform</code> c помощью которого можно указать нужную:
       1. aurora-arm (соответствует armv7hl)
       2. aurora-arm64 (соответствует aarch64)
       3. aurora-x64 (соответствует x86_64)
@@ -211,10 +251,11 @@ dataset = new Listing<FaqTemplate> {
     t = "Как добавить поддержку ОС Аврора в существующий проект Flutter?"
     b = """
       Для этого нужно перейти в проект и выполнить команду:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora create --platforms=aurora --org=<orgname> .
-      ```
-      `orgname` - название пакета, например `com.keygenqt`.
+      </code></pre>
+      ⌫
+      <code>orgname</code> - название пакета, например <code>com.keygenqt</code>.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -222,8 +263,9 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Есть ли образ Docker c Flutter для ОС Аврора?"
     b = """
-      Официально такого образа нет. Есть пет проект который работает на Linux, с флагом `--privileged`:
-      [https://github.com/keygenqt/flutter-aurora-docker](https://github.com/keygenqt/flutter-aurora-docker)
+      Официально такого образа нет.⌫
+      Есть пет проект который работает на Linux, с флагом <code>--privileged</code>:⌫
+      https://github.com/keygenqt/flutter-aurora-docker
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -232,10 +274,10 @@ dataset = new Listing<FaqTemplate> {
     t = "Как установить Flutter dbus?"
     b = """
       Это можно сделать командой:
-      ```shell
+      <pre><code class="language-shell">⌫
       dart pub global activate dbus
-      ```
-      А далее можно использовать CLI `dart-dbus`.
+      </code></pre>
+      А далее можно использовать CLI <code>dart-dbus</code>.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -244,9 +286,9 @@ dataset = new Listing<FaqTemplate> {
     t = "Как посмотреть логи запущенного приложения Flutter?"
     b = """
       Для этого нужно перейти по ssh на устройство или эмулятор и воспользоваться командой:
-      ```shell
+      <pre><code class="language-shell">⌫
       journalctl -f
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -254,7 +296,9 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Не работает DevTools при запуске с иконки."
     b = """
-      Есть разница при запуске приложения из IDE VS Code и запуском приложения через иконку. Если IDE запускает из под пользователя, то запуск через иконку происходит в изолированном окружении. В изоляции (в песочнице) Dart debug работать не будет - окружение не дает запустить сервер DevTools.
+      Есть разница при запуске приложения из IDE VS Code и запуском приложения через иконку.⌫
+      Если IDE запускает из под пользователя, то запуск через иконку происходит в изолированном окружении.⌫
+      В изоляции (в песочнице) Dart debug работать не будет - окружение не дает запустить сервер DevTools.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -263,23 +307,26 @@ dataset = new Listing<FaqTemplate> {
     t = "IDE VS Code не видит устройство."
     b = """
       В первую очередь необходимо проверить все ли необходимое установлено в системе:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora doctor
-      ```
+      </code></pre>
+      ⌫
       Убедиться что включены необходимые параметры во Flutter CLI:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora config --enable-aurora
       flutter-aurora config --enable-aurora-devices
-      ```
+      </code></pre>
+      ⌫
       Добавить устройство можно через команду Flutter CLI:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter aurora-devices add
-      ```
-      Устройств должно быть подключено по ssh ключу, а ключ должен быть зарегистрирован на устройстве.
+      </code></pre>
+      ⌫
+      Устройств должно быть подключено по ssh ключу, а ключ должен быть зарегистрирован на устройстве.⌫
       Сделать это можно командой:
-      ```shell
-      ssh-copy-id defaultuser@<remote_host (default - 192.168.2.15)>
-      ```
+      <pre><code class="language-shell">⌫
+      ssh-copy-id defaultuser@{remote_host (default - 192.168.2.15)}
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -287,7 +334,9 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Где найти конфигурацию Flutter CLI?"
     b = """
-      Вы можете конфигурировать Flutter без необходимости использовать `flutter-aurora config`. Файлы конфигурации храняться в формате json, главное знать что менять. Их можно найти в директории: `~/.config/flutter`.
+      Вы можете конфигурировать Flutter без необходимости использовать <code>flutter-aurora config</code>.⌫
+      Файлы конфигурации храняться в формате json, главное знать что менять.⌫
+      Их можно найти в директории: <code>~/.config/flutter</code>.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -296,10 +345,11 @@ dataset = new Listing<FaqTemplate> {
     t = "Как проверить, что Flutter установлен правильно?"
     b = """
       Для этого можно выполнить следующую команду:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora doctor
-      ```
-      Она найдет некоторые возможные ошибки, но основательно можно это проверить - собрать демо проект [Fluttery ToDo](https://gitlab.com/omprussia/flutter/fluttery-todo).
+      </code></pre>
+      Она найдет некоторые возможные ошибки, но основательно можно это проверить - собрать демо проект⌫
+      <a href="https://gitlab.com/omprussia/flutter/fluttery-todo">Fluttery ToDo</a>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -307,8 +357,9 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "На каких операционных системах (Windows, macOS, Linux) доступен Flutter для ОС Аврора?"
     b = """
-      Изначально Flutter для ОС Аврора поддерживал только Linux (рекомендовано Ubuntu). Более детально уточнить этот вопрос можно в документации проекта:
-      [https://omprussia.gitlab.io/flutter/flutter](https://omprussia.gitlab.io/flutter/flutter)
+      Изначально Flutter для ОС Аврора поддерживал только Linux (рекомендовано Ubuntu).⌫
+      Более детально уточнить этот вопрос можно в документации проекта:⌫
+      https://omprussia.gitlab.io/flutter/flutter
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -316,7 +367,9 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Как отформатировать проект без установки Dart?"
     b = """
-      Для форматирования проектов необходим Dart. Flutter SDK содержит его копию и мы можем без установки отдельной версии Dart форматировать проекты. Для этого можно добавить алиас, Dart можно найти `<flutter_dir>/bin/dart`.
+      Для форматирования проектов необходим Dart.⌫
+      Flutter SDK содержит его копию и мы можем без установки отдельной версии Dart форматировать проекты.⌫
+      Для этого можно добавить алиас, Dart можно найти <code>{flutter_dir}/bin/dart</code>.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -324,27 +377,32 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Как создать свой первый проект Flutter?"
     b = """
-      Flutter CLI раздел `create` с шаблонами проектов.
+      Flutter CLI раздел <code>create</code> с шаблонами проектов.
+      ⌫
       Стартовое приложение можно создать командой:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora create --platforms=aurora --template=app --org=com.keygenqt my_app
-      ```
+      </code></pre>
+      ⌫
       Пакет можно создать следующей командой
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora create --platforms=aurora --template=package --org=com.keygenqt my_package
-      ```
+      </code></pre>
+      ⌫
       Плагин Platform Channel можно создать выполнив:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora create --platforms=aurora --template=plugin --org=com.keygenqt my_plugin
-      ```
+      </code></pre>
+      ⌫
       Плагин FFI можно создать выполнив:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora create --platforms=aurora --template=plugin_ffi --org=com.keygenqt my_plugin_ffi
-      ```
+      </code></pre>
+      ⌫
       Полную справку можно вызвать командой:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora create --help
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -352,7 +410,8 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Не стартует приложение с иконки, хотя с IDE VS Code работает."
     b = """
-      Возможно причина в том что приложение с иконке запускается в песочнице, замещенном окружении. Необходимо проверить разрешения (permission) приложения, это часто является причиной такого поведения.
+      Возможно причина в том что приложение с иконке запускается в песочнице, замещенном окружении.⌫
+      Необходимо проверить разрешения (permission) приложения, это часто является причиной такого поведения.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -362,9 +421,9 @@ dataset = new Listing<FaqTemplate> {
     b = """
       Вы можете сделать скриншот средствами Flutter CLI.
       Для этого необходимо выполнить команду:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora screenshot -d aurora
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -372,10 +431,11 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Как запустить интеграционные тесты Flutter?"
     b = """
-      Вы можете выполнить это средствами IDE (VS Code). Или выполнив команду в терминале указав пусть к файлу с тестами:
-      ```shell
+      Вы можете выполнить это средствами IDE (VS Code).⌫
+      Или выполнив команду в терминале указав пусть к файлу с тестами:
+      <pre><code class="language-shell">⌫
       flutter-aurora test integration_test/example_test.dart
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -384,8 +444,8 @@ dataset = new Listing<FaqTemplate> {
     t = "Как обновить Flutter?"
     b = """
       Flutter CLI имеет 2 команды на обновление и откат обновления, можно воспользоваться ими:
-      1. `upgrade` - обновление.
-      2. `downgrade` - откат обновления.
+      1. <code>upgrade</code> - обновление.
+      2. <code>downgrade</code> - откат обновления.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -394,9 +454,9 @@ dataset = new Listing<FaqTemplate> {
     t = "Как обновить кеш Flutter?"
     b = """
       Вы можете это сделать через Flutter CLI командой:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora precache --aurora --force
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -405,9 +465,9 @@ dataset = new Listing<FaqTemplate> {
     t = "Как получить список доступных Flutter CLI эмуляторов?"
     b = """
       Вы можете это сделать через Flutter CLI командой:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora emulators
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -416,9 +476,9 @@ dataset = new Listing<FaqTemplate> {
     t = "Как получить список доступных Flutter CLI устройств?"
     b = """
       Вы можете это сделать через Flutter CLI командой:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora devices
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -427,9 +487,9 @@ dataset = new Listing<FaqTemplate> {
     t = "Как очистить кеш проекта Flutter?"
     b = """
       Это можно сделать командой:
-      ```shell
+      <pre><code class="language-shell">⌫
       flutter-aurora clean
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -437,10 +497,13 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Приложение Flutter не устанавливается."
     b = """
-      Пакет должен быть подписан. ОС Аврора имеет валидацию пакетов при их установке. Необходимо провалидировать пакет с помощью aurora-cli или psdk. Если с этим порядок более детальную информацию можно получить подключившись по ssh к девайсу или эмулятору. Выполнить команду перед установкой и посмотреть логи:
-      ```shell
+      Пакет должен быть подписан. ОС Аврора имеет валидацию пакетов при их установке.⌫
+      Необходимо провалидировать пакет с помощью aurora-cli или psdk.⌫
+      Если с этим порядок более детальную информацию можно получить подключившись по ssh к девайсу или эмулятору.⌫
+      Выполнить команду перед установкой и посмотреть логи:
+      <pre><code class="language-shell">⌫
       journalctl -u apm -f
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -448,7 +511,8 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Есть ли поддержка Flutter для ОС Аврора в IntelliJ IDEA?"
     b = """
-      Нет, IDEA не поддерживается. Но VS Code работает отлично, а так как предстоит, возможно, работа с С++ это IDE отлично подойдет.
+      Нет, IDEA не поддерживается.⌫
+      Но VS Code работает отлично, а так как предстоит, возможно, работа с С++ это IDE отлично подойдет.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -456,21 +520,22 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Как подключить сигналы и слоты Qt во Flutter плагине для ОС Аврора?"
     b = """
-      Qt без сигналов и слотов работает без дополнительных манипуляций. Если нужны именно сигналы Qt необходимо активировать их работу.
-      Для этого в `main.cpp` приложения нужно добавить:
-      ```cpp
-      #include <flutter/flutter_aurora.h>
-      #include <flutter/flutter_compatibility_qt.h> // <- Add for Qt
+      Qt без сигналов и слотов работает без дополнительных манипуляций.⌫
+      Если нужны именно сигналы Qt необходимо активировать их работу.
+      Для этого в <code>main.cpp</code> приложения нужно добавить:
+      <pre><code class="language-cpp">⌫
+      #include &lt;flutter/flutter_aurora.h&gt;
+      #include &lt;flutter/flutter_compatibility_qt.h&gt; // &lt;- Add for Qt
       #include "generated_plugin_registrant.h"
 
       int main(int argc, char *argv[]) {
           aurora::Initialize(argc, argv);
-          aurora::EnableQtCompatibility(); // <- Enable Qt
+          aurora::EnableQtCompatibility(); // &lt;- Enable Qt
           aurora::RegisterPlugins();
           aurora::Launch();
           return 0;
       }
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -478,11 +543,11 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Как подписать RPM пакет?"
     b = """
-      Flutter CLI подписывает пакет публичными ключами, доступными для разработки.
-      Platform SDK имеет утилиту `rpmsign-external` c помощью которой можно подписать пакет.
-      [https://developer.auroraos.ru/doc/sdk/tools/rpmsign_external](https://developer.auroraos.ru/doc/sdk/tools/rpmsign_external)
-      Aurora CLI умеет тоже подписывать пакеты:
-      [https://keygenqt.github.io/aurora-cli/cli/psdk/package/sign](https://keygenqt.github.io/aurora-cli/cli/psdk/package/sign)
+      Flutter CLI подписывает пакет публичными ключами, доступными для разработки.⌫
+      Platform SDK имеет утилиту <code>rpmsign-external</code> c помощью которой можно подписать пакет.⌫
+      https://developer.auroraos.ru/doc/sdk/tools/rpmsign_external⌫
+      Aurora CLI умеет тоже подписывать пакеты:⌫
+      https://keygenqt.github.io/aurora-cli/cli/psdk/package/sign
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -490,10 +555,11 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое песочница?"
     b = """
-      Это окружение, в котором запускается приложение, ограниченное в доступе к системе. Из терминала запустить приложение в этом окружении можно командой:
-      ```shell
+      Это окружение, в котором запускается приложение, ограниченное в доступе к системе.⌫
+      Из терминала запустить приложение в этом окружении можно командой:
+      <pre><code class="language-shell">⌫
       invoker --type=qt5 <com.keygenqt.package_name>
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -505,9 +571,9 @@ dataset = new Listing<FaqTemplate> {
       1. Воспользоваться приложением Aurora CLI.
       2. Воспользоваться приложением Aurora Toolbox.
       3. Залив приложение по ssh (scp) и выполнив команду:
-      ```shell
+      <pre><code class="language-shell">⌫
       gdbus call --system --dest ru.omp.APM --object-path /ru/omp/APM --method ru.omp.APM.Install /path/to/file.rpm {}
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -515,7 +581,8 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое Aurora CLI (aurora-cli)?"
     b = """
-      Open-source приложение обеспечивающее легкий старт в экосистеме ОС Aurora. Работа с Aurora SDK, Aurora Platform SDK, Flutter SDK, взаимодействие с устройствами и эмулятором, а также многое другое.
+      Open-source приложение обеспечивающее легкий старт в экосистеме ОС Aurora.⌫
+      Работа с Aurora SDK, Aurora Platform SDK, Flutter SDK, взаимодействие с устройствами и эмулятором, а также многое другое.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -531,7 +598,8 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Как пронять зависимость плагин это или пакет Flutter?"
     b = """
-      Для этого нужно посмотреть на `pubspec.yaml`. Если в спеке нет раздела `plugin` и нет зависимостей от плагинов - это пакет.
+      Для этого нужно посмотреть на <code>pubspec.yaml</code>.⌫
+      Если в спеке нет раздела <code>plugin</code> и нет зависимостей от плагинов - это пакет.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -539,9 +607,11 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое Client Wrapper (client-wrapper)?"
     b = """
-      Client Wrapper предназначен для встраивания в плагины и приложения, чтобы обеспечить более высокие уровни абстракций C++ для взаимодействия с библиотекой Flutter.
-      Со временем цель состоит в том, чтобы переместить большую часть этого кода в библиотеку таким образом, чтобы предоставить пригодный для использования ABI (например, не использовать стандартную библиотеку в интерфейсах).
-      [https://github.com/flutter/engine/blob/main/shell/platform/common/client_wrapper/README](https://github.com/flutter/engine/blob/main/shell/platform/common/client_wrapper/README)
+      Client Wrapper предназначен для встраивания в плагины и приложения,⌫
+      чтобы обеспечить более высокие уровни абстракций C++ для взаимодействия с библиотекой Flutter.⌫
+      Со временем цель состоит в том, чтобы переместить большую часть этого кода в библиотеку таким образом,⌫
+      чтобы предоставить пригодный для использования ABI (например, не использовать стандартную библиотеку в интерфейсах).⌫
+      https://github.com/flutter/engine/blob/main/shell/platform/common/client_wrapper/README
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -549,8 +619,8 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Какая доступна последняя версия Flutter для ОС Аврора?"
     b = """
-      Вы всегда можете узнать последнюю доступную версию Flutter в тегах репозитория:
-      [https://gitlab.com/omprussia/flutter/flutter/-/tags](https://gitlab.com/omprussia/flutter/flutter/-/tags)
+      Вы всегда можете узнать последнюю доступную версию Flutter в тегах репозитория:⌫
+      https://gitlab.com/omprussia/flutter/flutter/-/tags
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -558,8 +628,8 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Есть ли демо (demo) приложение Flutter для ОС Аврора?"
     b = """
-      Да приложение демонстрирующее работу можно найти по ссылке:
-      [https://gitlab.com/omprussia/flutter/fluttery-todo](https://gitlab.com/omprussia/flutter/fluttery-todo)
+      Да приложение демонстрирующее работу можно найти по ссылке:⌫
+      https://gitlab.com/omprussia/flutter/fluttery-todo
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -567,15 +637,19 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Как локально собрать документацию Flutter для ОС Аврора?"
     b = """
-      Проект Flutter для ОС Аврора - открытый проект. Вы можете помощь при разработке как проекта так и его документации. Документация проекта использует mkdocs & mkdocs-material, это Python пакеты.
+      Проект Flutter для ОС Аврора - открытый проект.⌫
+      Вы можете помощь при разработке как проекта так и его документации.⌫
+      Документация проекта использует mkdocs & mkdocs-material, это Python пакеты.
+      ⌫
       Установить их можно командой:
-      ```shell
+      <pre><code class="language-shell">⌫
       python3 -m pip install mkdocs mkdocs-material --break-system-packages
-      ```
+      </code></pre>
+      ⌫
       Перейти в корень проекта Flutter для ОС Аврора и выполнить:
-      ```shell
+      <pre><code class="language-shell">⌫
       mkdocs serve
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -593,7 +667,11 @@ dataset = new Listing<FaqTemplate> {
       Почему возникает ошибка 'Установка приложений без подписи источника запрещена'?
       """
     b = """
-      В Аврора 5 стала обязательной дополнительная подпись на RPM пакете - подпись источника. Подпись источника криптографически заверяет того, кем был предоставлен тот или иной RPM пакет. Зачастую подпись источника добавляется официальными маркетами, например RuStore, когда вы загружаете свое приложение через админ панель. Для целей разработки вы можете отключить обязательное требование подписи источника пакетов через настройки.
+      В Аврора 5 стала обязательной дополнительная подпись на RPM пакете - подпись источника.⌫
+      Подпись источника криптографически заверяет того, кем был предоставлен тот или иной RPM пакет.⌫
+      Зачастую подпись источника добавляется официальными маркетами, например RuStore,⌫
+      когда вы загружаете свое приложение через админ панель.⌫
+      Для целей разработки вы можете отключить обязательное требование подписи источника пакетов через настройки.
       """
     a = authors.dieTime
     ts = 1733512746
@@ -602,9 +680,9 @@ dataset = new Listing<FaqTemplate> {
     t = "Как проверить, что RPM пакет подписан?"
     b = """
       Для этого достаточно выполнить следующую команду из-под PSDK:
-      ```shell
-      rpmsign-external dump <your-rpm-package>
-      ```
+      <pre><code class="language-shell">⌫
+      rpmsign-external dump {your-rpm-package}
+      </code></pre>
       """
     a = authors.dieTime
     ts = 1733512746
@@ -613,9 +691,9 @@ dataset = new Listing<FaqTemplate> {
     t = "Как проверить подпись RPM пакета?"
     b = """
       Для этого достаточно выполнить следующую команду из-под PSDK:
-      ```shell
-      rpmsign-external verify <your-rpm-package>
-      ```
+      <pre><code class="language-shell">⌫
+      rpmsign-external verify {your-rpm-package}
+      </code></pre>
       """
     a = authors.dieTime
     ts = 1733512746
@@ -623,10 +701,10 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Какой стандартный формат лицензии ОМП для dart?"
     b = """
-      ```shell
-      // SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC <community@omp.ru>
+      <pre><code class="language-shell">⌫
+      // SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &lt;community@omp.ru&gt;
       // SPDX-License-Identifier: BSD-3-Clause
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733516308
@@ -634,10 +712,10 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Какой стандартный формат лицензии ОМП для cmake, yaml, shell, pro?"
     b = """
-      ```shell
-      # SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC <community@omp.ru>
+      <pre><code class="language-shell">⌫
+      # SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &lt;community@omp.ru&gt;
       # SPDX-License-Identifier: BSD-3-Clause
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733516308
@@ -645,12 +723,12 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Какой стандартный формат лицензии ОМП для c++, java, kotlin, js, php, qml?"
     b = """
-      ```shell
+      <pre><code class="language-shell">⌫
       /**
-      * SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC <community@omp.ru>
+      * SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &lt;community@omp.ru&gt;
       * SPDX-License-Identifier: BSD-3-Clause
       */
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733516308
@@ -658,10 +736,10 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Как посмотреть записи динамической таблицы символов?"
     b = """
-      Это можно сделать через утилиту `objdump`:
-      ```shell
+      Это можно сделать через утилиту <code>objdump</code>:
+      <pre><code class="language-shell">⌫
       objdump -CT /path/to/libdynamic.so
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733516308
@@ -669,15 +747,17 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Как откатить все изменения в проекте?"
     b = """
-      Это можно сделать c помощью `git`.
+      Это можно сделать c помощью <code>git</code>.
+      ⌫
       Так вы откатите все изменения:
-      ```shell
+      <pre><code class="language-shell">⌫
       git reset --hard HEAD
-      ```
+      </code></pre>
+      ⌫
       Так откатите все, *включая не фиксированные файлы*:
-      ```shell
+      <pre><code class="language-shell">⌫
       git clean -fdx
-      ```
+      </code></pre>
       """
     a = authors.keygenqt
     ts = 1733555480
@@ -686,18 +766,21 @@ dataset = new Listing<FaqTemplate> {
     t = "Как установить Aurora CLI?"
     b = """
       Приложение Aurora CLI - python пакет. Его можно установить через пакетный менеджер pip.
+      ⌫
       Установить pip можно так:
-      ```shell
+      <pre><code class="language-shell">⌫
       sudo apt update
       sudo apt install python3-pip
       python3 -m pip install --upgrade setuptools --break-system-packages
-      ```
+      </code></pre>
+      ⌫
       Установить Aurora CLI можно так:
-      ```shell
+      <pre><code class="language-shell">⌫
       python3 -m pip install aurora-cli --break-system-packages
-      ```
-      Более подробно написано на странице документации приложения:
-      [https://keygenqt.github.io/aurora-cli/install](https://keygenqt.github.io/aurora-cli/install)
+      </code></pre>
+      ⌫
+      Более подробно написано на странице документации приложения:⌫
+      https://keygenqt.github.io/aurora-cli/install
       """
     a = authors.keygenqt
     ts = 1733651831
@@ -705,12 +788,12 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Как установить Aurora Toolbox?"
     b = """
-      Aurora Toolbox это GTK приложение, доступно в deb & rpm пакете.
-      Скачать последнюю версию пакета можно по ссылке:
-      [https://github.com/keygenqt/aurora-toolbox/releases](https://github.com/keygenqt/aurora-toolbox/releases)
-      Установка отличается на дистрибутивах Linux, посмотрите документацию вашего пакетного менеджера.
-      Более подробно написано на странице документации приложения:
-      [https://keygenqt.github.io/aurora-toolbox/install](https://keygenqt.github.io/aurora-toolbox/install)
+      Aurora Toolbox это GTK приложение, доступно в deb & rpm пакете.⌫
+      Скачать последнюю версию пакета можно по ссылке:⌫
+      https://github.com/keygenqt/aurora-toolbox/releases⌫
+      Установка отличается на дистрибутивах Linux, посмотрите документацию вашего пакетного менеджера.⌫
+      Более подробно написано на странице документации приложения:⌫
+      https://keygenqt.github.io/aurora-toolbox/install
       """
     a = authors.keygenqt
     ts = 1733651831

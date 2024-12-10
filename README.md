@@ -25,8 +25,8 @@ scripts/pkl.py --dump json
 
 ### Text Format
 
-The Markdown format is used, in abbreviated form: [MarkdownV2](https://core.telegram.org/bots/api#markdownv2-style).
-Suitable for telegram bots and all other parsers.
+The HTML format is used, in abbreviated form: [HTML style](https://core.telegram.org/bots/api#html-style).
+Suitable for telegram bots and all other parsers. Example message **>[here](https://github.com/keygenqt/aurora-dataset/blob/main/collection/faq/ru/dataset.pkl#L6)<**.
 
 ### Pkl IDEs
 
