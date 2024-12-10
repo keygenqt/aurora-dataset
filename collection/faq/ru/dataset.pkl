@@ -44,7 +44,7 @@ dataset = new Listing<FaqTemplate> {
         return 0;
       }
       </code></pre>
-
+      ⌫
       Или быть попроще и добавлять кодовые вставки: <code>inline fixed-width code</code>.
 
       <b>И немного кастома, символ U+232B.</b>
