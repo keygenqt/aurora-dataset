@@ -3,6 +3,39 @@ import "../../templates/FaqTemplate.pkl"
 
 dataset = new Listing<FaqTemplate> {
   new {
+    t = "Демонстрационный_ответ_с_набором_всех_элементов."
+    b = """
+      Это демонстрация возможного ответа.
+      Для проверки работоспособности бота его понимать.
+      Для демонстрации всех возможностей MarkdownV2 который доступен по ссылке:
+      https://core.telegram.org/bots/api#markdownv2-style
+      или такой ссылке: [MarkdownV2](https://core.telegram.org/bots/api#markdownv2-style)
+
+      1. Мы можем так: *bold text*
+      2. Мы можем так: _italic text_
+      3. Мы можем так: __underline__
+      4. Мы можем так: ~strikethrough~
+      5. Мы можем так: `inline fixed-width code`
+
+      Мы можем добавлять код:
+      ```cpp
+      #include <flutter/flutter_aurora.h>
+      #include <flutter/flutter_compatibility_qt.h> // <- Add for Qt
+      #include "generated_plugin_registrant.h"
+
+      int main(int argc, char *argv[]) {
+      aurora::Initialize(argc, argv);
+      aurora::EnableQtCompatibility(); // <- Enable Qt
+      aurora::RegisterPlugins();
+      aurora::Launch();
+      return 0;
+      }
+      ```
+      """
+    a = authors.keygenqt
+    ts = 1733806697
+  }
+  new {
     t = "Что такое psdk?"
     b = """
       Aurora PSDK — это набор инструментов для разработки, отладки и тестирования компонентов ОС Aurora.
