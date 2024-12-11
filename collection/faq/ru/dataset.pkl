@@ -271,7 +271,7 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733423881
   }
   new {
-    t = "Как установить Flutter dbus?"
+    t = "Как активировать нативный клиент dbus Flutter?"
     b = """
       Это можно сделать командой:
       <pre><code class="language-shell">⌫
@@ -797,5 +797,202 @@ dataset = new Listing<FaqTemplate> {
       """
     a = authors.keygenqt
     ts = 1733651831
+  }
+  new {
+    t = "Что такое B2C?"
+    b = """
+      Термин «бизнес-потребителю» (B2C) относится к процессу продажи продуктов и услуг напрямую между бизнесом и потребителями,⌫
+      которые являются конечными пользователями его продуктов или услуг.⌫
+      Большинство компаний, которые продают напрямую потребителям, можно назвать компаниями B2C.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Что такое B2B?"
+    b = """
+      Бизнес-бизнес (B2B), также называемый B-to-B, является формой транзакции между предприятиями,⌫
+      такими как производитель и оптовик или оптовик и розничный торговец.⌫
+      Бизнес-бизнес относится к торговле, которая ведется между компаниями,⌫
+      а не между компаниями и отдельными потребителями.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Что такое B2G?"
+    b = """
+      Business to government (B2G) - это продажа и маркетинг товаров и услуг федеральным, государственным или местным агентствам.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Что такое BYOTD?"
+    b = """
+      Bring Your Own Trusted Device (BYOTD) — это политика, которая позволяет сотрудникам организации использовать личные доверенные устройства для рабочих задач.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где приобрести устройств ОС Аврора?"
+    b = """
+      С 2024го года ОС Аврору может купить любой желающий, по политике BYOTD.⌫
+      Место где это можно сделать физлицу - магазин <a href="https://vsesmart.ru/">Всёсмарт</a>.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Что лучше использовать Fluter или Qt на ОС Аврора?"
+    b = """
+      Лучше использовать в чем есть компетенции.⌫
+      Основной фреймворк для разработки это Qt.⌫
+      Flutter набирает обороты: он проще, он современнее.⌫
+      Выбирать вам.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Какой статус поддержки Fluter для ОС Аврора?"
+    b = """
+      Фреймворк в перманентной разработке, так же как и любые инструменты.⌫
+      На нем уже пишут приложения, и вы тоже можете.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где найти все примеры доступные для ОС Аврора?"
+    b = """
+      В репозитории ОМП. Там много всего, включая и примеры: https://gitlab.com/omprussia
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где найти все доступные Аврора SDK?"
+    b = """
+      Аврора SDK можно найти на официальном сайте:
+      https://developer.auroraos.ru/downloads/sdk
+      Либо в репозитории:
+      https://sdk-repo.omprussia.ru/sdk/installers
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где найти все доступные Аврора Platform SDK?"
+    b = """
+      Аврора Platform SDK можно найти на официальном сайте:
+      https://developer.auroraos.ru/downloads/psdk
+      Либо в репозитории:
+      https://sdk-repo.omprussia.ru/sdk/installers
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где скачать открытую ключевую пару для подписи RPM пакетов?"
+    b = """
+      Для разработки есть общедоступная ключевая пара, ее можно скачать с официального сайта:
+      https://developer.auroraos.ru/doc/5.1.3/sdk/app_development/packaging/package_signing
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Какую операционную систему лучше использовать для разработки под ОС Аврора?"
+    b = """
+      Полный набор инструментов доступен на Linux (включая Flutter, Aurora CLI и Aurora Toolbox).⌫
+      Я бы рекомендовал Ubuntu 24.04 или Alt.⌫
+      Более детально можно ознакомится в документации по установке Аврора SDK⌫
+      https://developer.auroraos.ru/doc/5.1.3/sdk/app_development/setup
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где указывать разрешения (permissions) в ОС Аврора?"
+    b = """
+      ОС Аврора поддерживает разрешения.⌫
+      В файле <code>.desktop</code>, проекта, их можно указать.
+      Более детально можно ознакомится в документации:
+      https://developer.auroraos.ru/doc/5.1.3/software_development/guidelines/rpm_requirements/desktop_requirements
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где указывать необходимые зависимости для сборки проекта ОС Аврора?"
+    b = """
+      В файле <code>.spec</code>, проекта, их можно указать используя параметр <code>BuildRequires</code>.
+      Более детально можно ознакомится в документации:
+      https://developer.auroraos.ru/doc/5.1.3/software_development/guidelines/rpm_requirements/spec_requirements
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Валидатор не пропускает динамическую библиотеку, что делать?"
+    b = """
+      Взятые с собой динамические библиотеки, запрещенные валидатором можно исключить в файле <code>.spec</code>.
+      Пример:
+      <pre><code class="language-shell">⌫
+      %global __requires_exclude ^lib(ZXing)\\.so.*$
+      </code></pre>
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Как провалидировать RPM пакет для ОС Аврора?"
+    b = """
+      Провалидировать пакет можно несколькими способами:
+      1. <a href="https://developer.auroraos.ru/doc/sdk/app_development/packaging/validation_dialog">Аврора SDK</a>
+      2. <a href="https://developer.auroraos.ru/doc/sdk/tools/rpm_validator">Аврора Platform SDK</a>
+      3. <a href="https://keygenqt.github.io/aurora-cli/cli/psdk/package/validate/">Aurora CLI</a>
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где можно найти информацию по ОС Аврора?"
+    b = """
+      Я бы начал поиски необходимой информации с официального портала ОС Аврора:⌫
+      https://auroraos.ru⌫
+      ⌫
+      Заглянул в Telegram чат:⌫
+      https://t.me/aurora_devs⌫
+      или VK группу:⌫
+      https://vk.com/aurora_os
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Каки архитектуры поддерживает ОС Аврора?"
+    b = """
+      В 5й ОС Аврора есть следующие варианты архитектур:
+      1. armv7hl (девайсы с ОС Аврора 32)
+      2. aarch64 (девайсы с ОС Аврора 64)
+      3. x86_64  (эмулятор с 5й версии)
+      Следует уточнить что процессор не всего соответствует архитектуре установленной ОС.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Есть ли курсы по ОС Аврора?"
+    b = """
+      Знаю такие варианты:
+      1. <a href="https://stepik.org/course/71788/info">Курс на Stepik</a>.
+      2. <a href="https://otus.ru/lessons/qt-aurora">Курс на Otus</a>.
+      3. <a href="https://www.infosystems.ru/courses/avtorizovannye_kursy/ISSF010">Курс на Академии Информационных систем</a>.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
   }
 }
