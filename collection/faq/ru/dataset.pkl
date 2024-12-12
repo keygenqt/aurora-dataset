@@ -579,7 +579,7 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733423881
   }
   new {
-    t = "Что такое Aurora CLI (aurora-cli)?"
+    t = "Что такое Aurora CLI?"
     b = """
       Open-source приложение обеспечивающее легкий старт в экосистеме ОС Aurora.⌫
       Работа с Aurora SDK, Aurora Platform SDK, Flutter SDK, взаимодействие с устройствами и эмулятором, а также многое другое.
