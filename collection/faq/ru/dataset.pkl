@@ -67,7 +67,7 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое PSDK?"
     b = """
-      Aurora PSDK — это набор инструментов для разработки, отладки и тестирования компонентов ОС Aurora.
+      Aurora PSDK — это набор инструментов для разработки, отладки и тестирования компонентов ОС Аврора.
       """
     a = authors.keygenqt
     ts = 1733423881
@@ -581,7 +581,7 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое Aurora CLI?"
     b = """
-      Open-source приложение обеспечивающее легкий старт в экосистеме ОС Aurora.⌫
+      Open-source приложение обеспечивающее легкий старт в экосистеме ОС Аврора.⌫
       Работа с Aurora SDK, Aurora Platform SDK, Flutter SDK, взаимодействие с устройствами и эмулятором, а также многое другое.
       """
     a = authors.keygenqt
