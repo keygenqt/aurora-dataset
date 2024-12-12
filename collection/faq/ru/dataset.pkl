@@ -65,7 +65,7 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733853509
   }
   new {
-    t = "Что такое psdk?"
+    t = "Что такое PSDK?"
     b = """
       Aurora PSDK — это набор инструментов для разработки, отладки и тестирования компонентов ОС Aurora.
       """
