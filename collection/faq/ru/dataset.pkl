@@ -559,9 +559,7 @@ dataset = new Listing<FaqTemplate> {
     b = """
       Это окружение, в котором запускается приложение, ограниченное в доступе к системе.⌫
       Из терминала запустить приложение в этом окружении можно командой:
-      <pre><code class="language-shell">⌫
-      invoker --type=qt5 <com.keygenqt.package_name>
-      </code></pre>
+      <pre>invoker --type=qt5 {com.keygenqt.package_name}</pre>
       """
     a = authors.keygenqt
     ts = 1733423881
