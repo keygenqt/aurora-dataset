@@ -1,0 +1,764 @@
+{
+  "dataset": {
+    "faq": {
+      "en": [
+        {
+          "t": "What is psdk?",
+          "b": "Aurora PSDK is a set of tools for developing, debugging and testing components of Aurora OS.",
+          "a": {
+            "fname": "Vitaliy",
+            "lname": "Zarubin"
+          },
+          "ts": 1733423881
+        }
+      ],
+      "ru": [
+        {
+          "t": "Демонстрационное_сообщение_с_набором_доступных_элементов.",
+          "b": "Это демонстрация возможного ответа. Для проверки работоспособности бота и описания формата dataset-а.\n\nОзнакомится подробно с \"HTML style\" можно по ссылке:\n1. https://core.telegram.org/bots/api#html-style\n2. <a href=\"https://core.telegram.org/bots/api#html-style\">HTML style</a>\n\nМы не используем все подряд, смотрим какие теги доступны ниже - это стандартизирует dataset и исключит кастомные теги Telegram для возможного использования вне Telegram.⌫\nКаждый пробел и отступ важен, от этого будет зависеть как будет выглядеть ваш ответ в Aurora Bot. Следуйте примеру изложенному в этой демонстрации.\n\n1. Жирный: <b>bold</b>\n2. Курсив: <i>italic</i>\n3. Подчеркнутый: <u>underline</u>\n4. Зачеркнутый: <s>strikethrough</s>\n5. Cпойлер: <span class=\"tg-spoiler\">spoiler</span>\n\nВ Html Telegram мы можем добавлять цитаты.\n1. Вот так выглядит обычная цитата:\n<blockquote>⌫\nВажно! Новые строки фиксируются, если вы хотите расположить текст в одну строку, нужно это делать без переноса.\n</blockquote>\n⌫\n2. Так выглядит цитата с расширением:\n<blockquote expandable>⌫\nЗдесь может быть любой текст, который будет свернут если окажется слишком длинным. Еще раз, обращайте внимание на переносы, они будут фиксироваться. Это не очень удобно для чтения в dataset, но контролировать это не так сложно, и минимум для всех работы. В таких длинных текстах используйте символ переноса (U+232B) о котором написано ниже.\n</blockquote>\n⌫\nМы можем добавлять в сообщения код:\n<pre><code class=\"language-cpp\">⌫\n// Будьте аккуратны добавляя символы, html может вас не понять.\n// Символы должны быть экранированы!\n// https://mateam.net/html-escape-characters\nint main(int argc, char *argv[]) {\n  aurora::Initialize(argc, argv);\n  aurora::EnableQtCompatibility(); // &lt;Enable Qt&gt;\n  aurora::RegisterPlugins();\n  aurora::Launch();\n  return 0;\n}\n</code></pre>\n⌫\nИли быть попроще и добавлять кодовые вставки: <code>inline fixed-width code</code>.⌫\nИли так:⌫\n<pre>inline fixed-width code</pre>\n\n<b>И немного кастома, символ U+232B.</b>\nВсе новые строки фиксируются как перенос в HTML Telegram.⌫\nНо что бы тексты не превращались в длиииииную строку введен символ U+232B (backspace).⌫\nИм можно пользоваться для текстов в несколько линий, исключая перенос.⌫\nПри желании легко можно получить каноничный HTML c <code>&lt;br/&gt;</code>, который не понимает Telegram.⌫\nКак будет происходить замена:\n1. Если символ <code>U+232B</code> будет стоять за <code>&gt;</code>, будет удалена новая строка следом идущая.\n2. Если символ будет в тексте, то удалит новую строку и поставит пробел.\n3. Если символ будет один в строке - строка будет удалена.\n\nНа этом все, спасибо за внимание!",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Что такое PSDK?",
+          "b": "Aurora PSDK — это набор инструментов для разработки, отладки и тестирования компонентов ОС Аврора.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Что такое Flutter CLI?",
+          "b": "Это интерфейс командной строки Flutter, который обеспечивает основную работу с фреймворком.⌫\nУстанавливается вместе с Flutter Framework.\nСправку можно вызвать:\n⌫\n<pre><code class=\"language-shell\">⌫\nflutter --help\n</code></pre>\n⌫\nС поддержкой ОС Аврора:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora --help\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как установить Flutter с поддержкой ОС Аврора?",
+          "b": "Есть несколько способов установки Flutter:\n1. <a href=\"https://omprussia.gitlab.io/flutter/flutter/install/linux\">Официальная документация</a>\n2. <a href=\"https://keygenqt.github.io/aurora-cli\">Aurora CLI</a>\n3. <a href=\"https://keygenqt.github.io/aurora-toolbox\">Aurora Toolbox</a>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как написать Flutter плагин для ОС Аврора?",
+          "b": "Есть несколько способов:\n1. <a href=\"https://docs.flutter.dev/platform-integration/platform-channels\">Platform Channels</a>\n2. <a href=\"https://pub.dev/packages/dbus\">D-Bus</a>\n3. <a href=\"https://docs.flutter.dev/platform-integration/android/c-interop\">FFI</a>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Что такое Flutter Engine?",
+          "b": "Flutter Engine — это переносимая среда выполнения для хостинга приложений Flutter.⌫\nОна реализует основные библиотеки Flutter, включая анимацию и графику, файловый и сетевой ввод-вывод.⌫\nПоддержку доступности, архитектуру плагинов, среду выполнения Dart и цепочку инструментов компиляции.⌫\nБольшинство разработчиков будут взаимодействовать с Flutter через Flutter Framework.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Что такое Flutter Embedder?",
+          "b": "Разработка компании Открытая мобильная платформа обеспечивающая работу Flutter на ОС Аврора.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Что такое SDK?",
+          "b": "SDK (Software Development Kit) - набор инструментов для разработки программного обеспечения объединённый в одном пакете.⌫\nFlutter - SDK по сути, framework он содержит в SDK.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Сколько плагинов Flutter доступно на ОС Аврора?",
+          "b": "Вы всегда можете получить актуальную информацию о плагинах с поддержкой ОС Аврора в документации проекта:\nhttps://omprussia.gitlab.io/flutter/flutter/support",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как помочь проекту Flutter для ОС Аврора?",
+          "b": "Проект Flutter для ОС Аврора open-source, любой желающий может сделать мерж-реквест и предложить свой код:\nhttps://gitlab.com/omprussia/flutter",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Где найти информацию о проекте Flutter для ОС Аврора?",
+          "b": "Подробная документация находится по адресу:⌫\nhttps://omprussia.gitlab.io/flutter/flutter",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Можно ли написать плагин не используя С++?",
+          "b": "Да, бывают плагины не использующие С++ код.⌫\nТакой плагин можно написать с использованием другого плагина - https://pub.dev/packages/dbus.⌫\nНа выходе вы получите пакет, который использует плагин в зависимостях.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Я нашел баг, проблему, во Flutter как ее можно решить?",
+          "b": "Есть несколько способов решить проблему:\n1. Завести <a href=\"https://gitlab.com/groups/omprussia/flutter/-/issues\">issue</a> и подождать ответа разработчиков.\n2. Обратиться за помощью в телеграм канал @aurora_devs в раздел Flutter.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как поставить Flutter для ОС Аврора на macOS?",
+          "b": "На данный момент поддержки ОС Аврора в целом нет.⌫\nНо работы в этом направлении ведутся.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как поставить Flutter для ОС Аврора на Windows?",
+          "b": "На данный момент Flutter для ОС Аврора поддерживает только Linux (рекомендована Ubuntu).⌫\nWSL2 на Windows работает лишь частично, полного функционала Flutter CLI нет.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как собрать приложение Flutter на ОС Аврора?",
+          "b": "Выполнить можно это использую Flutter CLI.⌫\nДля этого перейдите в проект и обновите зависимости:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora pub get\n</code></pre>\n⌫\nСобрать приложение можно следующей командой:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora build aurora --release\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Не удается сгенерировать привязки для FFI.",
+          "b": "Проверьте, установлен ли у вас clang:\n<pre><code class=\"language-shell\">⌫\nsudo apt-get install clang\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как указать архитектуру приложения при сборке проекта Flutter?",
+          "b": "Flutter для ОС Аврора поддерживает 3 архитектуры:\n1. armv7hl\n2. aarch64\n3. x86_64\nFlutter CLI имеет аргумент <code>--target-platform</code> c помощью которого можно указать нужную:\n1. aurora-arm (соответствует armv7hl)\n2. aurora-arm64 (соответствует aarch64)\n3. aurora-x64 (соответствует x86_64)",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как добавить поддержку ОС Аврора в существующий проект Flutter?",
+          "b": "Для этого нужно перейти в проект и выполнить команду:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora create --platforms=aurora --org=<orgname> .\n</code></pre>\n⌫\n<code>orgname</code> - название пакета, например <code>com.keygenqt</code>.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Есть ли образ Docker c Flutter для ОС Аврора?",
+          "b": "Официально такого образа нет.⌫\nЕсть пет проект который работает на Linux, с флагом <code>--privileged</code>:⌫\nhttps://github.com/keygenqt/flutter-aurora-docker",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как активировать нативный клиент dbus Flutter?",
+          "b": "Это можно сделать командой:\n<pre><code class=\"language-shell\">⌫\ndart pub global activate dbus\n</code></pre>\nА далее можно использовать CLI <code>dart-dbus</code>.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как посмотреть логи запущенного приложения Flutter?",
+          "b": "Для этого нужно перейти по ssh на устройство или эмулятор и воспользоваться командой:\n<pre><code class=\"language-shell\">⌫\njournalctl -f\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Не работает DevTools при запуске с иконки.",
+          "b": "Есть разница при запуске приложения из IDE VS Code и запуском приложения через иконку.⌫\nЕсли IDE запускает из под пользователя, то запуск через иконку происходит в изолированном окружении.⌫\nВ изоляции (в песочнице) Dart debug работать не будет - окружение не дает запустить сервер DevTools.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "IDE VS Code не видит устройство.",
+          "b": "В первую очередь необходимо проверить все ли необходимое установлено в системе:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora doctor\n</code></pre>\n⌫\nУбедиться что включены необходимые параметры во Flutter CLI:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora config --enable-aurora\nflutter-aurora config --enable-aurora-devices\n</code></pre>\n⌫\nДобавить устройство можно через команду Flutter CLI:\n<pre><code class=\"language-shell\">⌫\nflutter aurora-devices add\n</code></pre>\n⌫\nУстройств должно быть подключено по ssh ключу, а ключ должен быть зарегистрирован на устройстве.⌫\nСделать это можно командой:\n<pre><code class=\"language-shell\">⌫\nssh-copy-id defaultuser@{remote_host (default - 192.168.2.15)}\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Где найти конфигурацию Flutter CLI?",
+          "b": "Вы можете конфигурировать Flutter без необходимости использовать <code>flutter-aurora config</code>.⌫\nФайлы конфигурации храняться в формате json, главное знать что менять.⌫\nИх можно найти в директории: <code>~/.config/flutter</code>.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как проверить, что Flutter установлен правильно?",
+          "b": "Для этого можно выполнить следующую команду:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora doctor\n</code></pre>\nОна найдет некоторые возможные ошибки, но основательно можно это проверить - собрать демо проект⌫\n<a href=\"https://gitlab.com/omprussia/flutter/fluttery-todo\">Fluttery ToDo</a>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "На каких операционных системах (Windows, macOS, Linux) доступен Flutter для ОС Аврора?",
+          "b": "Изначально Flutter для ОС Аврора поддерживал только Linux (рекомендовано Ubuntu).⌫\nБолее детально уточнить этот вопрос можно в документации проекта:⌫\nhttps://omprussia.gitlab.io/flutter/flutter",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как отформатировать проект без установки Dart?",
+          "b": "Для форматирования проектов необходим Dart.⌫\nFlutter SDK содержит его копию и мы можем без установки отдельной версии Dart форматировать проекты.⌫\nДля этого можно добавить алиас, Dart можно найти <code>{flutter_dir}/bin/dart</code>.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как создать свой первый проект Flutter?",
+          "b": "Flutter CLI раздел <code>create</code> с шаблонами проектов.\n⌫\nСтартовое приложение можно создать командой:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora create --platforms=aurora --template=app --org=com.keygenqt my_app\n</code></pre>\n⌫\nПакет можно создать следующей командой\n<pre><code class=\"language-shell\">⌫\nflutter-aurora create --platforms=aurora --template=package --org=com.keygenqt my_package\n</code></pre>\n⌫\nПлагин Platform Channel можно создать выполнив:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora create --platforms=aurora --template=plugin --org=com.keygenqt my_plugin\n</code></pre>\n⌫\nПлагин FFI можно создать выполнив:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora create --platforms=aurora --template=plugin_ffi --org=com.keygenqt my_plugin_ffi\n</code></pre>\n⌫\nПолную справку можно вызвать командой:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora create --help\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Не стартует приложение с иконки, хотя с IDE VS Code работает.",
+          "b": "Возможно причина в том что приложение с иконке запускается в песочнице, замещенном окружении.⌫\nНеобходимо проверить разрешения (permission) приложения, это часто является причиной такого поведения.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как сделать скриншот с эмулятора или устройства?",
+          "b": "Вы можете сделать скриншот средствами Flutter CLI.\nДля этого необходимо выполнить команду:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora screenshot -d aurora\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как запустить интеграционные тесты Flutter?",
+          "b": "Вы можете выполнить это средствами IDE (VS Code).⌫\nИли выполнив команду в терминале указав пусть к файлу с тестами:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora test integration_test/example_test.dart\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как обновить Flutter?",
+          "b": "Flutter CLI имеет 2 команды на обновление и откат обновления, можно воспользоваться ими:\n1. <code>upgrade</code> - обновление.\n2. <code>downgrade</code> - откат обновления.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как обновить кеш Flutter?",
+          "b": "Вы можете это сделать через Flutter CLI командой:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora precache --aurora --force\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как получить список доступных Flutter CLI эмуляторов?",
+          "b": "Вы можете это сделать через Flutter CLI командой:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora emulators\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как получить список доступных Flutter CLI устройств?",
+          "b": "Вы можете это сделать через Flutter CLI командой:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora devices\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как очистить кеш проекта Flutter?",
+          "b": "Это можно сделать командой:\n<pre><code class=\"language-shell\">⌫\nflutter-aurora clean\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Приложение Flutter не устанавливается.",
+          "b": "Пакет должен быть подписан. ОС Аврора имеет валидацию пакетов при их установке.⌫\nНеобходимо провалидировать пакет с помощью aurora-cli или psdk.⌫\nЕсли с этим порядок более детальную информацию можно получить подключившись по ssh к девайсу или эмулятору.⌫\nВыполнить команду перед установкой и посмотреть логи:\n<pre><code class=\"language-shell\">⌫\njournalctl -u apm -f\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Есть ли поддержка Flutter для ОС Аврора в IntelliJ IDEA?",
+          "b": "Нет, IDEA не поддерживается.⌫\nНо VS Code работает отлично, а так как предстоит, возможно, работа с С++ это IDE отлично подойдет.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как подключить сигналы и слоты Qt во Flutter плагине для ОС Аврора?",
+          "b": "Qt без сигналов и слотов работает без дополнительных манипуляций.⌫\nЕсли нужны именно сигналы Qt необходимо активировать их работу.\nДля этого в <code>main.cpp</code> приложения нужно добавить:\n<pre><code class=\"language-cpp\">⌫\n#include &lt;flutter/flutter_aurora.h&gt;\n#include &lt;flutter/flutter_compatibility_qt.h&gt; // &lt;- Add for Qt\n#include \"generated_plugin_registrant.h\"\n\nint main(int argc, char *argv[]) {\n    aurora::Initialize(argc, argv);\n    aurora::EnableQtCompatibility(); // &lt;- Enable Qt\n    aurora::RegisterPlugins();\n    aurora::Launch();\n    return 0;\n}\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как подписать RPM пакет?",
+          "b": "Flutter CLI подписывает пакет публичными ключами, доступными для разработки.⌫\nPlatform SDK имеет утилиту <code>rpmsign-external</code> c помощью которой можно подписать пакет.⌫\nhttps://developer.auroraos.ru/doc/sdk/tools/rpmsign_external⌫\nAurora CLI умеет тоже подписывать пакеты:⌫\nhttps://keygenqt.github.io/aurora-cli/cli/psdk/package/sign",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Что такое песочница?",
+          "b": "Это окружение, в котором запускается приложение, ограниченное в доступе к системе.⌫\nИз терминала запустить приложение в этом окружении можно командой:\n<pre>invoker --type=qt5 {com.keygenqt.package_name}</pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как установить RPM пакет на устройство или эмулятор?",
+          "b": "Это можно сделать:\n1. Воспользоваться приложением Aurora CLI.\n2. Воспользоваться приложением Aurora Toolbox.\n3. Залив приложение по ssh (scp) и выполнив команду:\n<pre><code class=\"language-shell\">⌫\ngdbus call --system --dest ru.omp.APM --object-path /ru/omp/APM --method ru.omp.APM.Install /path/to/file.rpm {}\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Что такое Aurora CLI?",
+          "b": "Open-source приложение обеспечивающее легкий старт в экосистеме ОС Аврора.⌫\nРабота с Aurora SDK, Aurora Platform SDK, Flutter SDK, взаимодействие с устройствами и эмулятором, а также многое другое.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Что такое Aurora Toolbox?",
+          "b": "Это GUI интерфейс к приложению Aurora CLI.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как пронять зависимость плагин это или пакет Flutter?",
+          "b": "Для этого нужно посмотреть на <code>pubspec.yaml</code>.⌫\nЕсли в спеке нет раздела <code>plugin</code> и нет зависимостей от плагинов - это пакет.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Что такое Client Wrapper (client-wrapper)?",
+          "b": "Client Wrapper предназначен для встраивания в плагины и приложения,⌫\nчтобы обеспечить более высокие уровни абстракций C++ для взаимодействия с библиотекой Flutter.⌫\nСо временем цель состоит в том, чтобы переместить большую часть этого кода в библиотеку таким образом,⌫\nчтобы предоставить пригодный для использования ABI (например, не использовать стандартную библиотеку в интерфейсах).⌫\nhttps://github.com/flutter/engine/blob/main/shell/platform/common/client_wrapper/README",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Какая доступна последняя версия Flutter для ОС Аврора?",
+          "b": "Вы всегда можете узнать последнюю доступную версию Flutter в тегах репозитория:⌫\nhttps://gitlab.com/omprussia/flutter/flutter/-/tags",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Есть ли демо (demo) приложение Flutter для ОС Аврора?",
+          "b": "Да приложение демонстрирующее работу можно найти по ссылке:⌫\nhttps://gitlab.com/omprussia/flutter/fluttery-todo",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Как локально собрать документацию Flutter для ОС Аврора?",
+          "b": "Проект Flutter для ОС Аврора - открытый проект.⌫\nВы можете помощь при разработке как проекта так и его документации.⌫\nДокументация проекта использует mkdocs & mkdocs-material, это Python пакеты.\n⌫\nУстановить их можно командой:\n<pre><code class=\"language-shell\">⌫\npython3 -m pip install mkdocs mkdocs-material --break-system-packages\n</code></pre>\n⌫\nПерейти в корень проекта Flutter для ОС Аврора и выполнить:\n<pre><code class=\"language-shell\">⌫\nmkdocs serve\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Куда сообщить об ошибку, о баге?",
+          "b": "Если проект open-source, то лучшее место это issue проекта.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733423881
+        },
+        {
+          "t": "Почему возникает ошибка 'Установка приложений без подписи источника запрещена'?",
+          "b": "В Аврора 5 стала обязательной дополнительная подпись на RPM пакете - подпись источника.⌫\nПодпись источника криптографически заверяет того, кем был предоставлен тот или иной RPM пакет.⌫\nЗачастую подпись источника добавляется официальными маркетами, например RuStore,⌫\nкогда вы загружаете свое приложение через админ панель.⌫\nДля целей разработки вы можете отключить обязательное требование подписи источника пакетов через настройки.",
+          "a": {
+            "fname": "Денис",
+            "lname": "Глазков"
+          },
+          "ts": 1733512746
+        },
+        {
+          "t": "Как проверить, что RPM пакет подписан?",
+          "b": "Для этого достаточно выполнить следующую команду из-под PSDK:\n<pre><code class=\"language-shell\">⌫\nrpmsign-external dump {your-rpm-package}\n</code></pre>",
+          "a": {
+            "fname": "Денис",
+            "lname": "Глазков"
+          },
+          "ts": 1733512746
+        },
+        {
+          "t": "Как проверить подпись RPM пакета?",
+          "b": "Для этого достаточно выполнить следующую команду из-под PSDK:\n<pre><code class=\"language-shell\">⌫\nrpmsign-external verify {your-rpm-package}\n</code></pre>",
+          "a": {
+            "fname": "Денис",
+            "lname": "Глазков"
+          },
+          "ts": 1733512746
+        },
+        {
+          "t": "Какой стандартный формат лицензии ОМП для dart?",
+          "b": "<pre><code class=\"language-shell\">⌫\n// SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &lt;community@omp.ru&gt;\n// SPDX-License-Identifier: BSD-3-Clause\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733516308
+        },
+        {
+          "t": "Какой стандартный формат лицензии ОМП для cmake, yaml, shell, pro?",
+          "b": "<pre><code class=\"language-shell\">⌫\n# SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &lt;community@omp.ru&gt;\n# SPDX-License-Identifier: BSD-3-Clause\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733516308
+        },
+        {
+          "t": "Какой стандартный формат лицензии ОМП для c++, java, kotlin, js, php, qml?",
+          "b": "<pre><code class=\"language-shell\">⌫\n/**\n* SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &lt;community@omp.ru&gt;\n* SPDX-License-Identifier: BSD-3-Clause\n*/\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733516308
+        },
+        {
+          "t": "Как посмотреть записи динамической таблицы символов?",
+          "b": "Это можно сделать через утилиту <code>objdump</code>:\n<pre><code class=\"language-shell\">⌫\nobjdump -CT /path/to/libdynamic.so\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733516308
+        },
+        {
+          "t": "Как откатить все изменения в проекте?",
+          "b": "Это можно сделать c помощью <code>git</code>.\n⌫\nТак вы откатите все изменения:\n<pre><code class=\"language-shell\">⌫\ngit reset --hard HEAD\n</code></pre>\n⌫\nТак откатите все, *включая не фиксированные файлы*:\n<pre><code class=\"language-shell\">⌫\ngit clean -fdx\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733555480
+        },
+        {
+          "t": "Как установить Aurora CLI?",
+          "b": "Приложение Aurora CLI - python пакет. Его можно установить через пакетный менеджер pip.\n⌫\nУстановить pip можно так:\n<pre><code class=\"language-shell\">⌫\nsudo apt update\nsudo apt install python3-pip\npython3 -m pip install --upgrade setuptools --break-system-packages\n</code></pre>\n⌫\nУстановить Aurora CLI можно так:\n<pre><code class=\"language-shell\">⌫\npython3 -m pip install aurora-cli --break-system-packages\n</code></pre>\n⌫\nБолее подробно написано на странице документации приложения:⌫\nhttps://keygenqt.github.io/aurora-cli/install",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733651831
+        },
+        {
+          "t": "Как установить Aurora Toolbox?",
+          "b": "Aurora Toolbox это GTK приложение, доступно в deb & rpm пакете.⌫\nСкачать последнюю версию пакета можно по ссылке:⌫\nhttps://github.com/keygenqt/aurora-toolbox/releases⌫\nУстановка отличается на дистрибутивах Linux, посмотрите документацию вашего пакетного менеджера.⌫\nБолее подробно написано на странице документации приложения:⌫\nhttps://keygenqt.github.io/aurora-toolbox/install",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733651831
+        },
+        {
+          "t": "Что такое B2C?",
+          "b": "Термин «бизнес-потребителю» (B2C) относится к процессу продажи продуктов и услуг напрямую между бизнесом и потребителями,⌫\nкоторые являются конечными пользователями его продуктов или услуг.⌫\nБольшинство компаний, которые продают напрямую потребителям, можно назвать компаниями B2C.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Что такое B2B?",
+          "b": "Бизнес-бизнес (B2B), также называемый B-to-B, является формой транзакции между предприятиями,⌫\nтакими как производитель и оптовик или оптовик и розничный торговец.⌫\nБизнес-бизнес относится к торговле, которая ведется между компаниями,⌫\nа не между компаниями и отдельными потребителями.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Что такое B2G?",
+          "b": "Business to government (B2G) - это продажа и маркетинг товаров и услуг федеральным, государственным или местным агентствам.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Что такое BYOTD?",
+          "b": "Bring Your Own Trusted Device (BYOTD) — это политика, которая позволяет сотрудникам организации использовать личные доверенные устройства для рабочих задач.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Где приобрести устройств ОС Аврора?",
+          "b": "С 2024го года ОС Аврору может купить любой желающий, по политике BYOTD.⌫\nМесто где это можно сделать физлицу - магазин <a href=\"https://vsesmart.ru/\">Всёсмарт</a>.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Что лучше использовать Fluter или Qt на ОС Аврора?",
+          "b": "Лучше использовать в чем есть компетенции.⌫\nОсновной фреймворк для разработки это Qt.⌫\nFlutter набирает обороты: он проще, он современнее.⌫\nВыбирать вам.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Какой статус поддержки Fluter для ОС Аврора?",
+          "b": "Фреймворк в перманентной разработке, так же как и любые инструменты.⌫\nНа нем уже пишут приложения, и вы тоже можете.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Где найти все примеры доступные для ОС Аврора?",
+          "b": "В репозитории ОМП. Там много всего, включая и примеры: https://gitlab.com/omprussia",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Где найти все доступные Аврора SDK?",
+          "b": "Аврора SDK можно найти на официальном сайте:\nhttps://developer.auroraos.ru/downloads/sdk\nЛибо в репозитории:\nhttps://sdk-repo.omprussia.ru/sdk/installers",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Где найти все доступные Аврора Platform SDK?",
+          "b": "Аврора Platform SDK можно найти на официальном сайте:\nhttps://developer.auroraos.ru/downloads/psdk\nЛибо в репозитории:\nhttps://sdk-repo.omprussia.ru/sdk/installers",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Где скачать открытую ключевую пару для подписи RPM пакетов?",
+          "b": "Для разработки есть общедоступная ключевая пара, ее можно скачать с официального сайта:\nhttps://developer.auroraos.ru/doc/5.1.3/sdk/app_development/packaging/package_signing",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Какую операционную систему лучше использовать для разработки под ОС Аврора?",
+          "b": "Полный набор инструментов доступен на Linux (включая Flutter, Aurora CLI и Aurora Toolbox).⌫\nЯ бы рекомендовал Ubuntu 24.04 или Alt.⌫\nБолее детально можно ознакомится в документации по установке Аврора SDK⌫\nhttps://developer.auroraos.ru/doc/5.1.3/sdk/app_development/setup",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Где указывать разрешения (permissions) в ОС Аврора?",
+          "b": "ОС Аврора поддерживает разрешения.⌫\nВ файле <code>.desktop</code>, проекта, их можно указать.\nБолее детально можно ознакомится в документации:\nhttps://developer.auroraos.ru/doc/5.1.3/software_development/guidelines/rpm_requirements/desktop_requirements",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Где указывать необходимые зависимости для сборки проекта ОС Аврора?",
+          "b": "В файле <code>.spec</code>, проекта, их можно указать используя параметр <code>BuildRequires</code>.\nБолее детально можно ознакомится в документации:\nhttps://developer.auroraos.ru/doc/5.1.3/software_development/guidelines/rpm_requirements/spec_requirements",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Валидатор не пропускает динамическую библиотеку, что делать?",
+          "b": "Взятые с собой динамические библиотеки, запрещенные валидатором можно исключить в файле <code>.spec</code>.\nПример:\n<pre><code class=\"language-shell\">⌫\n%global __requires_exclude ^lib(ZXing)\\.so.*$\n</code></pre>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Как провалидировать RPM пакет для ОС Аврора?",
+          "b": "Провалидировать пакет можно несколькими способами:\n1. <a href=\"https://developer.auroraos.ru/doc/sdk/app_development/packaging/validation_dialog\">Аврора SDK</a>\n2. <a href=\"https://developer.auroraos.ru/doc/sdk/tools/rpm_validator\">Аврора Platform SDK</a>\n3. <a href=\"https://keygenqt.github.io/aurora-cli/cli/psdk/package/validate/\">Aurora CLI</a>",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Где можно найти информацию по ОС Аврора?",
+          "b": "Я бы начал поиски необходимой информации с официального портала ОС Аврора:⌫\nhttps://auroraos.ru⌫\n⌫\nЗаглянул в Telegram чат:⌫\nhttps://t.me/aurora_devs⌫\nили VK группу:⌫\nhttps://vk.com/aurora_os",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Какие архитектуры поддерживает ОС Аврора?",
+          "b": "В 5й ОС Аврора есть следующие варианты архитектур:\n1. armv7hl (девайсы с ОС Аврора 32)\n2. aarch64 (девайсы с ОС Аврора 64)\n3. x86_64  (эмулятор с 5й версии)\nСледует уточнить что процессор не всегда соответствует архитектуре установленной ОС.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        },
+        {
+          "t": "Есть ли курсы по ОС Аврора?",
+          "b": "Знаю такие варианты:\n1. <a href=\"https://stepik.org/course/71788/info\">Курс на Stepik</a>.\n2. <a href=\"https://otus.ru/lessons/qt-aurora\">Курс на Otus</a>.\n3. <a href=\"https://www.infosystems.ru/courses/avtorizovannye_kursy/ISSF010\">Курс на Академии Информационных систем</a>.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1733853509
+        }
+      ]
+    },
+    "pub": {
+      "en": [
+        {
+          "t": "Have you heard of such abbreviations: CLI, API, ABI?",
+          "b": "*CLI* (command-line interface) - an interface for interacting with a computer program by entering lines of text, called command lines.\n*API* (application programming interface) - an application programming interface, a type of software interface that offers services to other programs.\n*ABI* (application binary interface) - an application binary interface, an interface between two binary program modules.\nOften, one of these modules is a library or an operating system tool, and the other is a program launched by the user.",
+          "a": {
+            "fname": "Vitaliy",
+            "lname": "Zarubin"
+          },
+          "ts": 1674518400
+        }
+      ],
+      "ru": [
+        {
+          "t": "Слышали про такие аббревиатуры: CLI, API, ABI?",
+          "b": "*CLI* (command-line interface) - интерфейс взаимодействия с компьютерной программой путем ввода строк текста, называемых командными строками.\n*API* (application programming interface) - интерфейс прикладного программирования, тип программного интерфейса, предлагающий услуги другим программам.\n*ABI* (application binary interface) - бинарный интерфейс приложений, интерфейс между двумя двоичными программными модулями.\nЧасто один из этих модулей представляет собой библиотеку или средство операционной системы, а другой — программу, запускаемую пользователем.",
+          "a": {
+            "fname": "Виталий",
+            "lname": "Зарубин"
+          },
+          "ts": 1674518400
+        }
+      ]
+    }
+  }
+}
+
