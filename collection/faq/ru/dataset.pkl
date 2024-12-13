@@ -89,7 +89,7 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое SDK?"
     k = new Listing<String> {
-      "sdk" "сдк"
+      "sdk" "sdk" "сдк" "сдк" // weight for short title
     }
     b = """
       SDK (Software Development Kit) - набор инструментов для разработки программного обеспечения объединённый в одном пакете.
