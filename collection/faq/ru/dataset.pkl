@@ -66,12 +66,8 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое Аврора Platform SDK?"
-    e = new Listing<String> {
-      "Что такое Аврора платформ сдк?"
-      "Что такое Аврора PSDK?"
-      "Что такое PSDK?"
-      "Что такое Аврора ПСДК?"
-      "Что такое ПСДК?"
+    k = new Listing<String> {
+      "sdk" "psdk" "сдк" "псдк"
     }
     b = """
       Аврора Platform SDK — это набор инструментов для разработки, отладки и тестирования компонентов ОС Аврора.
@@ -81,9 +77,8 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое Аврора SDK?"
-    e = new Listing<String> {
-      "Что такое Aurora SDK?"
-      "Что такое Аврора СДК?"
+    k = new Listing<String> {
+      "sdk" "сдк"
     }
     b = """
       Аврора SDK - набор инструментов для сборки, разработки, отладки и тестирования программного обеспечения для ОС Аврора.
@@ -93,8 +88,8 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое SDK?"
-    e = new Listing<String> {
-      "Что такое СДК?"
+    k = new Listing<String> {
+      "sdk" "сдк"
     }
     b = """
       SDK (Software Development Kit) - набор инструментов для разработки программного обеспечения объединённый в одном пакете.

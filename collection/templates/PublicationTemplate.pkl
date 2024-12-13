@@ -8,9 +8,9 @@ import "AuthorTemplate.pkl"
 t: String
 
 /*
-  Extra titles
+  Key phrases
 */
-e: Listing<String>?
+k: Listing<String>?
 
 /*
   Body - content publication
