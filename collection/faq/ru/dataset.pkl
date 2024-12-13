@@ -65,9 +65,21 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733853509
   }
   new {
+    t = "Что такое ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "аврора"
+    }
+    b = """
+      ОС Аврора - российская мобильная операционная система.⌫
+      Система включает функции централизованного управления устройствами, шифрования данных и многофакторной аутентификации.
+      """
+    a = authors.keygenqt
+    ts = 1734118140
+  }
+  new {
     t = "Что такое Аврора Platform SDK?"
     k = new Listing<String> {
-      "sdk" "psdk" "сдк" "псдк"
+      "aurora" "платформ" "psdk" "сдк" "псдк"
     }
     b = """
       Аврора Platform SDK — это набор инструментов для разработки, отладки и тестирования компонентов ОС Аврора.
@@ -78,7 +90,7 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое Аврора SDK?"
     k = new Listing<String> {
-      "sdk" "сдк"
+      "aurora" "сдк"
     }
     b = """
       Аврора SDK - набор инструментов для сборки, разработки, отладки и тестирования программного обеспечения для ОС Аврора.
@@ -89,7 +101,7 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое SDK?"
     k = new Listing<String> {
-      "sdk" "sdk" "сдк" "сдк" // weight for short title
+      "сдк"
     }
     b = """
       SDK (Software Development Kit) - набор инструментов для разработки программного обеспечения объединённый в одном пакете.
