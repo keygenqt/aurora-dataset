@@ -67,6 +67,7 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое Аврора Platform SDK?"
     e = new Listing<String> {
+      "Что такое Аврора платформ сдк?"
       "Что такое Аврора PSDK?"
       "Что такое PSDK?"
       "Что такое Аврора ПСДК?"
