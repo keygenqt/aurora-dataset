@@ -707,6 +707,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое Aurora CLI?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/b0d1301f-502f-4df4-8aba-ea53acd676cf.png?raw=true"
     k = new Listing<String> {
       "aurora-cli" "аврора" "кли" "что за"
     }
@@ -719,6 +720,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое Aurora Toolbox?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/971aca9b-135a-46e8-9e27-95d89ad9c5fa.png?raw=true"
     k = new Listing<String> {
       "aurora-toolbox" "аврора" "тулбокс" "что за"
     }
