@@ -15,6 +15,7 @@ jobs:
           python ./scripts/validate.py
       - name: Dump
         run: |
+          mv collection/data data
           python ./scripts/pkl.py --update
           python ./scripts/pkl.py --dump json
           python ./scripts/pkl.py --dump jsonnet
@@ -24,7 +25,7 @@ jobs:
           python ./scripts/pkl.py --dump yaml
       - name: Clear
         run: |
-          find . -maxdepth 1 -regextype egrep -not -regex '.|..|\./(.git|dataset-dump.+)' -exec rm -rf {} +
+          find . -maxdepth 1 -regextype egrep -not -regex '.|..|\./(.git|data|dataset-dump.+)' -exec rm -rf {} +
       - name: Readme
         run: echo "Auto builds the latest version of dataset in available formats. Also added bulk build for convenient indexing OpenSearch or Elasticsearch." > README.md
       - name: Save
