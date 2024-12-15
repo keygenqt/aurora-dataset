@@ -23,9 +23,15 @@ def validate_duplicate_title(items) -> bool:
 def validate_body_size(items) -> bool:
     is_valid = True
     for item in items:
-        if len(item['b']) >= 4096:
-            print('> Max size 4096 characters! "{}"'.format(item['t'] if item['t'] else 'empty'))
-            is_error = False
+        size = len(item['b'])
+        if 'i' in item.keys():
+            if size >= 1024:
+                print('> Max size 1024 characters with image, now {} "{}"'.format(size, item['t'] if item['t'] else 'empty'))
+                is_valid = False
+        else:
+            if size >= 4096:
+                print('> Max size 4096 characters, now {}! "{}"'.format(size, item['t'] if item['t'] else 'empty'))
+                is_valid = False
     return is_valid
 
 
