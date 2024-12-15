@@ -720,6 +720,37 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733423881
   }
   new {
+    t = "Что такое Aurora Dataset?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/a70394cf-90d4-41e6-b726-b741b3228c5a.png?raw=true"
+    k = new Listing<String> {
+      "aurora-dataset" "датасет"
+    }
+    b = """
+      База знаний по ОС Аврора.⌫
+      Ответы Aurora Bot находит именно в ней.⌫
+      Вы легко можете внести свой вклад в базу знаний сделав пулл-реквест в репозиторий:⌫
+      https://github.com/keygenqt/aurora-dataset
+      """
+    a = authors.keygenqt
+    ts = 1734279178
+  }
+  new {
+    t = "Что такое Aurora COS?"
+    k = new Listing<String> {
+      "аврора" "aurora-cos" "cos" "кос"
+    }
+    b = """
+      Aurora COS (Because | Community Open-Source) — совокупность проектов, в контексте ОС Аврора,⌫
+      объединённые одной целью — сделать проще разработку под операционную систему Аврора:
+      1. <a href="https://keygenqt.github.io/aurora-cli/">Aurora CLI</a>.
+      2. <a href="https://keygenqt.github.io/aurora-toolbox/">Aurora Toolbox</a>.
+      3. <a href="https://github.com/keygenqt/aurora-dataset">Aurora Dataset</a>.
+      4. <a href="https://aurora-bot.keygenqt.com/">Aurora Bot</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734279178
+  }
+  new {
     t = "Что такое Aurora Toolbox?"
     i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/971aca9b-135a-46e8-9e27-95d89ad9c5fa.png?raw=true"
     k = new Listing<String> {
