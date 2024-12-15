@@ -3,7 +3,7 @@ import "../../templates/FaqTemplate.pkl"
 
 dataset = new Listing<FaqTemplate> {
   new {
-    t = "Демонстрационное_сообщение_с_набором_доступных_элементов."
+    t = "Демонстрационное_сообщение."
     b = """
       Это демонстрация возможного ответа. Для проверки работоспособности бота и описания формата dataset-а.
 
@@ -67,7 +67,7 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое ОС Аврора?"
     k = new Listing<String> {
-      "aurora" "aurora os" "аврора"
+      "aurora" "aurora os" "аврора" "что за" "операционная система"
     }
     b = """
       ОС Аврора - российская мобильная операционная система.⌫
@@ -79,7 +79,7 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое Аврора Platform SDK?"
     k = new Listing<String> {
-      "aurora" "платформ" "psdk" "сдк" "псдк"
+      "aurora" "платформ" "psdk" "сдк" "псдк" "что за"
     }
     b = """
       Аврора Platform SDK — это набор инструментов для разработки, отладки и тестирования компонентов ОС Аврора.
@@ -90,7 +90,7 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое Аврора SDK?"
     k = new Listing<String> {
-      "aurora" "сдк"
+      "aurora" "сдк" "что за"
     }
     b = """
       Аврора SDK - набор инструментов для сборки, разработки, отладки и тестирования программного обеспечения для ОС Аврора.
@@ -101,7 +101,7 @@ dataset = new Listing<FaqTemplate> {
   new {
     t = "Что такое SDK?"
     k = new Listing<String> {
-      "сдк"
+      "сдк" "software development kit"
     }
     b = """
       SDK (Software Development Kit) - набор инструментов для разработки программного обеспечения объединённый в одном пакете.
@@ -111,6 +111,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое Flutter CLI?"
+    k = new Listing<String> {
+      "flutter-cli" "кли" "флаттер"
+    }
     b = """
       Это интерфейс командной строки Flutter, который обеспечивает основную работу с фреймворком.⌫
       Устанавливается вместе с Flutter Framework.
@@ -130,6 +133,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как установить Flutter с поддержкой ОС Аврора?"
+    k = new Listing<String> {
+      "поставить" "флаттер" "aurora os"
+    }
     b = """
       Есть несколько способов установки Flutter:
       1. <a href="https://omprussia.gitlab.io/flutter/flutter/install/linux">Официальная документация</a>
@@ -141,6 +147,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как написать Flutter плагин для ОС Аврора?"
+    k = new Listing<String> {
+      "plugin" "aurora os" "флаттер"
+    }
     b = """
       Есть несколько способов:
       1. <a href="https://docs.flutter.dev/platform-integration/platform-channels">Platform Channels</a>
@@ -152,6 +161,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое Flutter Engine?"
+    k = new Listing<String> {
+      "движок" "флаттер"
+    }
     b = """
       Flutter Engine — это переносимая среда выполнения для хостинга приложений Flutter.⌫
       Она реализует основные библиотеки Flutter, включая анимацию и графику, файловый и сетевой ввод-вывод.⌫
@@ -163,6 +175,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое Flutter Embedder?"
+    k = new Listing<String> {
+      "эмбеддер" "флаттер"
+    }
     b = """
       Разработка компании Открытая мобильная платформа обеспечивающая работу Flutter на ОС Аврора.
       """
@@ -171,6 +186,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Сколько плагинов Flutter доступно на ОС Аврора?"
+    k = new Listing<String> {
+      "plugins" "флаттер"
+    }
     b = """
       Вы всегда можете получить актуальную информацию о плагинах с поддержкой ОС Аврора в документации проекта:
       https://omprussia.gitlab.io/flutter/flutter/support
@@ -180,6 +198,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как помочь проекту Flutter для ОС Аврора?"
+    k = new Listing<String> {
+      "aurora os" "флаттер"
+    }
     b = """
       Проект Flutter для ОС Аврора open-source, любой желающий может сделать мерж-реквест и предложить свой код:
       https://gitlab.com/omprussia/flutter
@@ -189,6 +210,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Где найти информацию о проекте Flutter для ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "флаттер"
+    }
     b = """
       Подробная документация находится по адресу:⌫
       https://omprussia.gitlab.io/flutter/flutter
@@ -198,6 +222,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Можно ли написать плагин не используя С++?"
+    k = new Listing<String> {
+      "cpp" "сделать" "plugin"
+    }
     b = """
       Да, бывают плагины не использующие С++ код.⌫
       Такой плагин можно написать с использованием другого плагина - https://pub.dev/packages/dbus.⌫
@@ -207,7 +234,10 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733423881
   }
   new {
-    t = "Я нашел баг, проблему, во Flutter как ее можно решить?"
+    t = "Я нашел баг, во Flutter как ее можно решить?"
+    k = new Listing<String> {
+      "ошибку" "проблему" "флаттер"
+    }
     b = """
       Есть несколько способов решить проблему:
       1. Завести <a href="https://gitlab.com/groups/omprussia/flutter/-/issues">issue</a> и подождать ответа разработчиков.
@@ -217,7 +247,10 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733423881
   }
   new {
-    t = "Как поставить Flutter для ОС Аврора на macOS?"
+    t = "Как установить Flutter для ОС Аврора на macOS?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "флаттер" "мак" "поставить"
+    }
     b = """
       На данный момент поддержки ОС Аврора в целом нет.⌫
       Но работы в этом направлении ведутся.
@@ -226,7 +259,10 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733423881
   }
   new {
-    t = "Как поставить Flutter для ОС Аврора на Windows?"
+    t = "Как установить Flutter для ОС Аврора на Windows?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "флаттер" "винду" "виндовс" "поставить"
+    }
     b = """
       На данный момент Flutter для ОС Аврора поддерживает только Linux (рекомендована Ubuntu).⌫
       WSL2 на Windows работает лишь частично, полного функционала Flutter CLI нет.
@@ -236,6 +272,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как собрать приложение Flutter на ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "build" "флаттер" "сбилдить"
+    }
     b = """
       Выполнить можно это использую Flutter CLI.⌫
       Для этого перейдите в проект и обновите зависимости:
@@ -253,6 +292,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Не удается сгенерировать привязки для FFI."
+    k = new Listing<String> {
+      "bindings" "foreign function interface" "флаттер" "flutter"
+    }
     b = """
       Проверьте, установлен ли у вас clang:
       <pre><code class="language-shell">⌫
@@ -264,6 +306,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как указать архитектуру приложения при сборке проекта Flutter?"
+    k = new Listing<String> {
+      "собрать" "arch" "флаттер"
+    }
     b = """
       Flutter для ОС Аврора поддерживает 3 архитектуры:
       1. armv7hl
@@ -279,6 +324,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как добавить поддержку ОС Аврора в существующий проект Flutter?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "флаттер" "к проекту"
+    }
     b = """
       Для этого нужно перейти в проект и выполнить команду:
       <pre><code class="language-shell">⌫
@@ -292,6 +340,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Есть ли образ Docker c Flutter для ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "флаттер" "докер" "image"
+    }
     b = """
       Официально такого образа нет.⌫
       Есть пет проект который работает на Linux, с флагом <code>--privileged</code>:⌫
@@ -302,6 +353,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как активировать нативный клиент dbus Flutter?"
+    k = new Listing<String> {
+      "дбас" "флаттер" "В-Bus"
+    }
     b = """
       Это можно сделать командой:
       <pre><code class="language-shell">⌫
@@ -314,6 +368,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как посмотреть логи запущенного приложения Flutter?"
+    k = new Listing<String> {
+      "log" "флаттер" "полчить" "найти"
+    }
     b = """
       Для этого нужно перейти по ssh на устройство или эмулятор и воспользоваться командой:
       <pre><code class="language-shell">⌫
@@ -325,6 +382,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Не работает DevTools при запуске с иконки."
+    k = new Listing<String> {
+      "девтулс" "дебаг" "debug" "dart"
+    }
     b = """
       Есть разница при запуске приложения из IDE VS Code и запуском приложения через иконку.⌫
       Если IDE запускает из под пользователя, то запуск через иконку происходит в изолированном окружении.⌫
@@ -335,6 +395,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "IDE VS Code не видит устройство."
+    k = new Listing<String> {
+      "вс код" "иде" "девайс" "device"
+    }
     b = """
       В первую очередь необходимо проверить все ли необходимое установлено в системе:
       <pre><code class="language-shell">⌫
@@ -363,6 +426,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Где найти конфигурацию Flutter CLI?"
+    k = new Listing<String> {
+      "конфиг" "flutter cli" "флаттер кли"
+    }
     b = """
       Вы можете конфигурировать Flutter без необходимости использовать <code>flutter-aurora config</code>.⌫
       Файлы конфигурации храняться в формате json, главное знать что менять.⌫
@@ -373,6 +439,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как проверить, что Flutter установлен правильно?"
+    k = new Listing<String> {
+      "флаттер" "доктор" "doctor" "поставлен"
+    }
     b = """
       Для этого можно выполнить следующую команду:
       <pre><code class="language-shell">⌫
@@ -385,7 +454,10 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733423881
   }
   new {
-    t = "На каких операционных системах (Windows, macOS, Linux) доступен Flutter для ОС Аврора?"
+    t = "На каких операционных системах доступен Flutter для ОС Аврора?"
+    k = new Listing<String> {
+      "виндовс" "мак" "линукс" "Windows" "macOS" "Linux" "os" "ос" "флаттер" "aurora" "aurora os" "можно поставить"
+    }
     b = """
       Изначально Flutter для ОС Аврора поддерживал только Linux (рекомендовано Ubuntu).⌫
       Более детально уточнить этот вопрос можно в документации проекта:⌫
@@ -396,6 +468,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как отформатировать проект без установки Dart?"
+    k = new Listing<String> {
+      "форматирование" "дарт"
+    }
     b = """
       Для форматирования проектов необходим Dart.⌫
       Flutter SDK содержит его копию и мы можем без установки отдельной версии Dart форматировать проекты.⌫
@@ -406,6 +481,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как создать свой первый проект Flutter?"
+    k = new Listing<String> {
+      "сделать" "флаттер" "hello world"
+    }
     b = """
       Flutter CLI раздел <code>create</code> с шаблонами проектов.
       ⌫
@@ -439,6 +517,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Не стартует приложение с иконки, хотя с IDE VS Code работает."
+    k = new Listing<String> {
+      "вс код" "код" "запускается"
+    }
     b = """
       Возможно причина в том что приложение с иконке запускается в песочнице, замещенном окружении.⌫
       Необходимо проверить разрешения (permission) приложения, это часто является причиной такого поведения.
@@ -448,6 +529,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как сделать скриншот с эмулятора или устройства?"
+    k = new Listing<String> {
+      "аврора" "ос аврора" "aurora" "aurora os" "эмуля" "девайса"
+    }
     b = """
       Вы можете сделать скриншот средствами Flutter CLI.
       Для этого необходимо выполнить команду:
@@ -460,6 +544,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как запустить интеграционные тесты Flutter?"
+    k = new Listing<String> {
+      "флаттер" "integration_test" "integration" "tests" "выполнить"
+    }
     b = """
       Вы можете выполнить это средствами IDE (VS Code).⌫
       Или выполнив команду в терминале указав пусть к файлу с тестами:
@@ -472,6 +559,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как обновить Flutter?"
+    k = new Listing<String> {
+      "флаттер" "update" "апунть"
+    }
     b = """
       Flutter CLI имеет 2 команды на обновление и откат обновления, можно воспользоваться ими:
       1. <code>upgrade</code> - обновление.
@@ -482,6 +572,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как обновить кеш Flutter?"
+    k = new Listing<String> {
+      "флаттер" "cache" "precache" "очистить"
+    }
     b = """
       Вы можете это сделать через Flutter CLI командой:
       <pre><code class="language-shell">⌫
@@ -493,6 +586,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как получить список доступных Flutter CLI эмуляторов?"
+    k = new Listing<String> {
+      "флаттер" "кли" "list" "emulators" "эмулятор" "узнать"
+    }
     b = """
       Вы можете это сделать через Flutter CLI командой:
       <pre><code class="language-shell">⌫
@@ -504,6 +600,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как получить список доступных Flutter CLI устройств?"
+    k = new Listing<String> {
+      "флаттер" "list" "devices" "девайсов" "кли" "узнать"
+    }
     b = """
       Вы можете это сделать через Flutter CLI командой:
       <pre><code class="language-shell">⌫
@@ -515,6 +614,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как очистить кеш проекта Flutter?"
+    k = new Listing<String> {
+      "флаттер" "cache" "почистить"
+    }
     b = """
       Это можно сделать командой:
       <pre><code class="language-shell">⌫
@@ -526,6 +628,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Приложение Flutter не устанавливается."
+    k = new Listing<String> {
+      "флаттер" "приложуха" "не ставиться"
+    }
     b = """
       Пакет должен быть подписан. ОС Аврора имеет валидацию пакетов при их установке.⌫
       Необходимо провалидировать пакет с помощью aurora-cli или psdk.⌫
@@ -540,6 +645,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Есть ли поддержка Flutter для ОС Аврора в IntelliJ IDEA?"
+    k = new Listing<String> {
+      "флаттер" "idea" "jetbrains" "ide" "иде" "android studio"
+    }
     b = """
       Нет, IDEA не поддерживается.⌫
       Но VS Code работает отлично, а так как предстоит, возможно, работа с С++ это IDE отлично подойдет.
@@ -549,6 +657,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как подключить сигналы и слоты Qt во Flutter плагине для ОС Аврора?"
+    k = new Listing<String> {
+      "флаттер" "aurora" "aurora os" "signal" "slop" "кьют" "plugin"
+    }
     b = """
       Qt без сигналов и слотов работает без дополнительных манипуляций.⌫
       Если нужны именно сигналы Qt необходимо активировать их работу.
@@ -572,6 +683,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как подписать RPM пакет?"
+    k = new Listing<String> {
+      "рпм" "приложение"
+    }
     b = """
       Flutter CLI подписывает пакет публичными ключами, доступными для разработки.⌫
       Platform SDK имеет утилиту <code>rpmsign-external</code> c помощью которой можно подписать пакет.⌫
@@ -584,6 +698,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое песочница?"
+    k = new Listing<String> {
+      "sandbox" "окружение"
+    }
     b = """
       Это окружение, в котором запускается приложение, ограниченное в доступе к системе.⌫
       Из терминала запустить приложение в этом окружении можно командой:
@@ -594,6 +711,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как установить RPM пакет на устройство или эмулятор?"
+    k = new Listing<String> {
+      "рпм" "поставить" "девайс" "эмуль"
+    }
     b = """
       Это можно сделать:
       1. Воспользоваться приложением Aurora CLI.
@@ -608,6 +728,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое Aurora CLI?"
+    k = new Listing<String> {
+      "aurora-cli" "аврора" "кли" "что за"
+    }
     b = """
       Open-source приложение обеспечивающее легкий старт в экосистеме ОС Аврора.⌫
       Работа с Aurora SDK, Aurora Platform SDK, Flutter SDK, взаимодействие с устройствами и эмулятором, а также многое другое.
@@ -617,6 +740,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое Aurora Toolbox?"
+    k = new Listing<String> {
+      "aurora-toolbox" "аврора" "тулбокс" "что за"
+    }
     b = """
       Это GUI интерфейс к приложению Aurora CLI.
       """
@@ -625,6 +751,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как пронять зависимость плагин это или пакет Flutter?"
+    k = new Listing<String> {
+      "флаттер" "package" "plugin" "узнать" "dependency"
+    }
     b = """
       Для этого нужно посмотреть на <code>pubspec.yaml</code>.⌫
       Если в спеке нет раздела <code>plugin</code> и нет зависимостей от плагинов - это пакет.
@@ -633,7 +762,10 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733423881
   }
   new {
-    t = "Что такое Client Wrapper (client-wrapper)?"
+    t = "Что такое Client Wrapper?"
+    k = new Listing<String> {
+      "client-wrapper" "client_wrapper" "интерфейс" "flutter" "флаттер"
+    }
     b = """
       Client Wrapper предназначен для встраивания в плагины и приложения,⌫
       чтобы обеспечить более высокие уровни абстракций C++ для взаимодействия с библиотекой Flutter.⌫
@@ -646,6 +778,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Какая доступна последняя версия Flutter для ОС Аврора?"
+    k = new Listing<String> {
+      "флаттер" "aurora" "aurora os" "latest" "version"
+    }
     b = """
       Вы всегда можете узнать последнюю доступную версию Flutter в тегах репозитория:⌫
       https://gitlab.com/omprussia/flutter/flutter/-/tags
@@ -654,7 +789,10 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733423881
   }
   new {
-    t = "Есть ли демо (demo) приложение Flutter для ОС Аврора?"
+    t = "Есть ли демо приложение Flutter для ОС Аврора?"
+    k = new Listing<String> {
+      "флаттер" "aurora" "aurora os" "demo" "приложения" "где найти"
+    }
     b = """
       Да приложение демонстрирующее работу можно найти по ссылке:⌫
       https://gitlab.com/omprussia/flutter/fluttery-todo
@@ -664,6 +802,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как локально собрать документацию Flutter для ОС Аврора?"
+    k = new Listing<String> {
+      "флаттер" "aurora" "aurora os" "на пк" "у себя" "поднять" "доки" "доку"
+    }
     b = """
       Проект Flutter для ОС Аврора - открытый проект.⌫
       Вы можете помощь при разработке как проекта так и его документации.⌫
@@ -683,7 +824,10 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733423881
   }
   new {
-    t = "Куда сообщить об ошибку, о баге?"
+    t = "Куда сообщить об ошибке?"
+    k = new Listing<String> {
+      "bug" "баге" "уведомить" "написать"
+    }
     b = """
       Если проект open-source, то лучшее место это issue проекта.
       """
@@ -691,9 +835,10 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733423881
   }
   new {
-    t = """
-      Почему возникает ошибка 'Установка приложений без подписи источника запрещена'?
-      """
+    t = "Почему возникает ошибка 'Установка приложений без подписи источника запрещена'?"
+    k = new Listing<String> {
+      "error" "при установке"
+    }
     b = """
       В Аврора 5 стала обязательной дополнительная подпись на RPM пакете - подпись источника.⌫
       Подпись источника криптографически заверяет того, кем был предоставлен тот или иной RPM пакет.⌫
@@ -706,6 +851,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как проверить, что RPM пакет подписан?"
+    k = new Listing<String> {
+      "рпм" "чекнуть" "рпм" "подпись"
+    }
     b = """
       Для этого достаточно выполнить следующую команду из-под PSDK:
       <pre><code class="language-shell">⌫
@@ -717,6 +865,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как проверить подпись RPM пакета?"
+    k = new Listing<String> {
+      "провалидировать" "чекнуть" "рпм" "валидировать" "verify"
+    }
     b = """
       Для этого достаточно выполнить следующую команду из-под PSDK:
       <pre><code class="language-shell">⌫
@@ -728,6 +879,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Какой стандартный формат лицензии ОМП для dart?"
+    k = new Listing<String> {
+      "лицуха" "заголовок" "dart"
+    }
     b = """
       <pre><code class="language-shell">⌫
       // SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &lt;community@omp.ru&gt;
@@ -739,6 +893,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Какой стандартный формат лицензии ОМП для cmake, yaml, shell, pro?"
+    k = new Listing<String> {
+      "лицуха" "заголовок" "смаке" "ямл" "шелл" "про"
+    }
     b = """
       <pre><code class="language-shell">⌫
       # SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &lt;community@omp.ru&gt;
@@ -750,6 +907,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Какой стандартный формат лицензии ОМП для c++, java, kotlin, js, php, qml?"
+    k = new Listing<String> {
+      "лицуха" "заголовок" "плюсов" "джава" "котлин" "джс" "пхп" "кмл"
+    }
     b = """
       <pre><code class="language-shell">⌫
       /**
@@ -763,6 +923,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как посмотреть записи динамической таблицы символов?"
+    k = new Listing<String> {
+      "objdump" "узнать"
+    }
     b = """
       Это можно сделать через утилиту <code>objdump</code>:
       <pre><code class="language-shell">⌫
@@ -774,6 +937,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как откатить все изменения в проекте?"
+    k = new Listing<String> {
+      "удалить" "убрать" "git reset" "git clean"
+    }
     b = """
       Это можно сделать c помощью <code>git</code>.
       ⌫
@@ -792,6 +958,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как установить Aurora CLI?"
+    k = new Listing<String> {
+      "поставить" "aurora-cli" "аврора" "кли"
+    }
     b = """
       Приложение Aurora CLI - python пакет. Его можно установить через пакетный менеджер pip.
       ⌫
@@ -815,6 +984,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как установить Aurora Toolbox?"
+    k = new Listing<String> {
+      "поставить" "aurora-toolbox" "аврора" "тулбокс"
+    }
     b = """
       Aurora Toolbox это GTK приложение, доступно в deb & rpm пакете.⌫
       Скачать последнюю версию пакета можно по ссылке:⌫
@@ -828,6 +1000,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое B2C?"
+    k = new Listing<String> {
+      "политика" "би-ту-си"
+    }
     b = """
       Термин «бизнес-потребителю» (B2C) относится к процессу продажи продуктов и услуг напрямую между бизнесом и потребителями,⌫
       которые являются конечными пользователями его продуктов или услуг.⌫
@@ -838,6 +1013,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое B2B?"
+    k = new Listing<String> {
+      "политика" "би-ту-би"
+    }
     b = """
       Бизнес-бизнес (B2B), также называемый B-to-B, является формой транзакции между предприятиями,⌫
       такими как производитель и оптовик или оптовик и розничный торговец.⌫
@@ -849,6 +1027,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое B2G?"
+    k = new Listing<String> {
+      "политика" "би-ту-джи"
+    }
     b = """
       Business to government (B2G) - это продажа и маркетинг товаров и услуг федеральным, государственным или местным агентствам.
       """
@@ -857,6 +1038,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое BYOTD?"
+    k = new Listing<String> {
+      "trusted" "политика" "byod"
+    }
     b = """
       Bring Your Own Trusted Device (BYOTD) — это политика, которая позволяет сотрудникам организации использовать личные доверенные устройства для рабочих задач.
       """
@@ -864,7 +1048,10 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733853509
   }
   new {
-    t = "Где приобрести устройств ОС Аврора?"
+    t = "Где приобрести устройство ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "купить" "девайс" "телефон"
+    }
     b = """
       С 2024го года ОС Аврору может купить любой желающий, по политике BYOTD.⌫
       Место где это можно сделать физлицу - магазин <a href="https://vsesmart.ru/">Всёсмарт</a>.
@@ -874,6 +1061,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что лучше использовать Fluter или Qt на ОС Аврора?"
+    k = new Listing<String> {
+      "флаттер" "aurora" "aurora os" "кьют" "выбрать" "юзать" "на чем разрабатывать"
+    }
     b = """
       Лучше использовать в чем есть компетенции.⌫
       Основной фреймворк для разработки это Qt.⌫
@@ -884,7 +1074,10 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733853509
   }
   new {
-    t = "Какой статус поддержки Fluter для ОС Аврора?"
+    t = "Какой статус поддержки Flutter для ОС Аврора?"
+    k = new Listing<String> {
+      "флаттер" "aurora" "aurora os"
+    }
     b = """
       Фреймворк в перманентной разработке, так же как и любые инструменты.⌫
       На нем уже пишут приложения, и вы тоже можете.
@@ -894,6 +1087,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Где найти все примеры доступные для ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "репозиторий" "демо" "демки" "репозиторий"
+    }
     b = """
       В репозитории ОМП. Там много всего, включая и примеры: https://gitlab.com/omprussia
       """
@@ -902,6 +1098,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Где найти все доступные Аврора SDK?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "sdk" "сдк" "репозиторий" "получить"
+    }
     b = """
       Аврора SDK можно найти на официальном сайте:
       https://developer.auroraos.ru/downloads/sdk
@@ -913,6 +1112,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Где найти все доступные Аврора Platform SDK?"
+    k = new Listing<String> {
+      "получить" "репозиторий" "psdk" "псдк" "ос аврора" "aurora"
+    }
     b = """
       Аврора Platform SDK можно найти на официальном сайте:
       https://developer.auroraos.ru/downloads/psdk
@@ -924,6 +1126,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Где скачать открытую ключевую пару для подписи RPM пакетов?"
+    k = new Listing<String> {
+      "ключи" "получить" "рпм" "разработчика"
+    }
     b = """
       Для разработки есть общедоступная ключевая пара, ее можно скачать с официального сайта:
       https://developer.auroraos.ru/doc/5.1.3/sdk/app_development/packaging/package_signing
@@ -933,6 +1138,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Какую операционную систему лучше использовать для разработки под ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "ос" "os" "юзать"
+    }
     b = """
       Полный набор инструментов доступен на Linux (включая Flutter, Aurora CLI и Aurora Toolbox).⌫
       Я бы рекомендовал Ubuntu 24.04 или Alt.⌫
@@ -943,7 +1151,10 @@ dataset = new Listing<FaqTemplate> {
     ts = 1733853509
   }
   new {
-    t = "Где указывать разрешения (permissions) в ОС Аврора?"
+    t = "Где указывать разрешения в ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "permissions" "desktop" "написать"
+    }
     b = """
       ОС Аврора поддерживает разрешения.⌫
       В файле <code>.desktop</code>, проекта, их можно указать.
@@ -955,6 +1166,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Где указывать необходимые зависимости для сборки проекта ОС Аврора?"
+    k = new Listing<String> {
+      "dependencies" "aurora" "aurora os" "BuildRequires"
+    }
     b = """
       В файле <code>.spec</code>, проекта, их можно указать используя параметр <code>BuildRequires</code>.
       Более детально можно ознакомится в документации:
@@ -965,6 +1179,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Валидатор не пропускает динамическую библиотеку, что делать?"
+    k = new Listing<String> {
+      "ошибка валидации" "dynamic library" "как быть"
+    }
     b = """
       Взятые с собой динамические библиотеки, запрещенные валидатором можно исключить в файле <code>.spec</code>.
       Пример:
@@ -977,6 +1194,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как провалидировать RPM пакет для ОС Аврора?"
+    k = new Listing<String> {
+      "валидация" "рпм" "aurora" "aurora os"
+    }
     b = """
       Провалидировать пакет можно несколькими способами:
       1. <a href="https://developer.auroraos.ru/doc/sdk/app_development/packaging/validation_dialog">Аврора SDK</a>
@@ -988,6 +1208,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Где можно найти информацию по ОС Аврора?"
+    k = new Listing<String> {
+      "получить" "aurora" "aurora os"
+    }
     b = """
       Я бы начал поиски необходимой информации с официального портала ОС Аврора:⌫
       https://auroraos.ru⌫
@@ -1002,6 +1225,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Какие архитектуры поддерживает ОС Аврора?"
+    k = new Listing<String> {
+      "arch" "aurora" "aurora os"
+    }
     b = """
       В 5й ОС Аврора есть следующие варианты архитектур:
       1. armv7hl (девайсы с ОС Аврора 32)
@@ -1014,6 +1240,9 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Есть ли курсы по ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "где найти"
+    }
     b = """
       Знаю такие варианты:
       1. <a href="https://stepik.org/course/71788/info">Курс на Stepik</a>.
