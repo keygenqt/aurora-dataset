@@ -4,9 +4,6 @@ import "../../templates/FaqTemplate.pkl"
 dataset = new Listing<FaqTemplate> {
   new {
     t = "Демонстрационное_сообщение."
-    i = new Listing<String> {
-      "aurora" "aurora os" "аврора" "что за" "операционная система"
-    }
     b = """
       Это демонстрация возможного ответа. Для проверки работоспособности бота и описания формата dataset-а.
 
