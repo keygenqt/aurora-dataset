@@ -4,6 +4,9 @@ import "../../templates/FaqTemplate.pkl"
 dataset = new Listing<FaqTemplate> {
   new {
     t = "Демонстрационное_сообщение."
+    i = new Listing<String> {
+      "aurora" "aurora os" "аврора" "что за" "операционная система"
+    }
     b = """
       Это демонстрация возможного ответа. Для проверки работоспособности бота и описания формата dataset-а.
 
@@ -1251,5 +1254,21 @@ dataset = new Listing<FaqTemplate> {
       """
     a = authors.keygenqt
     ts = 1733853509
+  }
+  new {
+    t = "Ошибка при запуске эмулятора: 'VBoxManage: error: Details: code NS_ERROR_FAILURE'."
+    k = new Listing<String> {
+      "эмуля"
+    }
+    b = """
+      Попробуйте переустановить VirtualBox:
+      <pre><code class="language-shell">⌫
+      sudo apt-get remove virtualbox
+      sudo apt-get update
+      sudo apt-get install virtualbox
+      </code></pre>
+      """
+    a = authors.keygenqt
+    ts = 1734254020
   }
 }
