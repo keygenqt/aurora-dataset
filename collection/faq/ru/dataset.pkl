@@ -45,6 +45,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое ОС Аврора?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/c4450421-e4d8-4885-9914-82e33a77f13f.jpg?raw=true"
     k = new Listing<String> {
       "aurora" "aurora os" "аврора" "что за" "операционная система"
     }
