@@ -1281,4 +1281,256 @@ dataset = new Listing<FaqTemplate> {
     a = authors.keygenqt
     ts = 1734254020
   }
+  new {
+    t = "Как получить состояние аккумулятора во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "battery_plus" "battery" "aurora"
+    }
+    b = """
+      Получить статус заряда аккумулятора и его состояние позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/battery_plus">battery_plus</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/battery_plus_aurora">battery_plus_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как получить состояние сетевого подключения во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "connectivity" "connectivity_plus" "aurora"
+    }
+    b = """
+      Получить состояние подключений позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/connectivity_plus">connectivity_plus</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/connectivity_plus_aurora">connectivity_plus_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как получить информацию об устройстве во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "device_info_plus" "device info" "aurora"
+    }
+    b = """
+      Получить информацию об устройстве позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/device_info_plus">device_info_plus</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/device_info_plus_aurora">device_info_plus_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как получить информацию об приложении во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "info_plus" "info" "aurora"
+    }
+    b = """
+      Получить информацию о запущенном приложении позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/package_info_plus">package_info_plus</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/package_info_plus_aurora">package_info_plus_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как получить данные датчиков во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "sensors_plus" "sensors" "aurora"
+    }
+    b = """
+      Состояние датчиков позволяет получить имплементация плагина⌫
+      <a href="https://pub.dev/packages/sensors_plus">sensors_plus</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/sensors_plus_aurora">sensors_plus_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как расшарить файл во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "share_plus" "share" "aurora"
+    }
+    b = """
+      Обмениваться данными позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/share_plus">share_plus</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/share_plus_aurora">share_plus_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как воспроизвести аудио-файл во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "audioplayers" "audio player" "aurora"
+    }
+    b = """
+      Проиграть аудио-файл позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/audioplayers">audioplayers</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/audioplayers_aurora">audioplayers_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как получить состояние клавиатуры во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "keyboard_visibility" "keyboard visibility" "aurora"
+    }
+    b = """
+      Получить статус клавиатуры и ее высоту позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/flutter_keyboard_visibility">flutter_keyboard_visibility</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/flutter_keyboard_visibility_aurora">flutter_keyboard_visibility_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как отправить системное уведомление во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "flutter_local_notifications" "notifications" "aurora"
+    }
+    b = """
+      Отправить системное уведомление позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/flutter_local_notifications">flutter_local_notifications</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/flutter_local_notifications_aurora">flutter_local_notifications_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как сохранить данные во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "sqflite" "objectbox" "shared preferences" "secure" "aurora"
+    }
+    b = """
+      Зависит от количества данных и надежности их хранения. Для этого можно воспользоваться имплементациями плагинов:
+      1. <a href="https://pub.dev/packages/sqflite">sqflite</a> -⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/sqflite_aurora">sqflite_aurora</a>.
+      ⌫
+      2. <a href="https://pub.dev/packages/objectbox_flutter_libs">objectbox_flutter_libs</a> -⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/objectbox_flutter_libs_aurora">objectbox_flutter_libs_aurora</a>.
+      ⌫
+      3. <a href="https://pub.dev/packages/shared_preferences">shared_preferences</a> -⌫
+      <a href="https://gitlab.com/omprussia/flutter/packages/-/tree/main/packages/shared_preferences_aurora">shared_preferences_aurora</a>.
+      ⌫
+      4. <a href="https://pub.dev/packages/flutter_secure_storage">flutter_secure_storage</a> -⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/flutter_secure_storage_aurora">flutter_secure_storage_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как получить данные с Qr кода во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "qr_code_scanner" "qr code" "aurora"
+    }
+    b = """
+      Отсканировать QR код позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/qr_code_scanner">qr_code_scanner</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/qr_code_scanner_aurora">qr_code_scanner_aurora</a>.⌫
+      А так же имплементация плагина⌫
+      <a href="https://pub.dev/packages/camera">camera</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/packages/-/tree/main/packages/camera_aurora">camera_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как не дать заснуть устройству во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "wakelock_plus" "wakelock" "aurora"
+    }
+    b = """
+      Отключить sleep mode позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/wakelock_plus">wakelock_plus</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/flutter-community-plugins/wakelock_plus">wakelock_plus_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как получить путь к файлу во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "path_provider" "path provider" "aurora"
+    }
+    b = """
+      Получить системные пути и пути приложения позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/path_provider">path_provider</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/packages/-/tree/main/packages/path_provider_aurora">path_provider_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как открыть ссылку во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "url_launcher" "url launcher" "aurora"
+    }
+    b = """
+      Открыть ссылку, email, телефон позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/url_launcher">url_launcher</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/packages/-/tree/main/packages/url_launcher_aurora">url_launcher_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как воспроизвести видео-файл во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "video_player" "video player" "aurora"
+    }
+    b = """
+      Воспроизводить видео файлы позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/video_player">video_player</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/packages/-/tree/main/packages/video_player_aurora">video_player_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
+  new {
+    t = "Как подключить камеру во Flutter?"
+    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    k = new Listing<String> {
+      "флаттер" "плагин" "plugin" "camera" "aurora"
+    }
+    b = """
+      Использовать камеру в приложениях Flutter позволяет имплементация плагина⌫
+      <a href="https://pub.dev/packages/camera">camera</a>⌫
+       - ⌫
+      <a href="https://gitlab.com/omprussia/flutter/packages/-/tree/main/packages/camera_aurora">camera_aurora</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734365894
+  }
 }
