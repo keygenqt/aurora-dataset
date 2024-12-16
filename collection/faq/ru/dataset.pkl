@@ -4,7 +4,7 @@ import "../../templates/FaqTemplate.pkl"
 dataset = new Listing<FaqTemplate> {
   new {
     t = "Демонстрационное_сообщение."
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/affe3cbb-2142-4fce-88f9-dee606276754.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/affe3cbb-2142-4fce-88f9-dee606276754.png"
     b = """
       Ознакомится с "HTML style" можно по ссылке:
       1. https://core.telegram.org/bots/api#html-style
@@ -45,7 +45,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое ОС Аврора?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/c4450421-e4d8-4885-9914-82e33a77f13f.jpg?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/c4450421-e4d8-4885-9914-82e33a77f13f.jpg"
     k = new Listing<String> {
       "aurora" "aurora os" "аврора" "что за" "операционная система"
     }
@@ -708,7 +708,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое Aurora CLI?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/b0d1301f-502f-4df4-8aba-ea53acd676cf.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/b0d1301f-502f-4df4-8aba-ea53acd676cf.png"
     k = new Listing<String> {
       "aurora-cli" "аврора" "кли" "что за"
     }
@@ -721,7 +721,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое Aurora Dataset?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/a70394cf-90d4-41e6-b726-b741b3228c5a.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/a70394cf-90d4-41e6-b726-b741b3228c5a.png"
     k = new Listing<String> {
       "aurora-dataset" "датасет"
     }
@@ -752,7 +752,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Что такое Aurora Toolbox?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/971aca9b-135a-46e8-9e27-95d89ad9c5fa.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/971aca9b-135a-46e8-9e27-95d89ad9c5fa.png"
     k = new Listing<String> {
       "aurora-toolbox" "аврора" "тулбокс" "что за"
     }
@@ -1283,7 +1283,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как получить состояние аккумулятора во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "battery_plus" "battery" "aurora"
     }
@@ -1298,7 +1298,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как получить состояние сетевого подключения во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "connectivity" "connectivity_plus" "aurora"
     }
@@ -1313,7 +1313,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как получить информацию об устройстве во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "device_info_plus" "device info" "aurora"
     }
@@ -1328,7 +1328,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как получить информацию об приложении во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "info_plus" "info" "aurora"
     }
@@ -1343,7 +1343,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как получить данные датчиков во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "sensors_plus" "sensors" "aurora"
     }
@@ -1358,7 +1358,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как расшарить файл во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "share_plus" "share" "aurora"
     }
@@ -1373,7 +1373,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как воспроизвести аудио-файл во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "audioplayers" "audio player" "aurora"
     }
@@ -1388,7 +1388,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как получить состояние клавиатуры во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "keyboard_visibility" "keyboard visibility" "aurora"
     }
@@ -1403,7 +1403,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как отправить системное уведомление во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "flutter_local_notifications" "notifications" "aurora"
     }
@@ -1418,7 +1418,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как сохранить данные во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "sqflite" "objectbox" "shared preferences" "secure" "aurora"
     }
@@ -1441,7 +1441,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как получить данные с Qr кода во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "qr_code_scanner" "qr code" "aurora"
     }
@@ -1460,7 +1460,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как не дать заснуть устройству во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "wakelock_plus" "wakelock" "aurora"
     }
@@ -1475,7 +1475,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как получить путь к файлу во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "path_provider" "path provider" "aurora"
     }
@@ -1490,7 +1490,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как открыть ссылку во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "url_launcher" "url launcher" "aurora"
     }
@@ -1505,7 +1505,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как воспроизвести видео-файл во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "video_player" "video player" "aurora"
     }
@@ -1520,7 +1520,7 @@ dataset = new Listing<FaqTemplate> {
   }
   new {
     t = "Как подключить камеру во Flutter?"
-    i = "https://github.com/keygenqt/aurora-dataset/blob/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png?raw=true"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png"
     k = new Listing<String> {
       "флаттер" "плагин" "plugin" "camera" "aurora"
     }
