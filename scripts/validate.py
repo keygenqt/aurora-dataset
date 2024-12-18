@@ -49,24 +49,15 @@ if __name__ == '__main__':
     results = []
     data = json.loads(result)
     dataset = data['dataset']
-    faq = dataset['faq']
-    pub = dataset['pub']
 
-    print('Validate duplicate title FAQ...')
-    results.append(validate_duplicate_title(faq['en']))
-    results.append(validate_duplicate_title(faq['ru']))
+    print('Validate duplicate title...')
+    results.append(validate_duplicate_title(dataset))
 
-    print('Validate duplicate title Publication...')
-    results.append(validate_duplicate_title(pub['en']))
-    results.append(validate_duplicate_title(pub['ru']))
-
-    print('Validate size body FAQ...')
-    results.append(validate_body_size(faq['en']))
-    results.append(validate_body_size(faq['ru']))
+    print('Validate size body...')
+    results.append(validate_body_size(dataset))
 
     print('Validate size body Publication...')
-    results.append(validate_body_size(pub['en']))
-    results.append(validate_body_size(pub['ru']))
+    results.append(validate_body_size(dataset))
 
     if len([item for item in results if not item]) > 0:
         print('Result: validation errors found.')
