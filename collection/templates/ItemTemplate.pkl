@@ -1,9 +1,9 @@
-module com.keygenqt.PublicationTemplate
+module com.keygenqt.ItemTemplate
 
 import "AuthorTemplate.pkl"
 
 /*
-  Title
+  Title - question
 */
 t: String
 
@@ -13,7 +13,12 @@ t: String
 k: Listing<String>?
 
 /*
-  Body - content publication
+  Image for data
+*/
+i: Uri?
+
+/*
+  Body - answer
 */
 b: String
 

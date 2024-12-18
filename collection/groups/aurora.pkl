@@ -1,0 +1,148 @@
+import "../authors.pkl"
+import "../templates/ItemTemplate.pkl"
+
+dataset = new Listing<ItemTemplate> {
+  new {
+    t = "Что такое ОС Аврора?"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/c4450421-e4d8-4885-9914-82e33a77f13f.jpg"
+    k = new Listing<String> {
+      "aurora" "aurora os" "аврора" "что за" "операционная система"
+    }
+    b = """
+      ОС Аврора - российская мобильная операционная система.⌫
+      Система включает функции централизованного управления устройствами, шифрования данных и многофакторной аутентификации.
+      """
+    a = authors.keygenqt
+    ts = 1734118140
+  }
+  new {
+    t = "Что такое песочница?"
+    k = new Listing<String> {
+      "sandbox" "окружение"
+    }
+    b = """
+      Это окружение, в котором запускается приложение, ограниченное в доступе к системе.⌫
+      Из терминала запустить приложение в этом окружении можно командой:
+      <pre>invoker --type=qt5 {com.keygenqt.package_name}</pre>
+      """
+    a = authors.keygenqt
+    ts = 1733423881
+  }
+  new {
+    t = "Почему возникает ошибка 'Установка приложений без подписи источника запрещена'?"
+    k = new Listing<String> {
+      "error" "при установке"
+    }
+    b = """
+      В Аврора 5 стала обязательной дополнительная подпись на RPM пакете - подпись источника.⌫
+      Подпись источника криптографически заверяет того, кем был предоставлен тот или иной RPM пакет.⌫
+      Зачастую подпись источника добавляется официальными маркетами, например RuStore,⌫
+      когда вы загружаете свое приложение через админ панель.⌫
+      Для целей разработки вы можете отключить обязательное требование подписи источника пакетов через настройки.
+      """
+    a = authors.dieTime
+    ts = 1733512746
+  }
+  new {
+    t = "Какую операционную систему лучше использовать для разработки под ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "ос" "os" "юзать"
+    }
+    b = """
+      Полный набор инструментов доступен на Linux (включая Flutter, Aurora CLI и Aurora Toolbox).⌫
+      Я бы рекомендовал Ubuntu 24.04 или Alt.⌫
+      Более детально можно ознакомится в документации по установке Аврора SDK⌫
+      https://developer.auroraos.ru/doc/5.1.3/sdk/app_development/setup
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где указывать разрешения в ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "permissions" "desktop" "написать"
+    }
+    b = """
+      ОС Аврора поддерживает разрешения.⌫
+      В файле <code>.desktop</code>, проекта, их можно указать.
+      Более детально можно ознакомится в документации:
+      https://developer.auroraos.ru/doc/5.1.3/software_development/guidelines/rpm_requirements/desktop_requirements
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где указывать необходимые зависимости для сборки проекта ОС Аврора?"
+    k = new Listing<String> {
+      "dependencies" "aurora" "aurora os" "BuildRequires"
+    }
+    b = """
+      В файле <code>.spec</code>, проекта, их можно указать используя параметр <code>BuildRequires</code>.
+      Более детально можно ознакомится в документации:
+      https://developer.auroraos.ru/doc/5.1.3/software_development/guidelines/rpm_requirements/spec_requirements
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Валидатор не пропускает динамическую библиотеку, что делать?"
+    k = new Listing<String> {
+      "ошибка валидации" "dynamic library" "как быть"
+    }
+    b = """
+      Взятые с собой динамические библиотеки, запрещенные валидатором можно исключить в файле <code>.spec</code>.
+      Пример:
+      <pre><code class="language-shell">⌫
+      %global __requires_exclude ^lib(ZXing)\\.so.*$
+      </code></pre>
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где можно найти информацию по ОС Аврора?"
+    k = new Listing<String> {
+      "получить" "aurora" "aurora os"
+    }
+    b = """
+      Я бы начал поиски необходимой информации с официального портала ОС Аврора:⌫
+      https://auroraos.ru⌫
+      ⌫
+      Заглянул в Telegram чат:⌫
+      https://t.me/aurora_devs⌫
+      или VK группу:⌫
+      https://vk.com/aurora_os
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Какие архитектуры поддерживает ОС Аврора?"
+    k = new Listing<String> {
+      "arch" "aurora" "aurora os"
+    }
+    b = """
+      В 5й ОС Аврора есть следующие варианты архитектур:
+      1. armv7hl (девайсы с ОС Аврора 32)
+      2. aarch64 (девайсы с ОС Аврора 64)
+      3. x86_64  (эмулятор с 5й версии)
+      Следует уточнить что процессор не всегда соответствует архитектуре установленной ОС.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Есть ли курсы по ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "где найти"
+    }
+    b = """
+      Знаю такие варианты:
+      1. <a href="https://stepik.org/course/71788/info">Курс на Stepik</a>.
+      2. <a href="https://otus.ru/lessons/qt-aurora">Курс на Otus</a>.
+      3. <a href="https://www.infosystems.ru/courses/avtorizovannye_kursy/ISSF010">Курс на Академии Информационных систем</a>.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+}

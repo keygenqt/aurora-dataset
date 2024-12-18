@@ -1,0 +1,217 @@
+import "../authors.pkl"
+import "../templates/ItemTemplate.pkl"
+
+dataset = new Listing<ItemTemplate> {
+  new {
+    t = "Что такое Аврора Platform SDK?"
+    k = new Listing<String> {
+      "aurora" "платформ" "psdk" "сдк" "псдк" "что за"
+    }
+    b = """
+      Аврора Platform SDK — это набор инструментов для разработки, отладки и тестирования компонентов ОС Аврора.
+      """
+    a = authors.keygenqt
+    ts = 1733423881
+  }
+  new {
+    t = "Что такое Аврора SDK?"
+    k = new Listing<String> {
+      "aurora" "сдк" "что за"
+    }
+    b = """
+      Аврора SDK - набор инструментов для сборки, разработки, отладки и тестирования программного обеспечения для ОС Аврора.
+      """
+    a = authors.keygenqt
+    ts = 1733423881
+  }
+  new {
+    t = "Как подписать RPM пакет?"
+    k = new Listing<String> {
+      "рпм" "приложение"
+    }
+    b = """
+      Flutter CLI подписывает пакет публичными ключами, доступными для разработки.⌫
+      Platform SDK имеет утилиту <code>rpmsign-external</code> c помощью которой можно подписать пакет.⌫
+      https://developer.auroraos.ru/doc/sdk/tools/rpmsign_external⌫
+      Aurora CLI умеет тоже подписывать пакеты:⌫
+      https://keygenqt.github.io/aurora-cli/cli/psdk/package/sign
+      """
+    a = authors.keygenqt
+    ts = 1733423881
+  }
+  new {
+    t = "Что такое Aurora CLI?"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/b0d1301f-502f-4df4-8aba-ea53acd676cf.png"
+    k = new Listing<String> {
+      "aurora-cli" "аврора" "кли" "что за"
+    }
+    b = """
+      Open-source приложение обеспечивающее легкий старт в экосистеме ОС Аврора.⌫
+      Работа с Aurora SDK, Aurora Platform SDK, Flutter SDK, взаимодействие с устройствами и эмулятором, а также многое другое.
+      """
+    a = authors.keygenqt
+    ts = 1733423881
+  }
+  new {
+    t = "Что такое Aurora Dataset?"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/a70394cf-90d4-41e6-b726-b741b3228c5a.png"
+    k = new Listing<String> {
+      "aurora-dataset" "датасет"
+    }
+    b = """
+      База знаний по ОС Аврора.⌫
+      Ответы Aurora Bot находит именно в ней.⌫
+      Вы легко можете внести свой вклад в базу знаний сделав пулл-реквест в репозиторий:⌫
+      https://github.com/keygenqt/aurora-dataset
+      """
+    a = authors.keygenqt
+    ts = 1734279178
+  }
+  new {
+    t = "Что такое Aurora COS?"
+    k = new Listing<String> {
+      "аврора" "aurora-cos" "cos" "кос"
+    }
+    b = """
+      Aurora COS (Because | Community Open-Source) — совокупность проектов, в контексте ОС Аврора,⌫
+      объединённые одной целью — сделать проще разработку под операционную систему Аврора:
+      1. <a href="https://keygenqt.github.io/aurora-cli/">Aurora CLI</a>.
+      2. <a href="https://keygenqt.github.io/aurora-toolbox/">Aurora Toolbox</a>.
+      3. <a href="https://github.com/keygenqt/aurora-dataset">Aurora Dataset</a>.
+      4. <a href="https://aurora-bot.keygenqt.com/">Aurora Bot</a>.
+      """
+    a = authors.keygenqt
+    ts = 1734279178
+  }
+  new {
+    t = "Что такое Aurora Toolbox?"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/971aca9b-135a-46e8-9e27-95d89ad9c5fa.png"
+    k = new Listing<String> {
+      "aurora-toolbox" "аврора" "тулбокс" "что за"
+    }
+    b = """
+      Это GUI интерфейс к приложению Aurora CLI.
+      """
+    a = authors.keygenqt
+    ts = 1733423881
+  }
+  new {
+    t = "Как проверить, что RPM пакет подписан?"
+    k = new Listing<String> {
+      "рпм" "чекнуть" "рпм" "подпись"
+    }
+    b = """
+      Для этого достаточно выполнить следующую команду из-под PSDK:
+      <pre><code class="language-shell">⌫
+      rpmsign-external dump {your-rpm-package}
+      </code></pre>
+      """
+    a = authors.dieTime
+    ts = 1733512746
+  }
+  new {
+    t = "Как проверить подпись RPM пакета?"
+    k = new Listing<String> {
+      "провалидировать" "чекнуть" "рпм" "валидировать" "verify"
+    }
+    b = """
+      Для этого достаточно выполнить следующую команду из-под PSDK:
+      <pre><code class="language-shell">⌫
+      rpmsign-external verify {your-rpm-package}
+      </code></pre>
+      """
+    a = authors.dieTime
+    ts = 1733512746
+  }
+  new {
+    t = "Как посмотреть записи динамической таблицы символов?"
+    k = new Listing<String> {
+      "objdump" "узнать"
+    }
+    b = """
+      Это можно сделать через утилиту <code>objdump</code>:
+      <pre><code class="language-shell">⌫
+      objdump -CT /path/to/libdynamic.so
+      </code></pre>
+      """
+    a = authors.keygenqt
+    ts = 1733516308
+  }
+  new {
+    t = "Как откатить все изменения в проекте?"
+    k = new Listing<String> {
+      "удалить" "убрать" "git reset" "git clean"
+    }
+    b = """
+      Это можно сделать c помощью <code>git</code>.
+      ⌫
+      Так вы откатите все изменения:
+      <pre><code class="language-shell">⌫
+      git reset --hard HEAD
+      </code></pre>
+      ⌫
+      Так откатите все, *включая не фиксированные файлы*:
+      <pre><code class="language-shell">⌫
+      git clean -fdx
+      </code></pre>
+      """
+    a = authors.keygenqt
+    ts = 1733555480
+  }
+  new {
+    t = "Как установить Aurora CLI?"
+    k = new Listing<String> {
+      "поставить" "aurora-cli" "аврора" "кли"
+    }
+    b = """
+      Приложение Aurora CLI - python пакет. Его можно установить через пакетный менеджер pip.
+      ⌫
+      Установить pip можно так:
+      <pre><code class="language-shell">⌫
+      sudo apt update
+      sudo apt install python3-pip
+      python3 -m pip install --upgrade setuptools --break-system-packages
+      </code></pre>
+      ⌫
+      Установить Aurora CLI можно так:
+      <pre><code class="language-shell">⌫
+      python3 -m pip install aurora-cli --break-system-packages
+      </code></pre>
+      ⌫
+      Более подробно написано на странице документации приложения:⌫
+      https://keygenqt.github.io/aurora-cli/install
+      """
+    a = authors.keygenqt
+    ts = 1733651831
+  }
+  new {
+    t = "Как установить Aurora Toolbox?"
+    k = new Listing<String> {
+      "поставить" "aurora-toolbox" "аврора" "тулбокс"
+    }
+    b = """
+      Aurora Toolbox это GTK приложение, доступно в deb & rpm пакете.⌫
+      Скачать последнюю версию пакета можно по ссылке:⌫
+      https://github.com/keygenqt/aurora-toolbox/releases⌫
+      Установка отличается на дистрибутивах Linux, посмотрите документацию вашего пакетного менеджера.⌫
+      Более подробно написано на странице документации приложения:⌫
+      https://keygenqt.github.io/aurora-toolbox/install
+      """
+    a = authors.keygenqt
+    ts = 1733651831
+  }
+  new {
+    t = "Как провалидировать RPM пакет для ОС Аврора?"
+    k = new Listing<String> {
+      "валидация" "рпм" "aurora" "aurora os"
+    }
+    b = """
+      Провалидировать пакет можно несколькими способами:
+      1. <a href="https://developer.auroraos.ru/doc/sdk/app_development/packaging/validation_dialog">Аврора SDK</a>
+      2. <a href="https://developer.auroraos.ru/doc/sdk/tools/rpm_validator">Аврора Platform SDK</a>
+      3. <a href="https://keygenqt.github.io/aurora-cli/cli/psdk/package/validate/">Aurora CLI</a>
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+}

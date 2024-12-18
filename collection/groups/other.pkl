@@ -1,0 +1,200 @@
+import "../authors.pkl"
+import "../templates/ItemTemplate.pkl"
+
+dataset = new Listing<ItemTemplate> {
+  new {
+    t = "Что такое SDK?"
+    k = new Listing<String> {
+      "сдк" "software development kit"
+    }
+    b = """
+      SDK (Software Development Kit) - набор инструментов для разработки программного обеспечения объединённый в одном пакете.
+      """
+    a = authors.keygenqt
+    ts = 1733423881
+  }
+  new {
+    t = "Как установить RPM пакет на устройство или эмулятор?"
+    k = new Listing<String> {
+      "рпм" "поставить" "девайс" "эмуль"
+    }
+    b = """
+      Это можно сделать:
+      1. Воспользоваться приложением Aurora CLI.
+      2. Воспользоваться приложением Aurora Toolbox.
+      3. Залив приложение по ssh (scp) и выполнив команду:
+      <pre><code class="language-shell">⌫
+      gdbus call --system --dest ru.omp.APM --object-path /ru/omp/APM --method ru.omp.APM.Install /path/to/file.rpm {}
+      </code></pre>
+      """
+    a = authors.keygenqt
+    ts = 1733423881
+  }
+  new {
+    t = "Куда сообщить об ошибке?"
+    k = new Listing<String> {
+      "bug" "баге" "уведомить" "написать"
+    }
+    b = """
+      Если проект open-source, то лучшее место это issue проекта.
+      """
+    a = authors.keygenqt
+    ts = 1733423881
+  }
+  new {
+    t = "Какой стандартный формат лицензии ОМП для dart?"
+    k = new Listing<String> {
+      "лицуха" "заголовок" "dart"
+    }
+    b = """
+      <pre><code class="language-shell">⌫
+      // SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &lt;community@omp.ru&gt;
+      // SPDX-License-Identifier: BSD-3-Clause
+      </code></pre>
+      """
+    a = authors.keygenqt
+    ts = 1733516308
+  }
+  new {
+    t = "Какой стандартный формат лицензии ОМП для cmake, yaml, shell, pro?"
+    k = new Listing<String> {
+      "лицуха" "заголовок" "смаке" "ямл" "шелл" "про"
+    }
+    b = """
+      <pre><code class="language-shell">⌫
+      # SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &lt;community@omp.ru&gt;
+      # SPDX-License-Identifier: BSD-3-Clause
+      </code></pre>
+      """
+    a = authors.keygenqt
+    ts = 1733516308
+  }
+  new {
+    t = "Какой стандартный формат лицензии ОМП для c++, java, kotlin, js, php, qml?"
+    k = new Listing<String> {
+      "лицуха" "заголовок" "плюсов" "джава" "котлин" "джс" "пхп" "кмл"
+    }
+    b = """
+      <pre><code class="language-shell">⌫
+      /**
+      * SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &lt;community@omp.ru&gt;
+      * SPDX-License-Identifier: BSD-3-Clause
+      */
+      </code></pre>
+      """
+    a = authors.keygenqt
+    ts = 1733516308
+  }
+  new {
+    t = "Что такое B2C?"
+    k = new Listing<String> {
+      "политика" "би-ту-си"
+    }
+    b = """
+      Термин «бизнес-потребителю» (B2C) относится к процессу продажи продуктов и услуг напрямую между бизнесом и потребителями,⌫
+      которые являются конечными пользователями его продуктов или услуг.⌫
+      Большинство компаний, которые продают напрямую потребителям, можно назвать компаниями B2C.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Что такое B2B?"
+    k = new Listing<String> {
+      "политика" "би-ту-би"
+    }
+    b = """
+      Бизнес-бизнес (B2B), также называемый B-to-B, является формой транзакции между предприятиями,⌫
+      такими как производитель и оптовик или оптовик и розничный торговец.⌫
+      Бизнес-бизнес относится к торговле, которая ведется между компаниями,⌫
+      а не между компаниями и отдельными потребителями.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Что такое B2G?"
+    k = new Listing<String> {
+      "политика" "би-ту-джи"
+    }
+    b = """
+      Business to government (B2G) - это продажа и маркетинг товаров и услуг федеральным, государственным или местным агентствам.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Что такое BYOTD?"
+    k = new Listing<String> {
+      "trusted" "политика" "byod"
+    }
+    b = """
+      Bring Your Own Trusted Device (BYOTD) — это политика, которая позволяет сотрудникам организации использовать личные доверенные устройства для рабочих задач.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где приобрести устройство ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "купить" "девайс" "телефон"
+    }
+    b = """
+      С 2024го года ОС Аврору может купить любой желающий, по политике BYOTD.⌫
+      Место где это можно сделать физлицу - магазин <a href="https://vsesmart.ru/">Всёсмарт</a>.
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где найти все примеры доступные для ОС Аврора?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "репозиторий" "демо" "демки" "репозиторий"
+    }
+    b = """
+      В репозитории ОМП. Там много всего, включая и примеры: https://gitlab.com/omprussia
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где найти все доступные Аврора SDK?"
+    k = new Listing<String> {
+      "aurora" "aurora os" "sdk" "сдк" "репозиторий" "получить"
+    }
+    b = """
+      Аврора SDK можно найти на официальном сайте:
+      https://developer.auroraos.ru/downloads/sdk
+      Либо в репозитории:
+      https://sdk-repo.omprussia.ru/sdk/installers
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где найти все доступные Аврора Platform SDK?"
+    k = new Listing<String> {
+      "получить" "репозиторий" "psdk" "псдк" "ос аврора" "aurora"
+    }
+    b = """
+      Аврора Platform SDK можно найти на официальном сайте:
+      https://developer.auroraos.ru/downloads/psdk
+      Либо в репозитории:
+      https://sdk-repo.omprussia.ru/sdk/installers
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+  new {
+    t = "Где скачать открытую ключевую пару для подписи RPM пакетов?"
+    k = new Listing<String> {
+      "ключи" "получить" "рпм" "разработчика"
+    }
+    b = """
+      Для разработки есть общедоступная ключевая пара, ее можно скачать с официального сайта:
+      https://developer.auroraos.ru/doc/5.1.3/sdk/app_development/packaging/package_signing
+      """
+    a = authors.keygenqt
+    ts = 1733853509
+  }
+}

@@ -1,0 +1,21 @@
+import "../authors.pkl"
+import "../templates/ItemTemplate.pkl"
+
+dataset = new Listing<ItemTemplate> {
+  new {
+    t = "Ошибка при запуске эмулятора: 'VBoxManage: error: Details: code NS_ERROR_FAILURE'."
+    k = new Listing<String> {
+      "эмуля"
+    }
+    b = """
+      Попробуйте переустановить VirtualBox:
+      <pre><code class="language-shell">⌫
+      sudo apt-get remove virtualbox
+      sudo apt-get update
+      sudo apt-get install virtualbox
+      </code></pre>
+      """
+    a = authors.keygenqt
+    ts = 1734254020
+  }
+}

@@ -1,4 +1,4 @@
-import "../templates/AuthorTemplate.pkl"
+import "templates/AuthorTemplate.pkl"
 
 /*
   Open Mobile Platform
