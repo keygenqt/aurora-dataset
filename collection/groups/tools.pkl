@@ -214,4 +214,99 @@ dataset = new Listing<ItemTemplate> {
     a = authors.keygenqt
     ts = 1733853509
   }
+  new {
+    t = "Что такое Авроид?"
+    k = new Listing<String> {
+      "aurora" "apk" "апк" "android" "андроид"
+    }
+    b = """
+      Авроид - программная среда для запуска Android-приложений на устройствах с защищенной операционной системой «Аврора».
+      https://avroid.ru/avroid-platform
+      """
+    a = authors.keygenqt
+    ts = 1734622521
+  }
+  new {
+    t = "Как поставить Аврора SDK на macOS?"
+    k = new Listing<String> {
+      "aurora sdk" "мак" "м1" "m1" "aarch64"
+    }
+    b = """
+      На данный момент Аврора SDK не поддерживает установку на macOS с Apple Silicon (aarch64).
+      """
+    a = authors.keygenqt
+    ts = 1734622521
+  }
+  new {
+    t = "Где взять пароль от ssh на эмулятор?"
+    k = new Listing<String> {
+      "эмуль" "aurora os" "ос аврора эмулятор" "авторизация" "ключ"
+    }
+    b = """
+      При установке Аврора SDK устанавливается эмулятор и ключи ssh для доступа к нему.⌫
+      Его можно найти в
+      <pre>{path_to_dir_sdk}/vmshare/ssh/private_keys/sdk</pre>
+      Для разного уровня доступа нужно указать соответствующего пользователя:
+      1. defaultuser
+      2. root
+      """
+    a = authors.keygenqt
+    ts = 1734622521
+  }
+  new {
+    t = "Как загрузить файл на эмулятор?"
+    k = new Listing<String> {
+      "эмуль" "aurora os" "ос аврора эмулятор" "скопировать" "закинуть"
+    }
+    b = """
+      На эмулятор файл можно предать через ssh. Самые очевидные варианты:
+      1. scp
+      2. filezilla
+      Также, для загрузки файлов можно использовать Aurora CLI или Aurora Toolbox.
+      """
+    a = authors.keygenqt
+    ts = 1734622521
+  }
+  new {
+    t = "Как перейти в окружение Аврора Platform SDK?"
+    k = new Listing<String> {
+      "платформ" "aurora os" "ос аврора"
+    }
+    b = """
+      В папку установленного Platform SDK можно найти исполняемый файл <code>sdk-chroot</code>,⌫
+      выполнив который можно попасть в окружение <code>chroot</code> PSDK.
+      """
+    a = authors.keygenqt
+    ts = 1734622521
+  }
+  new {
+    t = "Что такое PSDK_DIR?"
+    k = new Listing<String> {
+      "переменная окружения" "environment" "псдк" "psdk"
+    }
+    b = """
+      PSDK_DIR - переменная окружения, которую нужно добавить самостоятельно при установки Platform SDK,⌫
+      указав путь к <code>AuroraPlatformSDK/sdks/aurora_psdk</code> в <code>.bashrc</code>:
+      <pre><code class="language-shell">⌫
+      echo 'export PSDK_DIR=~/AuroraPlatformSDK/sdks/aurora_psdk' >> ~/.bashrc
+      </code></pre>
+      """
+    a = authors.keygenqt
+    ts = 1734622521
+  }
+  new {
+    t = "Что такое chroot?"
+    k = new Listing<String> {
+      "корневой каталог" "среда"
+    }
+    b = """
+      chroot — это операция в операционных системах Unix и Unix-подобных системах,⌫
+      которая изменяет видимый корневой каталог для текущего запущенного процесса и его потомков.⌫
+      Программа, запущенная в такой измененной среде,⌫
+      не может называть файлы за пределами указанного дерева каталогов⌫
+      (и, следовательно, обычно не может получить к ним доступ).
+      """
+    a = authors.keygenqt
+    ts = 1734622521
+  }
 }

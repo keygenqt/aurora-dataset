@@ -29,41 +29,50 @@ if __name__ == '__main__':
         with open(file, 'r') as fp:
             lines += len(fp.readlines())
 
-    # Count authors
-    authors = []
-    for item in dataset:
-        hash_name = hashlib.md5('{}'.format(item['a']).encode('utf-8')).hexdigest()
-        if hash_name not in authors:
-            authors.append(hash_name)
+
 
     # gen table data
-    headers = ['Name', 'Count']
+    headers = ['Authors', 'Count']
     states = [
         ['Items', len(dataset)],
         [],
-        ['Authors', len(authors)],
         ['Lines of code', lines],
     ]
 
+    # Count authors
+    authors = {}
+    for item in dataset:
+        name = '{} {}'.format(item['a']['fname'], item['a']['lname'])
+        if name in authors:
+            authors[name] += 1
+        else:
+            authors[name] = 1
+
+    states = []
+    for i, item in enumerate(authors):
+        states.append([item, authors[item]])
+    states.append([])
+    states.append(['Lines of code', lines])
+
     # print table headers
     for col in headers:
-        print(col.ljust(16), end='')
+        print(col.ljust(20), end='')
     print()
     for i, col in enumerate(headers):
-        print('+--------------', end=('+' if i == len(headers) - 1 else '-'))
+        print('+------------------', end=('+' if i == len(headers) - 1 else '-'))
     print()
 
     # print table rows
     for i, row in enumerate(states, start=1):
         if not row:
             for _, _ in enumerate(headers):
-                print('---------------', end='-')
+                print('-------------------', end='-')
             print()
         else:
             for col in row:
-                print(str(col).ljust(16), end='')
+                print(str(col).ljust(20), end='')
             print()
 
     for _, _ in enumerate(headers):
-        print('---------------', end='-')
+        print('-------------------', end='-')
     print()
