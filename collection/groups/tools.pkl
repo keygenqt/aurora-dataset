@@ -60,11 +60,11 @@ dataset = new Listing<ItemTemplate> {
     }
     b = """
       Клиент-приложение Aurora Bot которая реализует умную командую строку для работы с Aurora CLI.⌫
-      Отвечает на ваши вопросы из открытого проекта Aurora Dataset.⌫
-      Сейчас приложение в разработке.
+      Отвечает на ваши вопросы из открытого проекта Aurora Dataset.
+      <span class="tg-spoiler">Сейчас приложение в разработке.</span>
       """
     a = authors.keygenqt
-    ts = 1733423881
+    ts = 1735379288
   }
   new {
     t = "Что такое Aurora Dataset?"
