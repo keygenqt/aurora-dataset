@@ -52,6 +52,20 @@ dataset = new Listing<ItemTemplate> {
     a = authors.keygenqt
     ts = 1733423881
   }
+    new {
+    t = "Что такое Cosbot?"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/6a0ac013-c9e3-45af-8496-65e3d0b557c7.png"
+    k = new Listing<String> {
+      "cosbot" "cos" "кос" "бот cli"
+    }
+    b = """
+      Клиент-приложение Aurora Bot которая реализует умную командую строку для работы с Aurora CLI.⌫
+      Отвечает на ваши вопросы из открытого проекта Aurora Dataset.⌫
+      Сейчас приложение в разработке.
+      """
+    a = authors.keygenqt
+    ts = 1733423881
+  }
   new {
     t = "Что такое Aurora Dataset?"
     i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/a70394cf-90d4-41e6-b726-b741b3228c5a.png"
