@@ -26,7 +26,7 @@ scripts/pkl.py --dump json
 ### Text Format
 
 The HTML format is used, in abbreviated form: [HTML style](https://core.telegram.org/bots/api#html-style).
-Suitable for telegram bots and all other parsers. Example message **>[here](https://github.com/keygenqt/aurora-dataset/blob/main/collection/faq/ru/dataset.pkl#L6)<**.
+Suitable for telegram bots and all other parsers. Example message **>[here](https://github.com/keygenqt/aurora-dataset/blob/main/collection/dataset.pkl#L21)<**.
 
 ### Pkl IDEs
 
