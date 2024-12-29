@@ -83,6 +83,7 @@ dataset = new Listing<ItemTemplate> {
   }
   new {
     t = "Что такое Aurora COS?"
+    i = "https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/8a574d19-bfb5-42f0-a945-ee9b7a022d6c.png"
     k = new Listing<String> {
       "аврора" "aurora-cos" "cos" "кос"
     }
