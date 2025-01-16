@@ -1,4 +1,5 @@
 import "authors.pkl"
+import "groups/articles.pkl" as g_articles
 import "groups/aurora.pkl" as g_aurora
 import "groups/errors.pkl" as g_errors
 import "groups/flutter.pkl" as g_flutter
@@ -6,10 +7,12 @@ import "groups/kmp.pkl" as g_kmp
 import "groups/other.pkl" as g_other
 import "groups/qt.pkl" as g_qt
 import "groups/tools.pkl" as g_tools
+import "groups/videos.pkl" as g_videos
 import "templates/ItemTemplate.pkl"
 
 dataset {
   // Groups
+  ...g_articles.dataset
   ...g_aurora.dataset
   ...g_errors.dataset
   ...g_flutter.dataset
@@ -17,6 +20,7 @@ dataset {
   ...g_other.dataset
   ...g_qt.dataset
   ...g_tools.dataset
+  ...g_videos.dataset
   // Demo
   new ItemTemplate {
     t = "Демонстрационное_сообщение."
