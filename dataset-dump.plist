@@ -1,0 +1,4985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>dataset</key>
+  <array>
+    <dict>
+      <key>t</key>
+      <string>Знакомство с Aurora OS.</string>
+      <key>k</key>
+      <array>
+        <string>articles</string>
+        <string>статья</string>
+        <string>публикация</string>
+      </array>
+      <key>i</key>
+      <string>https://api.keygenqt.com/api/ps/file/e2a1e83f-3159-4c42-891b-73a8f8fb8f35.png</string>
+      <key>b</key>
+      <string>
+Наконец-то я нашел время написать приложение для любопытной мобильной платформы.⌫
+Расскажу с чем предстоит столкнуться желающему разобраться в Aurora OS.
+
+🔗 &lt;a href=&quot;https://keygenqt.com/blog/2&quot;&gt;Читать статью&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Hello Emulator Aurora OS!</string>
+      <key>k</key>
+      <array>
+        <string>articles</string>
+        <string>статья</string>
+        <string>публикация</string>
+      </array>
+      <key>i</key>
+      <string>https://api.keygenqt.com/api/ps/file/7226c8c0-3ff2-439d-b868-050d6f5e3c4c.png</string>
+      <key>b</key>
+      <string>
+Все мобильные платформы стараются предоставить максимально удобные инструменты для разработки под них.⌫
+Один из таких инструментов - эмулятор Aurora OS.
+
+🔗 &lt;a href=&quot;https://keygenqt.com/blog/6&quot;&gt;Читать статью&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Mission impossible, Aurora + M1.</string>
+      <key>k</key>
+      <array>
+        <string>articles</string>
+        <string>статья</string>
+        <string>публикация</string>
+      </array>
+      <key>i</key>
+      <string>https://api.keygenqt.com/api/ps/file/ec06756b-d3d1-404c-bb7e-11dcddebe68c.png</string>
+      <key>b</key>
+      <string>
+Средства разработки Aurora OS не доступны для архитектуры arm.⌫
+Но есть большое желание работать на macOS M1/M2?⌫
+Мне удалось организовать удаленную работу с Aurora OS.
+
+🔗 &lt;a href=&quot;https://keygenqt.com/blog/13&quot;&gt;Читать статью&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>KMP в ОС Аврора.</string>
+      <key>k</key>
+      <array>
+        <string>articles</string>
+        <string>статья</string>
+        <string>публикация</string>
+      </array>
+      <key>i</key>
+      <string>https://api.keygenqt.com/api/ps/file/91c896b7-e679-47e9-885c-a3634eaa1834.png</string>
+      <key>b</key>
+      <string>
+В данной статье описана работа ОС Аврора с технологией Kotlin Multiplatform.⌫
+Рассматривается метод подключения модуля Kotlin Multiplatform к приложению на Qt/QML.
+
+🔗 &lt;a href=&quot;https://habr.com/ru/articles/753570/&quot;&gt;Читать статью&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Flutter на ОС Аврора.</string>
+      <key>k</key>
+      <array>
+        <string>articles</string>
+        <string>статья</string>
+        <string>публикация</string>
+      </array>
+      <key>i</key>
+      <string>https://api.keygenqt.com/api/ps/file/157ce52f-8a03-4169-879b-cf1d63a5dbb9.png</string>
+      <key>b</key>
+      <string>
+Статья поможет разобраться, как настроить инструменты разработки,⌫
+а также раскроет секрет написания плагинов для расширения возможностей работы с платформо-зависимым API.
+
+🔗 &lt;a href=&quot;https://habr.com/ru/articles/761176/&quot;&gt;Читать статью&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Aurora Project.</string>
+      <key>k</key>
+      <array>
+        <string>articles</string>
+        <string>статья</string>
+        <string>публикация</string>
+      </array>
+      <key>i</key>
+      <string>https://api.keygenqt.com/api/ps/file/b4c57314-a81e-460b-983c-c4f85fa17646.png</string>
+      <key>b</key>
+      <string>
+История проектов: Aurora Scripts, Aurora CLI, Aurora Toolbox.⌫
+С чего начинались проекты, как развивались, как планирую развивать дальше.
+
+🔗 &lt;a href=&quot;https://keygenqt.com/blog/16&quot;&gt;Читать статью&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Гайд по Aurora OS: как начать разработку для отечественной мобильной операционке.</string>
+      <key>k</key>
+      <array>
+        <string>articles</string>
+        <string>статья</string>
+        <string>публикация</string>
+      </array>
+      <key>i</key>
+      <string>https://habrastorage.org/r/w1560/getpro/habr/upload_files/cbe/e7d/cce/cbee7dcce2a94577243989b77e954caa.png</string>
+      <key>b</key>
+      <string>
+Заканчивается бета-тестирование пятой версии отечественной мобильной операционной системы Aurora OS.⌫
+И если до этого система позиционировалась только как рабочая лошадка для терминалов в сегменте B2B,⌫
+то теперь авторы планируют выход на рынок персональных устройств для работы.⌫
+В планах также создание собственной мобильной экосистемы для повседневных задач.⌫
+Что стоит знать разработчикам об Авроре?
+
+🔗 &lt;a href=&quot;https://habr.com/ru/articles/791142/&quot;&gt;Читать статью&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как начать создавать Flutter-приложения на Авроре: полная инструкция.</string>
+      <key>k</key>
+      <array>
+        <string>articles</string>
+        <string>статья</string>
+        <string>публикация</string>
+      </array>
+      <key>i</key>
+      <string>https://habrastorage.org/r/w1560/getpro/habr/upload_files/c5e/c4d/46e/c5ec4d46edec0410099fb013fe9bde8d.jpg</string>
+      <key>b</key>
+      <string>
+Привет, Хабр! Это Юра Петров, Tech Lead Friflex. Последнее время многие меня спрашивают,⌫
+как быстро начать разрабатывать приложения для системы Аврора с помощью фреймворка Flutter.⌫
+Решил поделиться опытом и собрал ультимативный гайд.
+
+🔗 &lt;a href=&quot;https://habr.com/ru/companies/friflex/articles/854928/&quot;&gt;Читать статью&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Flutter на ОС Аврора: Friflex и ОМП выпустили манифест сообщества разработчиков.</string>
+      <key>k</key>
+      <array>
+        <string>articles</string>
+        <string>статья</string>
+        <string>публикация</string>
+      </array>
+      <key>i</key>
+      <string>https://habrastorage.org/r/w780/getpro/habr/upload_files/cf9/140/d49/cf9140d494284bda48a95865a4d76877.jpeg</string>
+      <key>b</key>
+      <string>
+В этой статье я расскажу, как с помощью интерфейса D-Bus можно быстро получить необходимую вам информацию из системы Аврора.
+
+🔗 &lt;a href=&quot;https://habr.com/ru/companies/friflex/articles/799855/&quot;&gt;Читать статью&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как быстро получать данные из ОС Аврора через интерфейс D-Bus во Flutter-приложении.</string>
+      <key>k</key>
+      <array>
+        <string>articles</string>
+        <string>статья</string>
+        <string>публикация</string>
+      </array>
+      <key>i</key>
+      <string>https://habrastorage.org/r/w1560/getpro/habr/upload_files/e08/c4a/9b2/e08c4a9b24a3e66194246d0a29a3a2fe.jpg</string>
+      <key>b</key>
+      <string>
+В этой статье я расскажу, как с помощью интерфейса D-Bus можно быстро получить необходимую вам информацию из системы Аврора.
+
+🔗 &lt;a href=&quot;https://habr.com/ru/companies/friflex/articles/799855/&quot;&gt;Читать статью&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что учесть при портировании приложения на Аврору.</string>
+      <key>k</key>
+      <array>
+        <string>articles</string>
+        <string>статья</string>
+        <string>публикация</string>
+      </array>
+      <key>i</key>
+      <string>https://habrastorage.org/r/w1560/getpro/habr/upload_files/1b6/cc9/f46/1b6cc9f46df118a70263de9594e244b3.jpg</string>
+      <key>b</key>
+      <string>
+В этой статье я расскажу, что обязательно нужно учесть, если вы собираетесь портировать мобильное приложение на ОС Аврора. Надеюсь, она будет вам полезна.
+
+🔗 &lt;a href=&quot;https://habr.com/ru/companies/friflex/articles/794024/&quot;&gt;Читать статью&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как подключиться к Flutter приложению в режиме нативного debug на ОС Аврора.</string>
+      <key>k</key>
+      <array>
+        <string>articles</string>
+        <string>статья</string>
+        <string>публикация</string>
+      </array>
+      <key>i</key>
+      <string>https://habrastorage.org/r/w780/getpro/habr/upload_files/c84/fba/e08/c84fbae08683763bc2c8e077b52177e4.jpg</string>
+      <key>b</key>
+      <string>
+В этой статье хочу рассказать про то, как можно подключиться к нативной части ОС Авроры для тестирования нативной части Flutter-приложения.
+
+🔗 &lt;a href=&quot;https://habr.com/ru/companies/friflex/articles/773028/&quot;&gt;Читать статью&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>аврора</string>
+        <string>что за</string>
+        <string>операционная система</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/c4450421-e4d8-4885-9914-82e33a77f13f.jpg</string>
+      <key>b</key>
+      <string>ОС Аврора - российская мобильная операционная система.⌫
+Система включает функции централизованного управления устройствами, шифрования данных и многофакторной аутентификации.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734118140</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое песочница?</string>
+      <key>k</key>
+      <array>
+        <string>sandbox</string>
+        <string>окружение</string>
+      </array>
+      <key>b</key>
+      <string>Это окружение, в котором запускается приложение, ограниченное в доступе к системе.⌫
+Из терминала запустить приложение в этом окружении можно командой:
+&lt;pre&gt;invoker --type=qt5 {com.keygenqt.package_name}&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Почему возникает ошибка &apos;Установка приложений без подписи источника запрещена&apos;?</string>
+      <key>k</key>
+      <array>
+        <string>error</string>
+        <string>при установке</string>
+      </array>
+      <key>b</key>
+      <string>В Аврора 5 стала обязательной дополнительная подпись на RPM пакете - подпись источника.⌫
+Подпись источника криптографически заверяет того, кем был предоставлен тот или иной RPM пакет.⌫
+Зачастую подпись источника добавляется официальными маркетами, например RuStore,⌫
+когда вы загружаете свое приложение через админ панель.⌫
+Для целей разработки вы можете отключить обязательное требование подписи источника пакетов через настройки.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Денис</string>
+        <key>lname</key>
+        <string>Глазков</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733512746</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Какую операционную систему лучше использовать для разработки под ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>ос</string>
+        <string>os</string>
+        <string>юзать</string>
+      </array>
+      <key>b</key>
+      <string>Полный набор инструментов доступен на Linux (включая Flutter, Aurora CLI и Aurora Toolbox).⌫
+Я бы рекомендовал Ubuntu 24.04 или Alt.⌫
+Более детально можно ознакомится в документации по установке Аврора SDK⌫
+https://developer.auroraos.ru/doc/5.1.3/sdk/app_development/setup</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Где указывать разрешения в ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>permissions</string>
+        <string>desktop</string>
+        <string>написать</string>
+      </array>
+      <key>b</key>
+      <string>ОС Аврора поддерживает разрешения.⌫
+В файле &lt;code&gt;.desktop&lt;/code&gt;, проекта, их можно указать.
+Более детально можно ознакомится в документации:
+https://developer.auroraos.ru/doc/5.1.3/software_development/guidelines/rpm_requirements/desktop_requirements</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Где указывать необходимые зависимости для сборки проекта ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>dependencies</string>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>BuildRequires</string>
+      </array>
+      <key>b</key>
+      <string>В файле &lt;code&gt;.spec&lt;/code&gt;, проекта, их можно указать используя параметр &lt;code&gt;BuildRequires&lt;/code&gt;.
+Более детально можно ознакомится в документации:
+https://developer.auroraos.ru/doc/5.1.3/software_development/guidelines/rpm_requirements/spec_requirements</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Валидатор не пропускает динамическую библиотеку, что делать?</string>
+      <key>k</key>
+      <array>
+        <string>ошибка валидации</string>
+        <string>dynamic library</string>
+        <string>как быть</string>
+      </array>
+      <key>b</key>
+      <string>Взятые с собой динамические библиотеки, запрещенные валидатором можно исключить в файле &lt;code&gt;.spec&lt;/code&gt;.
+Пример:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+%global __requires_exclude ^lib(ZXing)\.so.*$
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Где можно найти информацию по ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>получить</string>
+        <string>aurora</string>
+        <string>aurora os</string>
+      </array>
+      <key>b</key>
+      <string>Я бы начал поиски необходимой информации с официального портала ОС Аврора:⌫
+https://auroraos.ru⌫
+⌫
+Заглянул в Telegram чат:⌫
+https://t.me/aurora_devs⌫
+или VK группу:⌫
+https://vk.com/aurora_os</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Какие архитектуры поддерживает ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>arch</string>
+        <string>aurora</string>
+        <string>aurora os</string>
+      </array>
+      <key>b</key>
+      <string>В 5й ОС Аврора есть следующие варианты архитектур:
+1. armv7hl (девайсы с ОС Аврора 32)
+2. aarch64 (девайсы с ОС Аврора 64)
+3. x86_64  (эмулятор с 5й версии)
+Следует уточнить что процессор не всегда соответствует архитектуре установленной ОС.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Есть ли курсы по ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>где найти</string>
+      </array>
+      <key>b</key>
+      <string>Знаю такие варианты:
+1. &lt;a href=&quot;https://stepik.org/course/71788/info&quot;&gt;Курс на Stepik&lt;/a&gt;.
+2. &lt;a href=&quot;https://otus.ru/lessons/qt-aurora&quot;&gt;Курс на Otus&lt;/a&gt;.
+3. &lt;a href=&quot;https://www.infosystems.ru/courses/avtorizovannye_kursy/ISSF010&quot;&gt;Курс на Академии Информационных систем&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Где найти исходники ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>репозиторий</string>
+        <string>аврора</string>
+      </array>
+      <key>b</key>
+      <string>ОС Аврора открыта лишь частично и является проприетарным продуктом.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734622521</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как прошить мой телефон на ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>перепрошить</string>
+        <string>аврора</string>
+      </array>
+      <key>b</key>
+      <string>ОС Аврора можно получить только вместе с телефоном. Отдельно прошивку получить нельзя.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734622521</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как запустить apk на ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>apk</string>
+        <string>апк</string>
+        <string>android</string>
+        <string>андроид</string>
+      </array>
+      <key>b</key>
+      <string>На ОС Аврора установка apk не доступна. Приложения распространяются в RPM пакетах.⌫
+Это позволяет сделать стороннее программное обеспечение - Авроид.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734622521</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Ошибка при запуске эмулятора: &apos;VBoxManage: error: Details: code NS_ERROR_FAILURE&apos;.</string>
+      <key>k</key>
+      <array>
+        <string>эмуля</string>
+      </array>
+      <key>b</key>
+      <string>Попробуйте переустановить VirtualBox:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+sudo apt-get remove virtualbox
+sudo apt-get update
+sudo apt-get install virtualbox
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734254020</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое Flutter CLI?</string>
+      <key>k</key>
+      <array>
+        <string>flutter-cli</string>
+        <string>кли</string>
+        <string>флаттер</string>
+      </array>
+      <key>b</key>
+      <string>Это интерфейс командной строки Flutter, который обеспечивает основную работу с фреймворком.⌫
+Устанавливается вместе с Flutter Framework.
+Справку можно вызвать:
+⌫
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter --help
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+С поддержкой ОС Аврора:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora --help
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как установить Flutter с поддержкой ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>поставить</string>
+        <string>флаттер</string>
+        <string>aurora os</string>
+      </array>
+      <key>b</key>
+      <string>Есть несколько способов установки Flutter:
+1. &lt;a href=&quot;https://omprussia.gitlab.io/flutter/flutter/install/linux&quot;&gt;Официальная документация&lt;/a&gt;
+2. &lt;a href=&quot;https://keygenqt.github.io/aurora-cli&quot;&gt;Aurora CLI&lt;/a&gt;
+3. &lt;a href=&quot;https://keygenqt.github.io/aurora-toolbox&quot;&gt;Aurora Toolbox&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как написать Flutter плагин для ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>plugin</string>
+        <string>aurora os</string>
+        <string>флаттер</string>
+      </array>
+      <key>b</key>
+      <string>Есть несколько способов:
+1. &lt;a href=&quot;https://docs.flutter.dev/platform-integration/platform-channels&quot;&gt;Platform Channels&lt;/a&gt;
+2. &lt;a href=&quot;https://pub.dev/packages/dbus&quot;&gt;D-Bus&lt;/a&gt;
+3. &lt;a href=&quot;https://docs.flutter.dev/platform-integration/android/c-interop&quot;&gt;FFI&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое Flutter Engine?</string>
+      <key>k</key>
+      <array>
+        <string>движок</string>
+        <string>флаттер</string>
+      </array>
+      <key>b</key>
+      <string>Flutter Engine — это переносимая среда выполнения для хостинга приложений Flutter.⌫
+Она реализует основные библиотеки Flutter, включая анимацию и графику, файловый и сетевой ввод-вывод.⌫
+Поддержку доступности, архитектуру плагинов, среду выполнения Dart и цепочку инструментов компиляции.⌫
+Большинство разработчиков будут взаимодействовать с Flutter через Flutter Framework.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое Flutter Embedder?</string>
+      <key>k</key>
+      <array>
+        <string>эмбеддер</string>
+        <string>флаттер</string>
+      </array>
+      <key>b</key>
+      <string>Разработка компании Открытая мобильная платформа обеспечивающая работу Flutter на ОС Аврора.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Сколько плагинов Flutter доступно на ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>plugins</string>
+        <string>флаттер</string>
+      </array>
+      <key>b</key>
+      <string>Вы всегда можете получить актуальную информацию о плагинах с поддержкой ОС Аврора в документации проекта:
+https://omprussia.gitlab.io/flutter/flutter/support</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как помочь проекту Flutter для ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>aurora os</string>
+        <string>флаттер</string>
+      </array>
+      <key>b</key>
+      <string>Проект Flutter для ОС Аврора open-source, любой желающий может сделать мерж-реквест и предложить свой код:
+https://gitlab.com/omprussia/flutter</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Где найти информацию о проекте Flutter для ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>флаттер</string>
+      </array>
+      <key>b</key>
+      <string>Подробная документация находится по адресу:⌫
+https://omprussia.gitlab.io/flutter/flutter</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Можно ли написать плагин не используя С++?</string>
+      <key>k</key>
+      <array>
+        <string>cpp</string>
+        <string>сделать</string>
+        <string>plugin</string>
+      </array>
+      <key>b</key>
+      <string>Да, бывают плагины не использующие С++ код.⌫
+Такой плагин можно написать с использованием другого плагина - https://pub.dev/packages/dbus.⌫
+На выходе вы получите пакет, который использует плагин в зависимостях.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Я нашел баг, во Flutter как ее можно решить?</string>
+      <key>k</key>
+      <array>
+        <string>ошибку</string>
+        <string>проблему</string>
+        <string>флаттер</string>
+      </array>
+      <key>b</key>
+      <string>Есть несколько способов решить проблему:
+1. Завести &lt;a href=&quot;https://gitlab.com/groups/omprussia/flutter/-/issues&quot;&gt;issue&lt;/a&gt; и подождать ответа разработчиков.
+2. Обратиться за помощью в телеграм канал @aurora_devs в раздел Flutter.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как установить Flutter для ОС Аврора на macOS?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>флаттер</string>
+        <string>мак</string>
+        <string>поставить</string>
+      </array>
+      <key>b</key>
+      <string>На данный момент поддержки ОС Аврора в целом нет.⌫
+Но работы в этом направлении ведутся.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как установить Flutter для ОС Аврора на Windows?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>флаттер</string>
+        <string>винду</string>
+        <string>виндовс</string>
+        <string>поставить</string>
+      </array>
+      <key>b</key>
+      <string>На данный момент Flutter для ОС Аврора поддерживает только Linux (рекомендована Ubuntu).⌫
+WSL2 на Windows работает лишь частично, полного функционала Flutter CLI нет.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как собрать приложение Flutter на ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>build</string>
+        <string>флаттер</string>
+        <string>сбилдить</string>
+      </array>
+      <key>b</key>
+      <string>Выполнить можно это использую Flutter CLI.⌫
+Для этого перейдите в проект и обновите зависимости:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora pub get
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+Собрать приложение можно следующей командой:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora build aurora --release
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Не удается сгенерировать привязки для FFI.</string>
+      <key>k</key>
+      <array>
+        <string>bindings</string>
+        <string>foreign function interface</string>
+        <string>флаттер</string>
+        <string>flutter</string>
+      </array>
+      <key>b</key>
+      <string>Проверьте, установлен ли у вас clang:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+sudo apt-get install clang
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как указать архитектуру приложения при сборке проекта Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>собрать</string>
+        <string>arch</string>
+        <string>флаттер</string>
+      </array>
+      <key>b</key>
+      <string>Flutter для ОС Аврора поддерживает 3 архитектуры:
+1. armv7hl
+2. aarch64
+3. x86_64
+Flutter CLI имеет аргумент &lt;code&gt;--target-platform&lt;/code&gt; c помощью которого можно указать нужную:
+1. aurora-arm (соответствует armv7hl)
+2. aurora-arm64 (соответствует aarch64)
+3. aurora-x64 (соответствует x86_64)</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как добавить поддержку ОС Аврора в существующий проект Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>флаттер</string>
+        <string>к проекту</string>
+      </array>
+      <key>b</key>
+      <string>Для этого нужно перейти в проект и выполнить команду:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora create --platforms=aurora --org=&lt;orgname&gt; .
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+&lt;code&gt;orgname&lt;/code&gt; - название пакета, например &lt;code&gt;com.keygenqt&lt;/code&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Есть ли образ Docker c Flutter для ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>флаттер</string>
+        <string>докер</string>
+        <string>image</string>
+      </array>
+      <key>b</key>
+      <string>Официально такого образа нет.⌫
+Есть пет проект который работает на Linux, с флагом &lt;code&gt;--privileged&lt;/code&gt;:⌫
+https://github.com/keygenqt/flutter-aurora-docker</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как активировать нативный клиент dbus Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>дбас</string>
+        <string>флаттер</string>
+        <string>В-Bus</string>
+      </array>
+      <key>b</key>
+      <string>Это можно сделать командой:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+dart pub global activate dbus
+&lt;/code&gt;&lt;/pre&gt;
+А далее можно использовать CLI &lt;code&gt;dart-dbus&lt;/code&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как посмотреть логи запущенного приложения Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>log</string>
+        <string>флаттер</string>
+        <string>получить</string>
+        <string>найти</string>
+      </array>
+      <key>b</key>
+      <string>Для этого нужно перейти по ssh на устройство или эмулятор и воспользоваться командой:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+journalctl -f
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Не работает DevTools при запуске с иконки.</string>
+      <key>k</key>
+      <array>
+        <string>девтулс</string>
+        <string>дебаг</string>
+        <string>debug</string>
+        <string>dart</string>
+      </array>
+      <key>b</key>
+      <string>Есть разница при запуске приложения из IDE VS Code и запуском приложения через иконку.⌫
+Если IDE запускает из под пользователя, то запуск через иконку происходит в изолированном окружении.⌫
+В изоляции (в песочнице) Dart debug работать не будет - окружение не дает запустить сервер DevTools.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>IDE VS Code не видит устройство.</string>
+      <key>k</key>
+      <array>
+        <string>вс код</string>
+        <string>иде</string>
+        <string>девайс</string>
+        <string>device</string>
+      </array>
+      <key>b</key>
+      <string>В первую очередь необходимо проверить все ли необходимое установлено в системе:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora doctor
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+Убедиться что включены необходимые параметры во Flutter CLI:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora config --enable-aurora
+flutter-aurora config --enable-aurora-devices
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+Добавить устройство можно через команду Flutter CLI:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter aurora-devices add
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+Устройств должно быть подключено по ssh ключу, а ключ должен быть зарегистрирован на устройстве.⌫
+Сделать это можно командой:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+ssh-copy-id defaultuser@{remote_host (default - 192.168.2.15)}
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Где найти конфигурацию Flutter CLI?</string>
+      <key>k</key>
+      <array>
+        <string>конфиг</string>
+        <string>flutter cli</string>
+        <string>флаттер кли</string>
+      </array>
+      <key>b</key>
+      <string>Вы можете конфигурировать Flutter без необходимости использовать &lt;code&gt;flutter-aurora config&lt;/code&gt;.⌫
+Файлы конфигурации храняться в формате json, главное знать что менять.⌫
+Их можно найти в директории: &lt;code&gt;~/.config/flutter&lt;/code&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как проверить, что Flutter установлен правильно?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>доктор</string>
+        <string>doctor</string>
+        <string>поставлен</string>
+      </array>
+      <key>b</key>
+      <string>Для этого можно выполнить следующую команду:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora doctor
+&lt;/code&gt;&lt;/pre&gt;
+Она найдет некоторые возможные ошибки, но основательно можно это проверить - собрать демо проект⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/fluttery-todo&quot;&gt;Fluttery ToDo&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>На каких операционных системах доступен Flutter для ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>виндовс</string>
+        <string>мак</string>
+        <string>линукс</string>
+        <string>Windows</string>
+        <string>macOS</string>
+        <string>Linux</string>
+        <string>os</string>
+        <string>ос</string>
+        <string>флаттер</string>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>можно поставить</string>
+      </array>
+      <key>b</key>
+      <string>Изначально Flutter для ОС Аврора поддерживал только Linux (рекомендовано Ubuntu).⌫
+Более детально уточнить этот вопрос можно в документации проекта:⌫
+https://omprussia.gitlab.io/flutter/flutter</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как отформатировать проект без установки Dart?</string>
+      <key>k</key>
+      <array>
+        <string>форматирование</string>
+        <string>дарт</string>
+      </array>
+      <key>b</key>
+      <string>Для форматирования проектов необходим Dart.⌫
+Flutter SDK содержит его копию и мы можем без установки отдельной версии Dart форматировать проекты.⌫
+Для этого можно добавить алиас, Dart можно найти &lt;code&gt;{flutter_dir}/bin/dart&lt;/code&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как создать свой первый проект Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>сделать</string>
+        <string>флаттер</string>
+        <string>hello world</string>
+      </array>
+      <key>b</key>
+      <string>Flutter CLI раздел &lt;code&gt;create&lt;/code&gt; с шаблонами проектов.
+⌫
+Стартовое приложение можно создать командой:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora create --platforms=aurora --template=app --org=com.keygenqt my_app
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+Пакет можно создать следующей командой
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora create --platforms=aurora --template=package --org=com.keygenqt my_package
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+Плагин Platform Channel можно создать выполнив:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora create --platforms=aurora --template=plugin --org=com.keygenqt my_plugin
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+Плагин FFI можно создать выполнив:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora create --platforms=aurora --template=plugin_ffi --org=com.keygenqt my_plugin_ffi
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+Полную справку можно вызвать командой:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora create --help
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Не стартует приложение с иконки, хотя с IDE VS Code работает.</string>
+      <key>k</key>
+      <array>
+        <string>вс код</string>
+        <string>код</string>
+        <string>запускается</string>
+      </array>
+      <key>b</key>
+      <string>Возможно причина в том что приложение с иконке запускается в песочнице, замещенном окружении.⌫
+Необходимо проверить разрешения (permission) приложения, это часто является причиной такого поведения.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как сделать скриншот с эмулятора или устройства?</string>
+      <key>k</key>
+      <array>
+        <string>аврора</string>
+        <string>ос аврора</string>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>эмуля</string>
+        <string>девайса</string>
+      </array>
+      <key>b</key>
+      <string>Вы можете сделать скриншот средствами Flutter CLI.
+Для этого необходимо выполнить команду:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora screenshot -d aurora
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как запустить интеграционные тесты Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>integration_test</string>
+        <string>integration</string>
+        <string>tests</string>
+        <string>выполнить</string>
+      </array>
+      <key>b</key>
+      <string>Вы можете выполнить это средствами IDE (VS Code).⌫
+Или выполнив команду в терминале указав пусть к файлу с тестами:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora test integration_test/example_test.dart
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как обновить Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>update</string>
+        <string>апунть</string>
+      </array>
+      <key>b</key>
+      <string>Flutter CLI имеет 2 команды на обновление и откат обновления, можно воспользоваться ими:
+1. &lt;code&gt;upgrade&lt;/code&gt; - обновление.
+2. &lt;code&gt;downgrade&lt;/code&gt; - откат обновления.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как обновить кеш Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>cache</string>
+        <string>precache</string>
+        <string>очистить</string>
+      </array>
+      <key>b</key>
+      <string>Вы можете это сделать через Flutter CLI командой:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora precache --aurora --force
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как получить список доступных Flutter CLI эмуляторов?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>кли</string>
+        <string>list</string>
+        <string>emulators</string>
+        <string>эмулятор</string>
+        <string>узнать</string>
+      </array>
+      <key>b</key>
+      <string>Вы можете это сделать через Flutter CLI командой:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora emulators
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как получить список доступных Flutter CLI устройств?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>list</string>
+        <string>devices</string>
+        <string>девайсов</string>
+        <string>кли</string>
+        <string>узнать</string>
+      </array>
+      <key>b</key>
+      <string>Вы можете это сделать через Flutter CLI командой:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora devices
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как очистить кеш проекта Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>cache</string>
+        <string>почистить</string>
+      </array>
+      <key>b</key>
+      <string>Это можно сделать командой:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+flutter-aurora clean
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Приложение Flutter не устанавливается.</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>приложуха</string>
+        <string>не ставиться</string>
+      </array>
+      <key>b</key>
+      <string>Пакет должен быть подписан. ОС Аврора имеет валидацию пакетов при их установке.⌫
+Необходимо провалидировать пакет с помощью aurora-cli или psdk.⌫
+Если с этим порядок более детальную информацию можно получить подключившись по ssh к девайсу или эмулятору.⌫
+Выполнить команду перед установкой и посмотреть логи:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+journalctl -u apm -f
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Есть ли поддержка Flutter для ОС Аврора в IntelliJ IDEA?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>idea</string>
+        <string>jetbrains</string>
+        <string>ide</string>
+        <string>иде</string>
+        <string>android studio</string>
+      </array>
+      <key>b</key>
+      <string>Нет, IDEA не поддерживается.⌫
+Но VS Code работает отлично, а так как предстоит, возможно, работа с С++ это IDE отлично подойдет.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как подключить сигналы и слоты Qt во Flutter плагине для ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>signal</string>
+        <string>slop</string>
+        <string>кьют</string>
+        <string>plugin</string>
+      </array>
+      <key>b</key>
+      <string>Qt без сигналов и слотов работает без дополнительных манипуляций.⌫
+Если нужны именно сигналы Qt необходимо активировать их работу.
+Для этого в &lt;code&gt;main.cpp&lt;/code&gt; приложения нужно добавить:
+&lt;pre&gt;&lt;code class=&quot;language-cpp&quot;&gt;⌫
+#include &amp;lt;flutter/flutter_aurora.h&amp;gt;
+#include &amp;lt;flutter/flutter_compatibility_qt.h&amp;gt; // &amp;lt;- Add for Qt
+#include &quot;generated_plugin_registrant.h&quot;
+
+int main(int argc, char *argv[]) {
+    aurora::Initialize(argc, argv);
+    aurora::EnableQtCompatibility(); // &amp;lt;- Enable Qt
+    aurora::RegisterPlugins();
+    aurora::Launch();
+    return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как пронять зависимость плагин это или пакет Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>package</string>
+        <string>plugin</string>
+        <string>узнать</string>
+        <string>dependency</string>
+      </array>
+      <key>b</key>
+      <string>Для этого нужно посмотреть на &lt;code&gt;pubspec.yaml&lt;/code&gt;.⌫
+Если в спеке нет раздела &lt;code&gt;plugin&lt;/code&gt; и нет зависимостей от плагинов - это пакет.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое Client Wrapper?</string>
+      <key>k</key>
+      <array>
+        <string>client-wrapper</string>
+        <string>client_wrapper</string>
+        <string>интерфейс</string>
+        <string>flutter</string>
+        <string>флаттер</string>
+      </array>
+      <key>b</key>
+      <string>Client Wrapper предназначен для встраивания в плагины и приложения,⌫
+чтобы обеспечить более высокие уровни абстракций C++ для взаимодействия с библиотекой Flutter.⌫
+Со временем цель состоит в том, чтобы переместить большую часть этого кода в библиотеку таким образом,⌫
+чтобы предоставить пригодный для использования ABI (например, не использовать стандартную библиотеку в интерфейсах).⌫
+https://github.com/flutter/engine/blob/main/shell/platform/common/client_wrapper/README</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Какая доступна последняя версия Flutter для ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>latest</string>
+        <string>version</string>
+      </array>
+      <key>b</key>
+      <string>Вы всегда можете узнать последнюю доступную версию Flutter в тегах репозитория:⌫
+https://gitlab.com/omprussia/flutter/flutter/-/tags</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Есть ли демо приложение Flutter для ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>demo</string>
+        <string>приложения</string>
+        <string>где найти</string>
+      </array>
+      <key>b</key>
+      <string>Да приложение демонстрирующее работу можно найти по ссылке:⌫
+https://gitlab.com/omprussia/flutter/fluttery-todo</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как локально собрать документацию Flutter для ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>на пк</string>
+        <string>у себя</string>
+        <string>поднять</string>
+        <string>доки</string>
+        <string>доку</string>
+      </array>
+      <key>b</key>
+      <string>Проект Flutter для ОС Аврора - открытый проект.⌫
+Вы можете помощь при разработке как проекта так и его документации.⌫
+Документация проекта использует mkdocs &amp; mkdocs-material, это Python пакеты.
+⌫
+Установить их можно командой:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+python3 -m pip install mkdocs mkdocs-material --break-system-packages
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+Перейти в корень проекта Flutter для ОС Аврора и выполнить:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+mkdocs serve
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что лучше использовать Fluter или Qt на ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>кьют</string>
+        <string>выбрать</string>
+        <string>юзать</string>
+        <string>на чем разрабатывать</string>
+      </array>
+      <key>b</key>
+      <string>Лучше использовать в чем есть компетенции.⌫
+Основной фреймворк для разработки это Qt.⌫
+Flutter набирает обороты: он проще, он современнее.⌫
+Выбирать вам.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Какой статус поддержки Flutter для ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>aurora</string>
+        <string>aurora os</string>
+      </array>
+      <key>b</key>
+      <string>Фреймворк в перманентной разработке, так же как и любые инструменты.⌫
+На нем уже пишут приложения, и вы тоже можете.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как получить состояние аккумулятора во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>battery_plus</string>
+        <string>battery</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Получить статус заряда аккумулятора и его состояние позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/battery_plus&quot;&gt;battery_plus&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/battery_plus_aurora&quot;&gt;battery_plus_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как получить состояние сетевого подключения во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>connectivity</string>
+        <string>connectivity_plus</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Получить состояние подключений позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/connectivity_plus&quot;&gt;connectivity_plus&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/connectivity_plus_aurora&quot;&gt;connectivity_plus_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как получить информацию об устройстве во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>device_info_plus</string>
+        <string>device info</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Получить информацию об устройстве позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/device_info_plus&quot;&gt;device_info_plus&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/device_info_plus_aurora&quot;&gt;device_info_plus_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как получить информацию об приложении во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>info_plus</string>
+        <string>info</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Получить информацию о запущенном приложении позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/package_info_plus&quot;&gt;package_info_plus&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/package_info_plus_aurora&quot;&gt;package_info_plus_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как получить данные датчиков во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>sensors_plus</string>
+        <string>sensors</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Состояние датчиков позволяет получить имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/sensors_plus&quot;&gt;sensors_plus&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/sensors_plus_aurora&quot;&gt;sensors_plus_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как расшарить файл во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>share_plus</string>
+        <string>share</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Обмениваться данными позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/share_plus&quot;&gt;share_plus&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/share_plus_aurora&quot;&gt;share_plus_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как воспроизвести аудио-файл во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>audioplayers</string>
+        <string>audio player</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Проиграть аудио-файл позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/audioplayers&quot;&gt;audioplayers&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/audioplayers_aurora&quot;&gt;audioplayers_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как получить состояние клавиатуры во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>keyboard_visibility</string>
+        <string>keyboard visibility</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Получить статус клавиатуры и ее высоту позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/flutter_keyboard_visibility&quot;&gt;flutter_keyboard_visibility&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/flutter_keyboard_visibility_aurora&quot;&gt;flutter_keyboard_visibility_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как отправить системное уведомление во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>flutter_local_notifications</string>
+        <string>notifications</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Отправить системное уведомление позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/flutter_local_notifications&quot;&gt;flutter_local_notifications&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/flutter_local_notifications_aurora&quot;&gt;flutter_local_notifications_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как сохранить данные во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>sqflite</string>
+        <string>objectbox</string>
+        <string>shared preferences</string>
+        <string>secure</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Зависит от количества данных и надежности их хранения. Для этого можно воспользоваться имплементациями плагинов:
+1. &lt;a href=&quot;https://pub.dev/packages/sqflite&quot;&gt;sqflite&lt;/a&gt; -⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/sqflite_aurora&quot;&gt;sqflite_aurora&lt;/a&gt;.
+⌫
+2. &lt;a href=&quot;https://pub.dev/packages/objectbox_flutter_libs&quot;&gt;objectbox_flutter_libs&lt;/a&gt; -⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/objectbox_flutter_libs_aurora&quot;&gt;objectbox_flutter_libs_aurora&lt;/a&gt;.
+⌫
+3. &lt;a href=&quot;https://pub.dev/packages/shared_preferences&quot;&gt;shared_preferences&lt;/a&gt; -⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/packages/-/tree/main/packages/shared_preferences_aurora&quot;&gt;shared_preferences_aurora&lt;/a&gt;.
+⌫
+4. &lt;a href=&quot;https://pub.dev/packages/flutter_secure_storage&quot;&gt;flutter_secure_storage&lt;/a&gt; -⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/flutter_secure_storage_aurora&quot;&gt;flutter_secure_storage_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как получить данные с Qr кода во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>qr_code_scanner</string>
+        <string>qr code</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Отсканировать QR код позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/qr_code_scanner&quot;&gt;qr_code_scanner&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/qr_code_scanner_aurora&quot;&gt;qr_code_scanner_aurora&lt;/a&gt;.⌫
+А так же имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/camera&quot;&gt;camera&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/packages/-/tree/main/packages/camera_aurora&quot;&gt;camera_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как не дать заснуть устройству во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>wakelock_plus</string>
+        <string>wakelock</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Отключить sleep mode позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/wakelock_plus&quot;&gt;wakelock_plus&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/flutter-community-plugins/wakelock_plus&quot;&gt;wakelock_plus_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как получить путь к файлу во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>path_provider</string>
+        <string>path provider</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Получить системные пути и пути приложения позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/path_provider&quot;&gt;path_provider&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/packages/-/tree/main/packages/path_provider_aurora&quot;&gt;path_provider_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как открыть ссылку во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>url_launcher</string>
+        <string>url launcher</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Открыть ссылку, email, телефон позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/url_launcher&quot;&gt;url_launcher&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/packages/-/tree/main/packages/url_launcher_aurora&quot;&gt;url_launcher_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как воспроизвести видео-файл во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>video_player</string>
+        <string>video player</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Воспроизводить видео файлы позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/video_player&quot;&gt;video_player&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/packages/-/tree/main/packages/video_player_aurora&quot;&gt;video_player_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как подключить камеру во Flutter?</string>
+      <key>k</key>
+      <array>
+        <string>флаттер</string>
+        <string>плагин</string>
+        <string>plugin</string>
+        <string>camera</string>
+        <string>aurora</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/23ed2376-09cd-444d-a8d9-dd98e56ec847.png</string>
+      <key>b</key>
+      <string>Использовать камеру в приложениях Flutter позволяет имплементация плагина⌫
+&lt;a href=&quot;https://pub.dev/packages/camera&quot;&gt;camera&lt;/a&gt;⌫
+ - ⌫
+&lt;a href=&quot;https://gitlab.com/omprussia/flutter/packages/-/tree/main/packages/camera_aurora&quot;&gt;camera_aurora&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734365894</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Есть ли поддержка KMP на ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>cmp</string>
+        <string>kotlin</string>
+      </array>
+      <key>b</key>
+      <string>Есть возможность использовать KMP/JS на ОС Аврора. Демонстрационные приложения можно найти здесь:
+https://gitlab.com/omprussia/kmp</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое SDK?</string>
+      <key>k</key>
+      <array>
+        <string>сдк</string>
+        <string>software development kit</string>
+      </array>
+      <key>b</key>
+      <string>SDK (Software Development Kit) - набор инструментов для разработки программного обеспечения объединённый в одном пакете.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как установить RPM пакет на устройство или эмулятор?</string>
+      <key>k</key>
+      <array>
+        <string>рпм</string>
+        <string>поставить</string>
+        <string>девайс</string>
+        <string>эмуль</string>
+      </array>
+      <key>b</key>
+      <string>Это можно сделать:
+1. Воспользоваться приложением Aurora CLI.
+2. Воспользоваться приложением Aurora Toolbox.
+3. Залив приложение по ssh (scp) и выполнив команду:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+gdbus call --system --dest ru.omp.APM --object-path /ru/omp/APM --method ru.omp.APM.Install /path/to/file.rpm {}
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Куда сообщить об ошибке?</string>
+      <key>k</key>
+      <array>
+        <string>bug</string>
+        <string>баге</string>
+        <string>уведомить</string>
+        <string>написать</string>
+      </array>
+      <key>b</key>
+      <string>Если проект open-source, то лучшее место это issue проекта.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Какой стандартный формат лицензии ОМП для dart?</string>
+      <key>k</key>
+      <array>
+        <string>лицуха</string>
+        <string>заголовок</string>
+        <string>dart</string>
+      </array>
+      <key>b</key>
+      <string>&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+// SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &amp;lt;community@omp.ru&amp;gt;
+// SPDX-License-Identifier: BSD-3-Clause
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733516308</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Какой стандартный формат лицензии ОМП для cmake, yaml, shell, pro?</string>
+      <key>k</key>
+      <array>
+        <string>лицуха</string>
+        <string>заголовок</string>
+        <string>смаке</string>
+        <string>ямл</string>
+        <string>шелл</string>
+        <string>про</string>
+      </array>
+      <key>b</key>
+      <string>&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+# SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &amp;lt;community@omp.ru&amp;gt;
+# SPDX-License-Identifier: BSD-3-Clause
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733516308</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Какой стандартный формат лицензии ОМП для c++, java, kotlin, js, php, qml?</string>
+      <key>k</key>
+      <array>
+        <string>лицуха</string>
+        <string>заголовок</string>
+        <string>плюсов</string>
+        <string>джава</string>
+        <string>котлин</string>
+        <string>джс</string>
+        <string>пхп</string>
+        <string>кмл</string>
+      </array>
+      <key>b</key>
+      <string>&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+/**
+* SPDX-FileCopyrightText: Copyright 2025 Open Mobile Platform LLC &amp;lt;community@omp.ru&amp;gt;
+* SPDX-License-Identifier: BSD-3-Clause
+*/
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733516308</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое B2C?</string>
+      <key>k</key>
+      <array>
+        <string>политика</string>
+        <string>би-ту-си</string>
+      </array>
+      <key>b</key>
+      <string>Термин «бизнес-потребителю» (B2C) относится к процессу продажи продуктов и услуг напрямую между бизнесом и потребителями,⌫
+которые являются конечными пользователями его продуктов или услуг.⌫
+Большинство компаний, которые продают напрямую потребителям, можно назвать компаниями B2C.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое B2B?</string>
+      <key>k</key>
+      <array>
+        <string>политика</string>
+        <string>би-ту-би</string>
+      </array>
+      <key>b</key>
+      <string>Бизнес-бизнес (B2B), также называемый B-to-B, является формой транзакции между предприятиями,⌫
+такими как производитель и оптовик или оптовик и розничный торговец.⌫
+Бизнес-бизнес относится к торговле, которая ведется между компаниями,⌫
+а не между компаниями и отдельными потребителями.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое B2G?</string>
+      <key>k</key>
+      <array>
+        <string>политика</string>
+        <string>би-ту-джи</string>
+      </array>
+      <key>b</key>
+      <string>Business to government (B2G) - это продажа и маркетинг товаров и услуг федеральным, государственным или местным агентствам.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое BYOTD?</string>
+      <key>k</key>
+      <array>
+        <string>trusted</string>
+        <string>политика</string>
+        <string>byod</string>
+      </array>
+      <key>b</key>
+      <string>Bring Your Own Trusted Device (BYOTD) — это политика, которая позволяет сотрудникам организации использовать личные доверенные устройства для рабочих задач.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Где приобрести устройство ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>купить</string>
+        <string>девайс</string>
+        <string>телефон</string>
+      </array>
+      <key>b</key>
+      <string>С 2024го года ОС Аврору может купить любой желающий, по политике BYOTD.⌫
+Место где это можно сделать физлицу - магазин &lt;a href=&quot;https://vsesmart.ru/&quot;&gt;Всёсмарт&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Где найти все примеры доступные для ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>репозиторий</string>
+        <string>демо</string>
+        <string>демки</string>
+        <string>репозиторий</string>
+      </array>
+      <key>b</key>
+      <string>В репозитории ОМП. Там много всего, включая и примеры: https://gitlab.com/omprussia</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Где найти все доступные Аврора SDK?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>aurora os</string>
+        <string>sdk</string>
+        <string>сдк</string>
+        <string>репозиторий</string>
+        <string>получить</string>
+      </array>
+      <key>b</key>
+      <string>Аврора SDK можно найти на официальном сайте:
+https://developer.auroraos.ru/downloads/sdk
+Либо в репозитории:
+https://sdk-repo.omprussia.ru/sdk/installers</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Где найти все доступные Аврора Platform SDK?</string>
+      <key>k</key>
+      <array>
+        <string>получить</string>
+        <string>репозиторий</string>
+        <string>psdk</string>
+        <string>псдк</string>
+        <string>ос аврора</string>
+        <string>aurora</string>
+      </array>
+      <key>b</key>
+      <string>Аврора Platform SDK можно найти на официальном сайте:
+https://developer.auroraos.ru/downloads/psdk
+Либо в репозитории:
+https://sdk-repo.omprussia.ru/sdk/installers</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Где скачать открытую ключевую пару для подписи RPM пакетов?</string>
+      <key>k</key>
+      <array>
+        <string>ключи</string>
+        <string>получить</string>
+        <string>рпм</string>
+        <string>разработчика</string>
+      </array>
+      <key>b</key>
+      <string>Для разработки есть общедоступная ключевая пара, ее можно скачать с официального сайта:
+https://developer.auroraos.ru/doc/5.1.3/sdk/app_development/packaging/package_signing</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Игры на ОС Аврора.</string>
+      <key>k</key>
+      <array>
+        <string>games</string>
+        <string>flame</string>
+        <string>godot</string>
+      </array>
+      <key>b</key>
+      <string>Игры на ОС Аврора есть! Вы можете их найти:
+1. RuStore.
+2. Собрать игру самостоятельно - ОС Аврора частями Linux.
+3. Собрать игру Godot - &lt;a href=&quot;https://boosty.to/sashikknox/posts/bad1c63b-c453-4933-a34c-ee7c22bd6e44&quot;&gt;Godot. Инструкция к применению.&lt;/a&gt;
+4. Собрать игру Flame (Flutter). Демки:⌫
+&lt;a href=&quot;https://github.com/keygenqt/aurora-apps/releases/tag/com.keygenqt.trex-5.1.3.51-0.1.1-1&quot;&gt;Trex&lt;/a&gt;,⌫
+&lt;a href=&quot;https://github.com/keygenqt/aurora-apps/releases/tag/com.keygenqt.rogue_shooter-5.1.3.51-0.1.1-1&quot;&gt;Rouge Shooter&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1735206119</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Какая версия Qt на ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>кьют</string>
+        <string>version</string>
+      </array>
+      <key>b</key>
+      <string>Используемая версия Qt в ОС Авроре 5.6.3, а Qt Quick 2.0.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое Аврора Platform SDK?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>платформ</string>
+        <string>psdk</string>
+        <string>сдк</string>
+        <string>псдк</string>
+        <string>что за</string>
+      </array>
+      <key>b</key>
+      <string>Аврора Platform SDK — это набор инструментов для разработки, отладки и тестирования компонентов ОС Аврора.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое Аврора SDK?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>сдк</string>
+        <string>что за</string>
+      </array>
+      <key>b</key>
+      <string>Аврора SDK - набор инструментов для сборки, разработки, отладки и тестирования программного обеспечения для ОС Аврора.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как подписать RPM пакет?</string>
+      <key>k</key>
+      <array>
+        <string>рпм</string>
+        <string>приложение</string>
+      </array>
+      <key>b</key>
+      <string>Flutter CLI подписывает пакет публичными ключами, доступными для разработки.⌫
+Platform SDK имеет утилиту &lt;code&gt;rpmsign-external&lt;/code&gt; c помощью которой можно подписать пакет.⌫
+https://developer.auroraos.ru/doc/sdk/tools/rpmsign_external⌫
+Aurora CLI умеет тоже подписывать пакеты:⌫
+https://keygenqt.github.io/aurora-cli/cli/psdk/package/sign</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое Aurora CLI?</string>
+      <key>k</key>
+      <array>
+        <string>aurora-cli</string>
+        <string>аврора</string>
+        <string>кли</string>
+        <string>что за</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/b0d1301f-502f-4df4-8aba-ea53acd676cf.png</string>
+      <key>b</key>
+      <string>Open-source приложение обеспечивающее легкий старт в экосистеме ОС Аврора.⌫
+Работа с Aurora SDK, Aurora Platform SDK, Flutter SDK, взаимодействие с устройствами и эмулятором, а также многое другое.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое Cosbot?</string>
+      <key>k</key>
+      <array>
+        <string>cosbot</string>
+        <string>cos</string>
+        <string>кос</string>
+        <string>бот cli</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/6a0ac013-c9e3-45af-8496-65e3d0b557c7.png</string>
+      <key>b</key>
+      <string>Клиент-приложение Aurora Bot которая реализует умную командую строку для работы с Aurora CLI.⌫
+Отвечает на ваши вопросы из открытого проекта Aurora Dataset.
+&lt;span class=&quot;tg-spoiler&quot;&gt;Сейчас приложение в разработке.&lt;/span&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1735379288</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое Aurora Dataset?</string>
+      <key>k</key>
+      <array>
+        <string>aurora-dataset</string>
+        <string>датасет</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/a70394cf-90d4-41e6-b726-b741b3228c5a.png</string>
+      <key>b</key>
+      <string>База знаний по ОС Аврора.⌫
+Ответы Aurora Bot находит именно в ней.⌫
+Вы легко можете внести свой вклад в базу знаний сделав пулл-реквест в репозиторий:⌫
+https://github.com/keygenqt/aurora-dataset</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734279178</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое Aurora COS?</string>
+      <key>k</key>
+      <array>
+        <string>аврора</string>
+        <string>aurora-cos</string>
+        <string>cos</string>
+        <string>кос</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/8a574d19-bfb5-42f0-a945-ee9b7a022d6c.png</string>
+      <key>b</key>
+      <string>Aurora COS (Because | Community Open-Source) — совокупность проектов, в контексте ОС Аврора,⌫
+объединённые одной целью — сделать проще разработку под операционную систему Аврора:
+1. &lt;a href=&quot;https://keygenqt.github.io/aurora-cli/&quot;&gt;Aurora CLI&lt;/a&gt;.
+2. &lt;a href=&quot;https://keygenqt.github.io/aurora-toolbox/&quot;&gt;Aurora Toolbox&lt;/a&gt;.
+3. &lt;a href=&quot;https://github.com/keygenqt/aurora-dataset&quot;&gt;Aurora Dataset&lt;/a&gt;.
+4. &lt;a href=&quot;https://aurora-bot.keygenqt.com/&quot;&gt;Aurora Bot&lt;/a&gt;.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734279178</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое Aurora Toolbox?</string>
+      <key>k</key>
+      <array>
+        <string>aurora-toolbox</string>
+        <string>аврора</string>
+        <string>тулбокс</string>
+        <string>что за</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/971aca9b-135a-46e8-9e27-95d89ad9c5fa.png</string>
+      <key>b</key>
+      <string>Это GUI интерфейс к приложению Aurora CLI.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733423881</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как проверить, что RPM пакет подписан?</string>
+      <key>k</key>
+      <array>
+        <string>рпм</string>
+        <string>чекнуть</string>
+        <string>рпм</string>
+        <string>подпись</string>
+      </array>
+      <key>b</key>
+      <string>Для этого достаточно выполнить следующую команду из-под PSDK:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+rpmsign-external dump {your-rpm-package}
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Денис</string>
+        <key>lname</key>
+        <string>Глазков</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733512746</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как проверить подпись RPM пакета?</string>
+      <key>k</key>
+      <array>
+        <string>провалидировать</string>
+        <string>чекнуть</string>
+        <string>рпм</string>
+        <string>валидировать</string>
+        <string>verify</string>
+      </array>
+      <key>b</key>
+      <string>Для этого достаточно выполнить следующую команду из-под PSDK:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+rpmsign-external verify {your-rpm-package}
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Денис</string>
+        <key>lname</key>
+        <string>Глазков</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733512746</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как посмотреть записи динамической таблицы символов?</string>
+      <key>k</key>
+      <array>
+        <string>objdump</string>
+        <string>узнать</string>
+      </array>
+      <key>b</key>
+      <string>Это можно сделать через утилиту &lt;code&gt;objdump&lt;/code&gt;:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+objdump -CT /path/to/libdynamic.so
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733516308</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как откатить все изменения в проекте?</string>
+      <key>k</key>
+      <array>
+        <string>удалить</string>
+        <string>убрать</string>
+        <string>git reset</string>
+        <string>git clean</string>
+      </array>
+      <key>b</key>
+      <string>Это можно сделать c помощью &lt;code&gt;git&lt;/code&gt;.
+⌫
+Так вы откатите все изменения:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+git reset --hard HEAD
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+Так откатите все, *включая не фиксированные файлы*:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+git clean -fdx
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733555480</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как установить Aurora CLI?</string>
+      <key>k</key>
+      <array>
+        <string>поставить</string>
+        <string>aurora-cli</string>
+        <string>аврора</string>
+        <string>кли</string>
+      </array>
+      <key>b</key>
+      <string>Приложение Aurora CLI - python пакет. Его можно установить через пакетный менеджер pip.
+⌫
+Установить pip можно так:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+sudo apt update
+sudo apt install python3-pip
+python3 -m pip install --upgrade setuptools --break-system-packages
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+Установить Aurora CLI можно так:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+python3 -m pip install aurora-cli --break-system-packages
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+Более подробно написано на странице документации приложения:⌫
+https://keygenqt.github.io/aurora-cli/install</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733651831</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как установить Aurora Toolbox?</string>
+      <key>k</key>
+      <array>
+        <string>поставить</string>
+        <string>aurora-toolbox</string>
+        <string>аврора</string>
+        <string>тулбокс</string>
+      </array>
+      <key>b</key>
+      <string>Aurora Toolbox это GTK приложение, доступно в deb &amp; rpm пакете.⌫
+Скачать последнюю версию пакета можно по ссылке:⌫
+https://github.com/keygenqt/aurora-toolbox/releases⌫
+Установка отличается на дистрибутивах Linux, посмотрите документацию вашего пакетного менеджера.⌫
+Более подробно написано на странице документации приложения:⌫
+https://keygenqt.github.io/aurora-toolbox/install</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733651831</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как провалидировать RPM пакет для ОС Аврора?</string>
+      <key>k</key>
+      <array>
+        <string>валидация</string>
+        <string>рпм</string>
+        <string>aurora</string>
+        <string>aurora os</string>
+      </array>
+      <key>b</key>
+      <string>Провалидировать пакет можно несколькими способами:
+1. &lt;a href=&quot;https://developer.auroraos.ru/doc/sdk/app_development/packaging/validation_dialog&quot;&gt;Аврора SDK&lt;/a&gt;
+2. &lt;a href=&quot;https://developer.auroraos.ru/doc/sdk/tools/rpm_validator&quot;&gt;Аврора Platform SDK&lt;/a&gt;
+3. &lt;a href=&quot;https://keygenqt.github.io/aurora-cli/cli/psdk/package/validate/&quot;&gt;Aurora CLI&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1733853509</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое Авроид?</string>
+      <key>k</key>
+      <array>
+        <string>aurora</string>
+        <string>apk</string>
+        <string>апк</string>
+        <string>android</string>
+        <string>андроид</string>
+      </array>
+      <key>b</key>
+      <string>Авроид - программная среда для запуска Android-приложений на устройствах с защищенной операционной системой «Аврора».
+https://avroid.ru/avroid-platform</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734622521</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как поставить Аврора SDK на macOS?</string>
+      <key>k</key>
+      <array>
+        <string>aurora sdk</string>
+        <string>мак</string>
+        <string>м1</string>
+        <string>m1</string>
+        <string>aarch64</string>
+      </array>
+      <key>b</key>
+      <string>На данный момент Аврора SDK не поддерживает установку на macOS с Apple Silicon (aarch64).</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734622521</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Где взять пароль от ssh на эмулятор?</string>
+      <key>k</key>
+      <array>
+        <string>эмуль</string>
+        <string>aurora os</string>
+        <string>ос аврора эмулятор</string>
+        <string>авторизация</string>
+        <string>ключ</string>
+      </array>
+      <key>b</key>
+      <string>При установке Аврора SDK устанавливается эмулятор и ключи ssh для доступа к нему.⌫
+Его можно найти в
+&lt;pre&gt;{path_to_dir_sdk}/vmshare/ssh/private_keys/sdk&lt;/pre&gt;
+Для разного уровня доступа нужно указать соответствующего пользователя:
+1. defaultuser
+2. root</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734622521</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как загрузить файл на эмулятор?</string>
+      <key>k</key>
+      <array>
+        <string>эмуль</string>
+        <string>aurora os</string>
+        <string>ос аврора эмулятор</string>
+        <string>скопировать</string>
+        <string>закинуть</string>
+      </array>
+      <key>b</key>
+      <string>На эмулятор файл можно предать через ssh. Самые очевидные варианты:
+1. scp
+2. filezilla
+Также, для загрузки файлов можно использовать Aurora CLI или Aurora Toolbox.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734622521</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как перейти в окружение Аврора Platform SDK?</string>
+      <key>k</key>
+      <array>
+        <string>платформ</string>
+        <string>aurora os</string>
+        <string>ос аврора</string>
+      </array>
+      <key>b</key>
+      <string>В папку установленного Platform SDK можно найти исполняемый файл &lt;code&gt;sdk-chroot&lt;/code&gt;,⌫
+выполнив который можно попасть в окружение &lt;code&gt;chroot&lt;/code&gt; PSDK.</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734622521</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое PSDK_DIR?</string>
+      <key>k</key>
+      <array>
+        <string>переменная окружения</string>
+        <string>environment</string>
+        <string>псдк</string>
+        <string>psdk</string>
+      </array>
+      <key>b</key>
+      <string>PSDK_DIR - переменная окружения, которую нужно добавить самостоятельно при установки Platform SDK,⌫
+указав путь к &lt;code&gt;AuroraPlatformSDK/sdks/aurora_psdk&lt;/code&gt; в &lt;code&gt;.bashrc&lt;/code&gt;:
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;⌫
+echo &apos;export PSDK_DIR=~/AuroraPlatformSDK/sdks/aurora_psdk&apos; &gt;&gt; ~/.bashrc
+&lt;/code&gt;&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734622521</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Что такое chroot?</string>
+      <key>k</key>
+      <array>
+        <string>корневой каталог</string>
+        <string>среда</string>
+      </array>
+      <key>b</key>
+      <string>chroot — это операция в операционных системах Unix и Unix-подобных системах,⌫
+которая изменяет видимый корневой каталог для текущего запущенного процесса и его потомков.⌫
+Программа, запущенная в такой измененной среде,⌫
+не может называть файлы за пределами указанного дерева каталогов⌫
+(и, следовательно, обычно не может получить к ним доступ).</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734622521</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Cosbot. Command-line interface AI.</string>
+      <key>k</key>
+      <array>
+        <string>rutube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://preview.rutube.ru/preview/48b1655948423bf7fcc26a7749d60a75.webp</string>
+      <key>b</key>
+      <string>
+👉 Умная командная строка в исполнении Cosbot.
+
+🔗 &lt;a href=&quot;https://rutube.ru/video/48b1655948423bf7fcc26a7749d60a75/&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Денис Глазков — ОС Аврора и Flutter. Статус поддержки.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/6k3C1hjvTe4/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 KMP в ОС Аврора.
+👉 Статус поддержки Flutter.
+👉 Почему выбран Flutter.
+👉 Почему embedder не Linux.
+
+🔗 &lt;a href=&quot;https://youtu.be/6k3C1hjvTe4&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Aurora OS. Первый взгляд / Мобильный разработчик.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/35d3d919-ccb1-4817-9747-41de1e1d15a8.png</string>
+      <key>b</key>
+      <string>
+👉 Первый взгляд.
+👉 Обзор IDE и эмулятора.
+👉 Разбор верстки.
+
+🔗 &lt;a href=&quot;https://vkvideo.ru/video-113499203_456239250&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Aurora Bot. Deep links.</string>
+      <key>k</key>
+      <array>
+        <string>rutube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://preview.rutube.ru/preview/f8b413c1a63361fa7695bf878991e95c.webp</string>
+      <key>b</key>
+      <string>
+👉 Получение и использование прямых ссылок на ответы бота.
+
+🔗 &lt;a href=&quot;https://rutube.ru/video/f8b413c1a63361fa7695bf878991e95c/&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Aurora Bot. Нотификации CLI.</string>
+      <key>k</key>
+      <array>
+        <string>rutube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://preview.rutube.ru/preview/50b9adc4ac0b9ed08a1587d6289911d5.webp</string>
+      <key>b</key>
+      <string>
+👉 Демка рассылки сообщений после выполнения различных запланированных задач через интерфейс CLI бота.
+
+🔗 &lt;a href=&quot;https://rutube.ru/video/50b9adc4ac0b9ed08a1587d6289911d5/&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Emulator with Aurora OS and VNC VirtualBox.</string>
+      <key>k</key>
+      <array>
+        <string>rutube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://preview.rutube.ru/preview/243862d706f2e8fcd8bc8f4b901a24bc.webp</string>
+      <key>b</key>
+      <string>
+👉 Демонстрация работы эмулятора ОС Аврора через VNC в Remmina.
+
+🔗 &lt;a href=&quot;https://rutube.ru/video/243862d706f2e8fcd8bc8f4b901a24bc/&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>WebView на базе Chromium, Всеволод Микулик.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/bc34934c-3f9f-4a04-8ac9-9faabadd1772.jpeg</string>
+      <key>b</key>
+      <string>
+👉 Доклад &quot;Аврора 5: Новый webview на базе Chromium&quot; от Всеволода Микулика, Инженера-разработчика отдела разработки ОС.
+
+🔗 &lt;a href=&quot;https://vkvideo.ru/video-211011274_456239391&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Сервис аналитики ошибок Tracer, Кирилл Попов.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/4e7f0821-1ae7-40ea-8d64-c0ef565b7e8c.jpeg</string>
+      <key>b</key>
+      <string>
+👉 Доклад &quot;Сервис аналитики ошибок Tracer&quot; от Кирилл Попов, Руководителя проекта.
+
+🔗 &lt;a href=&quot;https://vk.com/video-211011274_456239390&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Aurora Toolbox. Подпись и установка RPM на устройство.</string>
+      <key>k</key>
+      <array>
+        <string>rutube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://preview.rutube.ru/preview/309e931098991dfbacf687b8743784a9.webp</string>
+      <key>b</key>
+      <string>
+👉 Демонстрация подключения устройства по ssh ключу, подпись пакета RPM через PSDK с последующей установкой его на устройство.
+
+🔗 &lt;a href=&quot;https://rutube.ru/video/309e931098991dfbacf687b8743784a9/&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Aurora Toolbox. Подпись и установка RPM на эмулятор.</string>
+      <key>k</key>
+      <array>
+        <string>rutube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://preview.rutube.ru/preview/b040fabcca2fd9f726f1372b8028c3cf.webp</string>
+      <key>b</key>
+      <string>
+👉 Демонстрация подписи пакета RPM через PSDK с последующей установкой его на эмулятор.
+
+🔗 &lt;a href=&quot;https://rutube.ru/video/b040fabcca2fd9f726f1372b8028c3cf/&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Новый Keystore API, Сергей Афанасьев.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/72404fb4-af56-4621-9b08-846094a2e0f7.jpeg</string>
+      <key>b</key>
+      <string>
+👉 Доклад &quot; Новый Keystore API &quot; от Сергея Афанасьева, старшего системного аналитика.
+
+🔗 &lt;a href=&quot;https://vk.com/video-211011274_456239362&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Новый API для ВКС, Анна Сагина.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/d39f2591-f2b8-4200-af3d-0aab19081e5d.jpeg</string>
+      <key>b</key>
+      <string>
+👉 Доклад &quot;Новый API для ВКС &quot; от Анны Сагиной, руководителя группы проектов.
+
+🔗 &lt;a href=&quot;https://vk.com/video-211011274_456239361&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Flutter: статус поддержки и план развития, Никита Красавин.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/f5b14d80-11c3-4247-90d0-ac63f7dabee2.jpeg</string>
+      <key>b</key>
+      <string>
+👉 Доклад &quot;Flutter: статус поддержки и план развития&quot; от Никиты Красавина, руководителя группы разработки ОС.
+
+🔗 &lt;a href=&quot;https://vk.com/video-211011274_456239373&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Как написать плагин для ОС Аврора: кейс location plugin, Юрий Петров.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/b08b414c-2818-467f-9fa3-b97536d6b237.jpeg</string>
+      <key>b</key>
+      <string>
+👉 Доклад &quot;Как написать плагин для ОС Аврора: кейс location plugin&quot; от Юрия Петрова, Tech Lead Friflex.
+
+🔗 &lt;a href=&quot;https://vk.com/video-211011274_456239374&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Меры поддержки разработчиков, Максим Пискарев.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/bf7e8a6e-3ba8-478a-bbb9-b58a4f6988e5.jpeg</string>
+      <key>b</key>
+      <string>
+👉 Доклад &quot;Меры поддержки разработчиков&quot; от Максима Пискарева, заместителя рук.отдела развития мобильных решений, ОМП.
+
+🔗 &lt;a href=&quot;https://vk.com/video-211011274_456239360&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Инструменты и материалы для разработчиков, Кирилл Чувилин.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/44537cee-7f13-4513-895e-1dcffcfcdd61.jpeg</string>
+      <key>b</key>
+      <string>
+👉 Доклад &quot;Инструменты и материалы для разработчиков&quot; от Кирилла Чувилина, директора департамента развития мобильной среды, ОМП.
+
+🔗 &lt;a href=&quot;https://vk.com/video-211011274_456239363&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>RuStore для ОС Аврора - путь приложения от разработчика до пользователя. Максим Ватутин.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/5dfbbd77-91e9-477e-8704-7f1706ba74d2.jpeg</string>
+      <key>b</key>
+      <string>
+👉 Доклад &quot;RuStore для ОС Аврора - путь приложения от разработчика до пользователя&quot; от Максима Ватутина, менеджера продукта RuStore.
+
+🔗 &lt;a href=&quot;https://vk.com/video-211011274_456239364&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Aurora CLI. Установка примеров на Emulator / Device.</string>
+      <key>k</key>
+      <array>
+        <string>rutube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://preview.rutube.ru/preview/59bda8777b098c3a3a1618e6c9e18842.webp</string>
+      <key>b</key>
+      <string>
+👉 Демонстрация новой фичи в Aurora CLI. Простая установка примеров, фича в разработке.
+
+🔗 &lt;a href=&quot;https://rutube.ru/video/59bda8777b098c3a3a1618e6c9e18842/&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>ОС Аврора 5 глазами мобильного разработчика. Разработка и функциональность. Денис Глазков.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/dc81fcca-042d-481f-b1f2-ac80c2d8f61e.jpeg</string>
+      <key>b</key>
+      <string>
+👉 Жизненный цикл приложений.
+👉 Нововведения и новые возможности.
+👉 Qt, Flutter, PWA.
+
+🔗 &lt;a href=&quot;https://vk.com/video-64643261_456240172&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>ОС Аврора: пока мы не можем быть везде, но мы будем стараться.</string>
+      <key>k</key>
+      <array>
+        <string>rutube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://preview.rutube.ru/preview/67f6abbfc21e720699b241cc5a42d21c.webp</string>
+      <key>b</key>
+      <string>
+👉 Интервью с Алексеем Коганом – директором по продуктам и технологиям компании &quot;Открытая мобильная платформа&quot;.⌫
+О прошедшей конференции &quot;Аврора. Своя конференция&quot;.
+
+🔗 &lt;a href=&quot;https://rutube.ru/video/67f6abbfc21e720699b241cc5a42d21c/&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Aurora Toolbox. Установка.</string>
+      <key>k</key>
+      <array>
+        <string>rutube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://preview.rutube.ru/preview/2aed4cfd4b6c6586b8ba22c59bb61465.webp</string>
+      <key>b</key>
+      <string>
+👉 На видео показан процесс установки Aurora Toolbox.
+
+🔗 &lt;a href=&quot;https://rutube.ru/video/2aed4cfd4b6c6586b8ba22c59bb61465/&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Aurora Toolbox. Установка Аврора SDK.</string>
+      <key>k</key>
+      <array>
+        <string>rutube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://preview.rutube.ru/preview/331a01bd1c2db7d669daee9ba061d75c.webp</string>
+      <key>b</key>
+      <string>
+👉 На видео показан процесс установки Aurora SDK с помощью Aurora Toolbox.
+
+🔗 &lt;a href=&quot;https://rutube.ru/video/331a01bd1c2db7d669daee9ba061d75c/&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Aurora Toolbox. Установка Аврора Platform SDK.</string>
+      <key>k</key>
+      <array>
+        <string>rutube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://preview.rutube.ru/preview/25fd766f5367f8b4d48a733159cd86ab.webp</string>
+      <key>b</key>
+      <string>
+👉 На видео показан процесс установки Aurora Platform SDK с помощью Aurora Toolbox.
+
+🔗 &lt;a href=&quot;https://rutube.ru/video/25fd766f5367f8b4d48a733159cd86ab/&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Aurora Toolbox. Установка и настройка Flutter для ОС Аврора.</string>
+      <key>k</key>
+      <array>
+        <string>rutube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://preview.rutube.ru/preview/a5125ae9c9cbc6a1d9e865ee21e2d493.webp</string>
+      <key>b</key>
+      <string>
+👉 Установка Flutter.
+👉 Настройка окружения.
+👉 Подготовка VS Code.
+👉 Работа с эмулятором.
+👉 Работа с девайсом.
+
+🔗 &lt;a href=&quot;https://rutube.ru/video/a5125ae9c9cbc6a1d9e865ee21e2d493/&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Friflex: импортозамещение начинает работать в полную силу.</string>
+      <key>k</key>
+      <array>
+        <string>rutube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://preview.rutube.ru/preview/ec2de3d802e8374f60171b44bc979dce.webp</string>
+      <key>b</key>
+      <string>
+👉 Интервью с Петром Чернышевым – генеральным директором компании Friflex.
+
+🔗 &lt;a href=&quot;https://rutube.ru/video/ec2de3d802e8374f60171b44bc979dce/&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>KMP на ОС Аврора: проблемы и пути их решения. Денис Супрун.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/PEiJIw023XM/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 KMP/JS на ОС Аврора.
+👉 KMP/JVM на ОС Аврора.
+👉 KMP/Native на ОС Аврора.
+
+🔗 &lt;a href=&quot;https://youtu.be/PEiJIw023XM&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Круглый стол. Конференция по разработке приложения на фреймворке Flutter.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/VvZ1LqAjobE/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Развитие Flutter в 2024, цели.
+👉 Обсуждение ожиданий сообщества.
+👉 Ответы на вопросы.
+
+🔗 &lt;a href=&quot;https://youtu.be/VvZ1LqAjobE&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Статус поддержки. Конференция по разработке приложения на фреймворке Flutter.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/Pbqx69fSpSQ/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Почему Flutter на ОС Аврора.
+👉 Статус поддержки Flutter.
+
+🔗 &lt;a href=&quot;https://youtu.be/Pbqx69fSpSQ&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Установка Aurora SDK, Flutter SDK и Android Studio на ALT Linux.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/RMehp7SLcSI/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Инструкция по тому как развернуть Flutter на ALT Linux.
+
+🔗 &lt;a href=&quot;https://youtu.be/RMehp7SLcSI&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Преимущества Авроры как профессиональной мобильной операционной системы.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/yTKSMzg5oas/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Доклад 25 мая 2023 года на РИФ. Тимур Хабибуллин.
+
+🔗 &lt;a href=&quot;https://youtu.be/yTKSMzg5oas&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Знакомство с ОС Аврора (Андрей Бегичев, Евгений Самохин, Константин Звягин).</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/0xaQ9UDzqSk/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Нативная разработка.
+👉 Механизмы безопасности.
+👉 Система пакетов RMP.
+👉 Аврора SDK и др.
+
+🔗 &lt;a href=&quot;https://youtu.be/0xaQ9UDzqSk&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>QEMU + Alpine + Аврора.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/tEoVFhmMeTQ/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 QEMU.
+👉 Alpine Linux.
+👉 Аврора Platform SDK.
+
+🔗 &lt;a href=&quot;https://youtu.be/tEoVFhmMeTQ&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Твой телефон - ключ доступа к тебе. Про мобильные российские ОС.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/DwZGInVBKvU/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Что такое Рудроид.
+👉 Зачем России нужны свои ОС.
+👉 Про компанию ОМП.
+👉 Главная проблема Авроры.
+👉 Почему именно Аврора.
+
+🔗 &lt;a href=&quot;https://youtu.be/DwZGInVBKvU&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>ОС «Аврора» глазами Android и iOS разработчика.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/vPbAHQy7OBw/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Алексей Гладков, Mobius 2024 Autumn.
+
+🔗 &lt;a href=&quot;https://youtu.be/vPbAHQy7OBw&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>GameDev на Авроре? Ярослав Андреев.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/MbtiVaImKzI/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 GameDev на Авроре.
+👉 Графический стандарт.
+👉 Композитор.
+👉 Поворот экрана.
+👉 Отклик на события.
+👉 Аудио.
+👉 Устройства.
+
+🔗 &lt;a href=&quot;https://youtu.be/MbtiVaImKzI&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Реализация DI и паттерна Coordinator в приложении для ОС Аврора средствами QML и C++.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/mVN8pSuE-YE/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Доклад на конференции devfest OMSK. Денис Супрун.
+
+🔗 &lt;a href=&quot;https://youtu.be/mVN8pSuE-YE&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Aurora, Server + macOS M1.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/Wk4YdCmyAkE/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Работа на aarch64 c ОС Аврора.
+👉 Удаленная сборка приложений.
+👉 Удаленная работа с эмулятором.
+
+🔗 &lt;a href=&quot;https://youtu.be/Wk4YdCmyAkE&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Флаттер на Авроре.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/ok-ji6ZhmXo/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Доклад на конференции devfest OMSK. Геннадий Евстратов.
+
+🔗 &lt;a href=&quot;https://youtu.be/ok-ji6ZhmXo&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Тайны CI/CD ОС Аврора: Мой пусть через архитектуру и инструменты. Даниил Михайлов-Овсянников.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/Ph-RJuhrq-0/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Аврора Маркет CI/CD и без.
+👉 Подходящие системы CI/CD.
+👉 Вспомогательные программы.
+👉 Что такое Аврора Маркет.
+
+🔗 &lt;a href=&quot;https://youtu.be/Ph-RJuhrq-0&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>ОС Аврора: обзор для разработчиков. Роман Аляутдин.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/wwt5Nw52A2M/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Что такое ОС Аврора.
+👉 Как писать приложения.
+👉 Как начать знакомство с ОС.
+👉 Новое поколение - Аврора 5.
+
+🔗 &lt;a href=&quot;https://youtu.be/wwt5Nw52A2M&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Развитие экосистемы Аврора с фреймворком Flutter. Дмитрий Мозер.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/jmbZF_Gp0xo/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Опыт портирования приложения Flutter на ОС Аврора.
+
+🔗 &lt;a href=&quot;https://youtu.be/jmbZF_Gp0xo&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Пример портирования Wonderous на Аврора. Юрий Петров.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/GX1uQ1diYug/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Wonderous на ОС Аврора.
+👉 Проблемы и их решения.
+
+🔗 &lt;a href=&quot;https://youtu.be/GX1uQ1diYug&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Разработка для ОС Аврора. Роман Аляутдин, Денис Глазков.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/s0AraORVyNw/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Что такое ОС Аврора.
+👉 Пишем приложение сегодня.
+👉 Пишем приложение завтра.
+
+🔗 &lt;a href=&quot;https://youtu.be/s0AraORVyNw&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Операционные системы - Как это работает.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/rpyeaZu1vyc/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Что такое операционная система.
+👉 Отличие ОС от прошивки.
+👉 Монолитное и микроядро.
+👉 ОС реального времени.
+👉 Как создать свою ОС.
+
+🔗 &lt;a href=&quot;https://youtu.be/rpyeaZu1vyc&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Представление новой версии Аврора 5. Павел Эйгейс.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/Xxt1xsMxlG8/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Представление Аврора 5.0.
+👉 Новый интерфейс.
+👉 Будущее ОС Аврора 4.0.
+👉 Новая архитектура aarch64.
+👉 Новые инструменты - Flutter.
+
+🔗 &lt;a href=&quot;https://youtu.be/Xxt1xsMxlG8&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Знакомство с разработкой на Qt в ОС Аврора через Open Source. Кирилл Чувилин.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/lHev1gMoTGM/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Стимулы развития.
+👉 Технологии ОС Аврора.
+👉 Использование Open Source.
+
+🔗 &lt;a href=&quot;https://youtu.be/lHev1gMoTGM&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Разработка под Аврору. Yet Another Mobile Party.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/nTjpWnh41wo/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Разработка под ОС Аврора.
+👉 Поддержка Qt/Flutter/KMP.
+👉 Во что играть на ОС Аврора.
+👉 Сообщество ОС Аврора.
+
+🔗 &lt;a href=&quot;https://youtu.be/nTjpWnh41wo&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Flutter plugin FFI на ОС Аврора.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/CSWMXu0Qqc8/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Об установке Flutter SDK.
+👉 Создание приложения.
+👉 Создание плагина FFI.
+👉 Сборка приложения.
+
+🔗 &lt;a href=&quot;https://youtu.be/CSWMXu0Qqc8&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Особенности проектирования под ОС Аврора. Марина Салова.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/yATa3FnS53w/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 ОС Аврора глазами дизайнера.
+👉 Сравнение с другими ОС.
+👉 Особенности UI/UX.
+👉 Кастомизация паттернов.
+👉 МойОфис на ОС Аврора.
+
+🔗 &lt;a href=&quot;https://youtu.be/yATa3FnS53w&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Насколько реален российский айфон.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/_H5RXDFLvgw/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 ОС Аврора, HarmonyOS и др.
+👉 Почему важны патенты.
+👉 Российский iPhone.
+👉 Многое другое.
+
+🔗 &lt;a href=&quot;https://youtu.be/_H5RXDFLvgw&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>ОС Аврора. Статус поддержки фреймворка Flutter. Денис Глазков.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/0G1USsVt43Q/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 KMP в ОС Аврора.
+👉 Статус поддержки Flutter.
+👉 Почему выбран Flutter.
+👉 Почему embedder не Linux.
+
+🔗 &lt;a href=&quot;https://youtu.be/0G1USsVt43Q&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>GameDev и ОС Аврора. Портирование игры. Ярослав Андреев.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/by_OkloUfQk/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Портирование игр.
+👉 Графический стандарт.
+👉 Работа с аудио.
+👉 Внешние устройства.
+👉 Датчики устройства.
+
+🔗 &lt;a href=&quot;https://youtu.be/by_OkloUfQk&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>GameDev и ОС Аврора. Портирование игры. Алексей Корюкин.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/VyDF6Eo-5Fs/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Что такое ОС Аврора.
+👉 Что нового в Аврора 5.0.
+👉 Что нового в дизайн-системе.
+👉 Практики и паттерны.
+
+🔗 &lt;a href=&quot;https://youtu.be/VyDF6Eo-5Fs&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Fplus R570E на Аврора ОС. Смартфон для энтузиастов.</string>
+      <key>k</key>
+      <array>
+        <string>youtube</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://i.ytimg.com/vi/OOMnYrRj2fM/maxresdefault.jpg</string>
+      <key>b</key>
+      <string>
+👉 Обзор Fplus R570E. Первые впечатления.
+
+🔗 &lt;a href=&quot;https://youtu.be/OOMnYrRj2fM&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Вебинар: Bluetooth Low Energy в ОС Аврора</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/df6d8e5a-dd3d-40c5-bd6c-7f56843cb655.jpeg</string>
+      <key>b</key>
+      <string>
+Старший инженер-разработчик отдела развития мобильных решений Открытой мобильной платформы,⌫
+Евгений Самохин, расскажет как реализована технология Bluetooth Low Energy, какие библиотеки используются,⌫
+как найти другие устройства и подключить их при помощи Bluetooth Low Energy к смартфонам и планшетам на ОС Аврора.
+
+🔗 &lt;a href=&quot;https://vkvideo.ru/video-211011274_456239463&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Аврора SDK - демонстрация работы.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/8aa2d1e2-829e-46e5-b376-de32002cb187.jpeg</string>
+      <key>b</key>
+      <string>
+👉 Демонстрация работы Аврора SDK
+
+🔗 &lt;a href=&quot;https://vkvideo.ru/video-211011274_456239462&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Аврора TEE. Константин Карасев.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/b8b26cc9-feeb-4035-a2ca-59638c296888.jpeg</string>
+      <key>b</key>
+      <string>
+Константин Карасев, руководитель группы разработки отдела разработки операционной системы Аврора, рассказал о работе с Аврора TEE.
+
+👉 Что такое доверенная среда исполнения.
+👉 Зачем нужна доверенная среда исполнения.
+👉 Аппаратные основы доверенной среды исполнения.
+👉 Доверенная загрузка.
+👉 Функции Аврора ТЕЕ.
+👉 Что дальше будет с Аврора ТЕЕ.
+
+🔗 &lt;a href=&quot;https://vkvideo.ru/video-211011274_456239450&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Инструменты и материалы для разработчиков ОС Аврора. Вебинар 1.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/c69a9299-ca34-4687-b611-b5c63f8b1616.jpeg</string>
+      <key>b</key>
+      <string>
+Тема посвящена инструментам и материалам, которые доступны для разработчиков приложений под актуальную версию ОС Аврора.⌫
+Спикер расскажет о доступных инструментах, о новинках, собранных библиотеках и готовых скриптах для разработки под ОС Аврора 5 версии.
+
+🔗 &lt;a href=&quot;https://vkvideo.ru/video-211011274_456239352&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1736967311</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Картографические библиотеки MFW для ОС Аврора.</string>
+      <key>k</key>
+      <array>
+        <string>VK</string>
+        <string>видео</string>
+        <string>video</string>
+      </array>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/ed13e8d4-daa3-4fb5-8720-2d874869e33e.jpeg</string>
+      <key>b</key>
+      <string>
+Делимся с вами записью выступления Дмитрия Лапшина, старшего инженера-разработчика ОМП, в котором он рассказывает про картографические библиотеки MFW для ОС Аврора 🗺
+
+🔗 &lt;a href=&quot;https://vkvideo.ru/video-211011274_456239466&quot;&gt;Смотреть видео&lt;/a&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1737128712</integer>
+    </dict>
+    <dict>
+      <key>t</key>
+      <string>Демонстрационное_сообщение.</string>
+      <key>i</key>
+      <string>https://raw.githubusercontent.com/keygenqt/aurora-dataset/refs/heads/dump/data/affe3cbb-2142-4fce-88f9-dee606276754.png</string>
+      <key>b</key>
+      <string>Ознакомится с &quot;HTML style&quot; можно по ссылке:
+1. https://core.telegram.org/bots/api#html-style
+2. &lt;a href=&quot;https://core.telegram.org/bots/api#html-style&quot;&gt;HTML style&lt;/a&gt;
+
+В этом сообщении демонстрируются теги которые можно использовать:
+1. &lt;b&gt;bold&lt;/b&gt;
+2. &lt;i&gt;italic&lt;/i&gt;
+3. &lt;u&gt;underline&lt;/u&gt;
+4. &lt;s&gt;strikethrough&lt;/s&gt;
+5. &lt;span class=&quot;tg-spoiler&quot;&gt;spoiler&lt;/span&gt;
+
+&lt;blockquote&gt;⌫
+Вот так выглядит цитата без expandable.
+&lt;/blockquote&gt;
+⌫
+&lt;blockquote expandable&gt;⌫
+Что бы тексты не превращались в длиииииную строку введен символ U+232B.⌫
+1. Символ за &lt;code&gt;&amp;gt;&lt;/code&gt; - будет удалена новая строка следом идущая.
+2. В тексте - удалит новую строку и поставит пробел.
+3. Один в строке - строка будет удалена.
+&lt;/blockquote&gt;
+⌫
+Кодовая вставка:
+&lt;pre&gt;&lt;code class=&quot;language-cpp&quot;&gt;⌫
+// Будьте аккуратны добавляя символы, html может вас не понять. Символы должны быть экранированы!
+int main(int argc, char *argv[]) {
+  return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+⌫
+Короткие формы:
+1. &lt;code&gt;inline fixed-width code&lt;/code&gt;.
+2. &lt;pre&gt;inline fixed-width code&lt;/pre&gt;</string>
+      <key>a</key>
+      <dict>
+        <key>fname</key>
+        <string>Виталий</string>
+        <key>lname</key>
+        <string>Зарубин</string>
+      </dict>
+      <key>ts</key>
+      <integer>1734498526</integer>
+    </dict>
+  </array>
+</dict>
+</plist>
+
