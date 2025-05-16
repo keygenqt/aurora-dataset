@@ -57,7 +57,7 @@ dataset {
       </code></pre>
       ⌫
       Короткие формы:
-      1. <code>inline fixed-width code</code>.
+      1. <code>inline fixed-width code</code>
       2. <pre>inline fixed-width code</pre>
       """
     a = authors.keygenqt

@@ -976,4 +976,79 @@ dataset = new Listing<ItemTemplate> {
     a = authors.keygenqt
     ts = 1737128712
   }
+  new {
+    t = "Aurora Bot - Telegram | Platform SDK."
+    k = new Listing<String> {
+      "rutube" "видео" "video"
+    }
+    i = "https://preview.rutube.ru/preview/aa725576a2ddc1186e10ebdd14354168.webp"
+    b = """
+
+    👉 Демонстрация работы с Аврора Platform SDK через Telegram бота Aurora Bot.
+
+    🔗 <a href="https://rutube.ru/video/aa725576a2ddc1186e10ebdd14354168/">Смотреть видео</a>
+    """
+    a = authors.keygenqt
+    ts = 1747416686
+  }
+  new {
+    t = "Aurora Bot - Telegram | Аврора SDK."
+    k = new Listing<String> {
+      "rutube" "видео" "video"
+    }
+    i = "https://preview.rutube.ru/preview/ba6cd40e4774a4f9f4063bd9fe81f9b4.webp"
+    b = """
+
+    👉 Демонстрация работы с Аврора SDK через Telegram бота Aurora Bot.
+
+    🔗 <a href="https://rutube.ru/video/ba6cd40e4774a4f9f4063bd9fe81f9b4/">Смотреть видео</a>
+    """
+    a = authors.keygenqt
+    ts = 1747416686
+  }
+  new {
+    t = "Aurora Bot - Telegram | Flutter."
+    k = new Listing<String> {
+      "rutube" "видео" "video"
+    }
+    i = "https://preview.rutube.ru/preview/ae4911ba29c65e8eb5be3f5c91ad9516.webp"
+    b = """
+
+    👉 Демонстрация работы с Flutter SDK через Telegram бота Aurora Bot.
+
+    🔗 <a href="https://rutube.ru/video/ae4911ba29c65e8eb5be3f5c91ad9516/">Смотреть видео</a>
+    """
+    a = authors.keygenqt
+    ts = 1747416686
+  }
+  new {
+    t = "Aurora Bot - Telegram | Emulator."
+    k = new Listing<String> {
+      "rutube" "видео" "video"
+    }
+    i = "https://preview.rutube.ru/preview/767df8677d43e03d9d4ef5341c8e0de0.webp"
+    b = """
+
+    👉 Демонстрация работы с эмулятором ОС Аврора через Telegram бота Aurora Bot.
+
+    🔗 <a href="https://rutube.ru/video/767df8677d43e03d9d4ef5341c8e0de0/">Смотреть видео</a>
+    """
+    a = authors.keygenqt
+    ts = 1747416686
+  }
+  new {
+    t = "Aurora Bot - Telegram | Device."
+    k = new Listing<String> {
+      "rutube" "видео" "video"
+    }
+    i = "https://preview.rutube.ru/preview/f54fa3f0006b0519f555a31773d6fa61.webp"
+    b = """
+
+    👉 Демонстрация работы с устройством на ОС Аврора через Telegram бота Aurora Bot.
+
+    🔗 <a href="https://rutube.ru/video/f54fa3f0006b0519f555a31773d6fa61/">Смотреть видео</a>
+    """
+    a = authors.keygenqt
+    ts = 1747416686
+  }
 }
